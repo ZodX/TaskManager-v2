@@ -18,3 +18,5 @@ A telefonos applikáció használata is megfelelő volt, de a piacon elérhető 
 - Könnyen üzemeltethető rendszer
 - Reszponzív design
 - Letisztult, átlátható felület
+- Könnyű kezelhetőség
+- Felhasználóbarát UI
