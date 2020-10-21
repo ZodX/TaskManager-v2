@@ -13,7 +13,10 @@ Ezt egy fokkal hatékonyabban oldotta meg az, amikor a füzetbe felírogatást e
 A telefonos applikáció használata is megfelelő volt, de a piacon elérhető opciók nem feleltek meg nekem maradéktalanul.
 Úgy gondolom egy weballkalmazás lenne számomra a legalkalmasabb, kombinálva a fentebbi két módszert.
 
-
+## 5. A rendszerre vonatkozó szabályok
+- A web felület szabványos eszközökkel készüljön.
+- Javascript és HTML/CSS alkalmazása.
+- Reszponziv design megvalósítása.
 
 ## 6. Követelménylista
 
