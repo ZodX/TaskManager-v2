@@ -17,11 +17,11 @@ A telefonos applikáció használata is megfelelő volt, de a piacon elérhető 
 
 ## 6. Követelménylista
 
-- Könnyen üzemeltethető rendszer
-- Reszponzív design
-- Letisztult, átlátható felület
-- Könnyű kezelhetőség
-- Felhasználóbarát UI
-- dark mode/light mode/colorblind mode opció
-- Böngészőfüggetlenség
-- A feladatok szerkeszthetőek és törölhetőek legyenek.
+- K01: Könnyen üzemeltethető rendszer
+- K02: Reszponzív design
+- K03: Letisztult, átlátható felület
+- K04: Könnyű kezelhetőség
+- K05: Felhasználóbarát UI
+- K06: dark mode/light mode/colorblind mode opció
+- K07: Böngészőfüggetlenség
+- K08: A feladatok szerkeszthetőek és törölhetőek legyenek
