@@ -12,3 +12,9 @@ Sok szemetet is generál ez a megoldás, főleg, ha sokszor 'módosítom' a fela
 Ezt egy fokkal hatékonyabban oldotta meg az, amikor a füzetbe felírogatást elhagytam és csak cetliket használtam, egy táblára ragasztgatva.
 A telefonos applikáció használata is megfelelő volt, de a piacon elérhető opciók nem feleltek meg nekem maradéktalanul.
 Úgy gondolom egy weballkalmazás lenne számomra a legalkalmasabb, kombinálva a fentebbi két módszert.
+
+## 6. Követelménylista
+
+- Könnyen üzemeltethető rendszer
+- Reszponzív design
+- Letisztult, átlátható felület
