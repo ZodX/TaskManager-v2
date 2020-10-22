@@ -24,8 +24,7 @@ sőt már a legtöbb embernek már a mobil internet is adott. A célunk így teh
 a telefonról vagy a tabletről, a munkahelyi laptopról vagy esetleg 
 PC-ről könnyedén elérhető legyen a nap bármelyik pillanatában.
 A cél egy jó weblap létrehozása amivel felhasználókat be szeretnénk vonzani, valamint a meglévőket megtartani.
-Kiemelt fontosságú a csapat számára az, hogy az oldal felhasználóbarát legyen, ezért az első benyomás fontos, hisz akár a mindennapokban, ott sem elengedhetetlen az, hogy ha bemutatnak minket valakinek, számít a megjelenés és a gesztus, ez meghatározó lehet a weboldalnál is. Az oldalnak a megjelenése is nagyon fontos tényező ezért szeretnénk odafigyelni arra, hogy a megfelelő színeket, betűméretet, betűtípust alkalmazzuk. Szeretnénk a felületet különböző módokkal is feldobni az oldalt,
-mint például: a színvak mód, vagy a manapság egyre jobban elterjedt Dark/Light mód. 
+Kiemelt fontosságú a csapat számára az, hogy az oldal felhasználóbarát legyen, ezért az első benyomás fontos, hisz akár a mindennapokban, ott sem elengedhetetlen az, hogy ha bemutatnak minket valakinek, számít a megjelenés és a gesztus, ez meghatározó lehet a weboldalnál is. Az oldalnak a megjelenése is nagyon fontos tényező ezért szeretnénk odafigyelni arra, hogy a megfelelő színeket, betűméretet, betűtípust alkalmazzuk. Szeretnénk a felületet különböző módokkal is feldobni az oldalt, mint például: a színvak mód, vagy a manapság egyre jobban elterjedt Dark/Light mód. 
 A platformfüggetlenség elvárt a weboldallal szemben, biztosítanunk kell azt, hogy több platformon, valamint
 böngészőn is elérhető legyen mint például a Google Chrome, Mozzila, Opera, Safari, Microsoft Edge és stb...
 Ma már 2020-at írunk, ahol már nem csak a PC-ről használjuk a weboldalakat, hanem elterjedtek a laptopok, 
