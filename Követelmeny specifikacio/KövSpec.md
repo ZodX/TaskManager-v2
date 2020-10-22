@@ -34,3 +34,7 @@ zsebében rohangál, ezért foglalkoznunk kell a reszponzív designal is.
 Fontos a reszponzív design, mert szebbek a képek, és kényelmesebb a weboldal használata,
 így csökken a visszafordulási arány, tehát kevesebben hagyják el azonnal a weboldalt.
 Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy megfogjuk a látogatóinkat a designnal, amikor megtekintik először a weboldalt. A cél tehát az, hogy tudjuk megmutatni azt, hogy mit kínálunk az embereknek, és a cetlik által okozott kellemetlenségekre tudjunk egy olyan megoldást nyújtani, ami megbízható, és kényelmesen használható is.
+
+
+## 6. Követelménylista
+
