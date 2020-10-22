@@ -38,3 +38,4 @@ Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy meg
 
 ## 6. Követelménylista
 
+* K01 Könnyen üzemeltethető rendszer. Mielőtt belekezdünk a weboldal elkészítésébe át kell tekintenünk azt, hogy milyen módon valósítható meg az üzemeltetés. Fontos az, hogy a weboldal készítési módszer kiválasztása során hosszútávon kezdjünk el gondolkodni, tehát nem azt kell néznünk, hogy most mire van szükségünk, hanem gondolni kell arra is, hogy 2-3 év múlvamire lesz szükségünk, milyen honlapot szeretnénk üzemeltetni.
