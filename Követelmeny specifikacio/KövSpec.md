@@ -42,3 +42,8 @@ Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy meg
 * K02 A weboldal felülete legyen a felhasználó számára letisztult, hiszen fontos az, hogy gördülékenyen tudja használni a látogató az oldalunkat. Szeretnénk, hogy az oldalt egyszerűen lehessen kezelni, egyértelművé tenni mik a lehetőségeik a felhasználóinak, és ezeket a folyamatokat egyszerűen megjeleníteni a weboldalon.
 
 * K03 A reszponzív design megalkotása. A weboldal rugalmason alkalmazkodjon az adott készüléken használt böngészőhöz, ezáltal egy optimális megjelenést biztosít a felhasználó számára.
+
+* K04 Böngésző-függetlenség. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
+Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb..
+
+* K05 Prioritás biztosítása a felhasználó számára. A mindennapokban is előfordul, hogy egy nap több teendőnk is van, és van olyan köztük, ami elsőbbséget élvez, ami fontosabb mint a többi. Ezt a lehetőséget szeretnénk a cetliknél is a felhasználóknak átadni, hisz fontos az, hogy kényelmesebbé tegyük a weboldal használatát ezzel a lehetőséggel.
