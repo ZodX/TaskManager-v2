@@ -44,6 +44,14 @@ Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy meg
 
 ## 4. Igényelt üzleti folyamatok
 
+* Új feladat hozzáadása
+* Feladat törlése
+* Feladatok csoportosítása
+* Feladat módosítása
+* Feladat késznek nyilvánítása
+* Felhasználóbarát UI: Sötét és világos színsémák elkészítése a kellemes felhasználói élményért + Színvak mód
+* Feladatok prioritásának megadása: (Prioritizing tasks)
+
 ## 5. A rendszerre vonatkozó szabályok
 - A web felület szabványos eszközökkel készüljön.
 - Javascript és HTML/CSS alkalmazása.
