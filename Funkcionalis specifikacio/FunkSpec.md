@@ -27,5 +27,4 @@
 ## 10. Forgatókönyvek
 Móka Mikinek a minden napok során egyre több és több feladata lett. Feladatait észben tartani már nem bírta. Ennek orvoslására sok mindent számításba vett és legjobb lehetőségnek azt tartotta, hogy feladatait cetlikre felírva tartsa.
 De a cetlire felírás nem volt hatékony, mert a cetlik hamar beteltek, drágák voltak, sok szemét keletkezett. Ráadásul a cetliket mindig magával kellett cipelnie, ami nehéz volt és sok helyet foglalt. 
-
-
+Ekkor váltott át füzetre, amiben már könnyebben tudta vezetni a feladatait, de ez se volt a legoptimálisabb. Ekkor barátja Béka Réka mutatott neki egy weboldalt, ahol bármilyen eszközön saját szájíze szerint rendezheti a feladatait. 
