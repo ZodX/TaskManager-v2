@@ -25,5 +25,7 @@
 - A felületnek megfelelő interakciós lehetőségekkel kell rendelkeznie a rendszer különféle felhasználói számára.
 
 ## 10. Forgatókönyvek
-Móka Mikinek a minden napok során egyre több és több feladata lett. Feladatait észben tartani már nem bírta. Ennek orvoslására sok mindent számításba vett és legjobb lehetőségnek azt tartotta, hogy feladatait cetlikre felírva tartsa. 
+Móka Mikinek a minden napok során egyre több és több feladata lett. Feladatait észben tartani már nem bírta. Ennek orvoslására sok mindent számításba vett és legjobb lehetőségnek azt tartotta, hogy feladatait cetlikre felírva tartsa.
+De a cetlire felírás nem volt hatékony, mert a cetlik hamar beteltek, drágák voltak, sok szemét keletkezett. Ráadásul a cetliket mindig magával kellett cipelnie, ami nehéz volt és sok helyet foglalt. 
+
 
