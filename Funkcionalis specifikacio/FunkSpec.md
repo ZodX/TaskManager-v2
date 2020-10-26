@@ -8,4 +8,9 @@
 - Feladatok csoportosítása: (A cetliket egy adott helyre csoportosítása vagy a füzetben egy adott oldalra írása)
 - Feladat késznek nyilvánítása: (Az adott cetlin a feladat mögé egy pipa helyezése)
 
+## 5. Igényelt üzleti folyamatok
+- Feladat módosítása: (Feladat kiválasztása, majd új modosítótt érték megadása)
+- Felhasználóbarát UI: (Dark/Light mode és Színvak mode)
+- Feladatok prioritásának megadása: (Feladat kiválasztása és a fontossági sorrend eldöntése)
+
 
