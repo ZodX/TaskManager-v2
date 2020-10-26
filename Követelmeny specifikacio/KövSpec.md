@@ -36,6 +36,12 @@ Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy meg
 
 ## 3. Jelenlegi üzleti folyamatok
 
+* Új feladat hozzáadása: Cetli kiválasztása -> Cetlire írás -> Cetli táblára ragasztása
+* Feladat törlése: Cetli levétele a tábláról -> Cetli kukába dobása
+* Feladatok csoportosítása: Táblán csoport helyének kijelölése -> Meglévő cetlik letépése -> Cetlik felragasztása a megfelelő pozícióra
+* Feladat késznek nyilvánítása: Cetli levétele -> Cetli ‘kész’ csoporthoz való felragasztása
+* Feladat frissítése/módosítása: Meglévő cetli levétele a tábláról -> Cetli kidobása -> Új cetli kiválasztása -> Cetlire írás -> Cetli táblára ragasztása
+
 ## 5. A rendszerre vonatkozó szabályok
 - A web felület szabványos eszközökkel készüljön.
 - Javascript és HTML/CSS alkalmazása.
