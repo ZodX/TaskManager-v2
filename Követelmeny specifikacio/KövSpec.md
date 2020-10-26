@@ -42,6 +42,8 @@ Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy meg
 * Feladat késznek nyilvánítása: Cetli levétele -> Cetli ‘kész’ csoporthoz való felragasztása
 * Feladat frissítése/módosítása: Meglévő cetli levétele a tábláról -> Cetli kidobása -> Új cetli kiválasztása -> Cetlire írás -> Cetli táblára ragasztása
 
+## 4. Igényelt üzleti folyamatok
+
 ## 5. A rendszerre vonatkozó szabályok
 - A web felület szabványos eszközökkel készüljön.
 - Javascript és HTML/CSS alkalmazása.
