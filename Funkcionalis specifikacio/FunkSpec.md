@@ -12,5 +12,7 @@
 - Feladat módosítása: (Feladat kiválasztása, majd új modosítótt érték megadása)
 - Felhasználóbarát UI: (Dark/Light mode és Színvak mode)
 - Feladatok prioritásának megadása: (Feladat kiválasztása és a fontossági sorrend eldöntése)
+- Reszponzív design: (A felhasználó bármely készülékén a legoptimálisabb módon tudja megtekinteni a feladatait)
+- Feladatok hozzáadása és törlése.
 
 
