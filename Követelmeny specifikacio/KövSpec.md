@@ -34,6 +34,10 @@ Fontos a reszponzív design, mert szebbek a képek, és kényelmesebb a weboldal
 így csökken a visszafordulási arány, tehát kevesebben hagyják el azonnal a weboldalt.
 Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy megfogjuk a látogatóinkat a designnal, amikor megtekintik először a weboldalt. A cél tehát az, hogy tudjuk megmutatni azt, hogy mit kínálunk az embereknek, és a cetlik által okozott kellemetlenségekre tudjunk egy olyan megoldást nyújtani, ami megbízható, és kényelmesen használható is.
 
+## 5. A rendszerre vonatkozó szabályok
+- A web felület szabványos eszközökkel készüljön.
+- Javascript és HTML/CSS alkalmazása.
+- Reszponziv design megvalósítása.
 
 ## 6. Követelménylista
 
@@ -47,3 +51,4 @@ Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy meg
 Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb..
 
 * K05 Prioritás biztosítása a felhasználó számára. A mindennapokban is előfordul, hogy egy nap több teendőnk is van, és van olyan köztük, ami elsőbbséget élvez, ami fontosabb mint a többi. Ezt a lehetőséget szeretnénk a cetliknél is a felhasználóknak átadni, hisz fontos az, hogy kényelmesebbé tegyük a weboldal használatát ezzel a lehetőséggel.
+
