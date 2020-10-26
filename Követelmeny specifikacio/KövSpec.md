@@ -37,10 +37,15 @@ Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy meg
 ## 3. Jelenlegi üzleti folyamatok
 
 * Új feladat hozzáadása: Cetli kiválasztása -> Cetlire írás -> Cetli táblára ragasztása
+![Task Manager új feladat hozzáadása](src/uj_feladat_hozzaadasa.png)
 * Feladat törlése: Cetli levétele a tábláról -> Cetli kukába dobása
+![Task Manager új feladat hozzáadása](src/feladat_torlese.png)
 * Feladatok csoportosítása: Táblán csoport helyének kijelölése -> Meglévő cetlik letépése -> Cetlik felragasztása a megfelelő pozícióra
+![Task Manager új feladat hozzáadása](src/feladat_csoportositasa.png)
 * Feladat késznek nyilvánítása: Cetli levétele -> Cetli ‘kész’ csoporthoz való felragasztása
+![Task Manager új feladat hozzáadása](src/feladat_kesznek_nyilvanitasa.png)
 * Feladat frissítése/módosítása: Meglévő cetli levétele a tábláról -> Cetli kidobása -> Új cetli kiválasztása -> Cetlire írás -> Cetli táblára ragasztása
+![Task Manager új feladat hozzáadása](src/feladat_modositasa.png)
 
 ## 4. Igényelt üzleti folyamatok
 
