@@ -15,4 +15,8 @@
 - Reszponzív design: (A felhasználó bármely készülékén a legoptimálisabb módon tudja megtekinteni a feladatait)
 - Feladatok hozzáadása és törlése: (A felhasználó tudjon feladatokat hozzáadni és a nem kívánt feladatokat eltávolítani)
 
+## 9. Képernyőtervek
+
+- Legyen teljes , a felhasználó a felhasználói felületen keresztül a program minden funkciója elérhető legyen.
+- A felhasználói felület legyen szellős és átlátható, jól különüljenek el egymástól az egyes funkciók, funkció csoportok.
 
