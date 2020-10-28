@@ -23,8 +23,11 @@ Az elkészített rendszerrel a felhasználó képes lesz:
 
 Az elkészített rendszerrel a felhasználó ***NEM*** lesz képes:
 
-* több felhasználó adatait külön-külön kezelni
+* több felhasználó adatait külön-külön kezelni(böngészőnként tároljuk az adatokat)
 * megtekinteni, hogy milyen akciókat hajtott végre az oldalon belül *(log)*
+* széleskörűen testreszabni a rendszert *(értsd: csak light/dark/colorblind téma)*
+* egyszerre több csoportba is elhelyezni egy feladatot
+* ugyan azon adaokat elérni különböző eszközökről(első pont miatt)
 
 ## 2. Jelenlegi helyzet
 
