@@ -20,3 +20,9 @@
 #### 3.1.3. Ütemterv:
 
 #### 3.1.4. Mérföldkövek:
+
+* Szerződés aláírás a partnerek által
+* Fejlesztés kezdete
+* Fejlesztés befejezése
+* Kész szoftver átadása
+* Szoftver éles működésbe lépése
