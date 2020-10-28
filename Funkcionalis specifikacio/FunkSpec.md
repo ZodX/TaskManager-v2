@@ -8,6 +8,10 @@ Az elkészített rendszerrel a felhasználó képes lesz:
 
 * feladatait egy helyen, átláthatóan nyomonkövetni, felesleges szemét *(cetlik)* generálása nélkül
 * új feladatokat hozzáadni, módosítani a már létrehozottakat
+* csoportosítani a feladatokat
+* megadni a feladatok fontosságát *(prioritás)*
+* törölni, ha esetleg rosszul adott meg valamit, vagy késznek nyilvánítani a feladatokat
+* feladatok listázása *(összes vagy egy adott csoport)*
 
 ## 2. Jelenlegi helyzet
 
