@@ -11,7 +11,9 @@
 <img src="src/feladat_torlese.png" title="Task Manager feladat törlése">
 </p>
 - Feladat módosítása: (Az adott feladatot lehúzása és a helyére új írása.)
-![Task Manager  feladat csoportosítása](src/feladat_csoportositasa.png)
+<p align="center"
+<img src="src/feladat_csoportositasa.png" title="Task Manager  feladat csoportosítása">
+</p>
 - Feladatok csoportosítása: (A cetliket egy adott helyre csoportosítása vagy a füzetben egy adott oldalra írása)
 ![Task Manager feladat késznek nyilvánítása](src/feladat_kesznek_nyilvanitasa.png)
 - Feladat késznek nyilvánítása: (Az adott cetlin a feladat mögé egy pipa helyezése)
