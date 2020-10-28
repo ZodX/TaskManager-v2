@@ -36,3 +36,5 @@ Ekkor váltott át füzetre, amiben már könnyebben tudta vezetni a feladatait,
 Bármikor hozzáadhat, módosíthat, törölhet. Nincs több cetlizés vagy nehéz cipekedés, mostmár az összes feladata elfér akár a zsebében. Védje a fákat, használjon webalkalmazást!
 
 ## 11. Fogalomszótár:
+
+* UI: Felhasználói felület (User Interface). A felhasználó számára megjelenített felület, amivel interakcióba lép.
