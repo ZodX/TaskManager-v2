@@ -16,6 +16,7 @@ A felhasználó szemszögéből határozzuk meg az elkészítendő funkciókat a
 
 ## 2. Miért (rendszer célja):
 
+A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület segítségével nyomon követhesse az aktív feladatait, illetve, ha szeretné, könnyedén módosíthassa, vagy csoportokra bonthassa azokat. Továbbá, az eddigi megoldott, vagy meg nem oldott feladatokat egyszerűen vissza kereshes
 
 ## 3. Hogyan (terv):
 
