@@ -1,5 +1,7 @@
 # Rendszer specifikáció
 
+## 1. Mit (rendszer):
+
 ## 3. Hogyan (terv):
 
 ### 3.1. Projekt terv:
