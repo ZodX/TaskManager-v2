@@ -19,6 +19,18 @@
 
 #### 3.1.3. Ütemterv:
 
+* **Új feladat létrehozása** funkció működik
+* **Feladat törlése** funkció működik
+* **Feladat módosítása** funkció működik
+* **Feladat késznek nyilvánítása** funkció működik
+* **Feladat prioritásának megadása** funkció működik
+* **Feladatok csoportosítása** funkció működik
+* **Feladat csoportok külön lekérdezhetősége** funkció működik
+* **Oldal kinézetének módosítása(Sötét, világos, színvak mód)** funkció működik
+* **Minden kívánt funkció megvalósítva**
+* **Funkciók tesztlefedettsége teljes**
+* **Weboldal kinézetének tesztlefedettsége teljes**
+
 #### 3.1.4. Mérföldkövek:
 
 * Szerződés aláírás a partnerek által
