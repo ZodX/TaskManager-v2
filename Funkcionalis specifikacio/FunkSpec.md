@@ -7,6 +7,9 @@
 <img src="src/uj_feladat_hozzaadasa.png" title="Task Manager új feladat hozzáadása">
 </p>
 - Feladat törlése: (Az adott feladat lehúzása)
+<p align="center"
+<img src="src/feladat_torlese.png" title="Task Manager feladat törlése">
+</p>
 - Feladat módosítása: (Az adott feladatot lehúzása és a helyére új írása.)
 ![Task Manager  feladat csoportosítása](src/feladat_csoportositasa.png)
 - Feladatok csoportosítása: (A cetliket egy adott helyre csoportosítása vagy a füzetben egy adott oldalra írása)
