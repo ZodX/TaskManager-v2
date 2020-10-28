@@ -14,6 +14,9 @@ A felhasználó szemszögéből határozzuk meg az elkészítendő funkciókat a
 * **User Interface** (Felhasználói felület) megvalásítása, annak érdekében, hogy a felhasználó is interrakcióba léphessen.
 * **Platformfüggetlen** keretrendszer
 
+## 2. Miért (rendszer célja):
+
+
 ## 3. Hogyan (terv):
 
 ### 3.1. Projekt terv:
