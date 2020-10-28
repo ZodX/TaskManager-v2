@@ -49,7 +49,9 @@ Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy meg
 <img src="src/feladat_csoportositasa.png" title="Task Manager  feladat csoportosítása">
 </p>
 * Feladat késznek nyilvánítása: Cetli levétele -> Cetli ‘kész’ csoporthoz való felragasztása
-![Task Manager feladat késznek nyilvánítása](src/feladat_kesznek_nyilvanitasa.png)
+<p align="center"
+<img src="src/feladat_kesznek_nyilvanitasa.png" title="Task Manager feladat késznek nyilvánítása">
+</p>
 * Feladat frissítése/módosítása: Meglévő cetli levétele a tábláról -> Cetli kidobása -> Új cetli kiválasztása -> Cetlire írás -> Cetli táblára ragasztása
 ![Task Manager feladat frissítése/módosítása](src/feladat_modositasa.png)
 
