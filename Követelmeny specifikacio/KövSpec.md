@@ -37,7 +37,9 @@ Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy meg
 ## 3. Jelenlegi üzleti folyamatok
 
 * Új feladat hozzáadása: Cetli kiválasztása -> Cetlire írás -> Cetli táblára ragasztása
-![Task Manager új feladat hozzáadása](src/uj_feladat_hozzaadasa.png)
+<p align="center"
+<img src="src/uj_feladat_hozzaadasa.png" title="Task Manager új feladat hozzáadása">
+</p>
 * Feladat törlése: Cetli levétele a tábláról -> Cetli kukába dobása
 ![Task Manager feladat törlése](src/feladat_torlese.png)
 * Feladatok csoportosítása: Táblán csoport helyének kijelölése -> Meglévő cetlik letépése -> Cetlik felragasztása a megfelelő pozícióra
