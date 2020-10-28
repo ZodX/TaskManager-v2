@@ -19,7 +19,9 @@
 <img src="src/feladat_kesznek_nyilvanitasa.png" title="Task Manager feladat késznek nyilvánítása">
 </p>
 - Feladat késznek nyilvánítása: (Az adott cetlin a feladat mögé egy pipa helyezése)
-![Task Manager feladat frissítése/módosítása](src/feladat_modositasa.png)
+<p align="center"
+<img src="src/feladat_modositasa.png" title="Task Manager feladat frissítése/módosítása">
+</p>
 
 ## 5. Igényelt üzleti folyamatok
 - Feladat módosítása: (Feladat kiválasztása, majd új modosítótt érték megadása)
