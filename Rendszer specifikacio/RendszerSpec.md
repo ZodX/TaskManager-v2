@@ -2,8 +2,6 @@
 
 ## 1. Mit (rendszer):
 
-## 3. Hogyan (terv):
-
 A felhasználó szemszögéből határozzuk meg az elkészítendő funkciókat a funkcionális specifikáció alapján.
 
 * **Rendszer használati esetek** és lefutásai meghatározzák az oktató oldal funkcióinak meg valósulását.
@@ -15,6 +13,8 @@ A felhasználó szemszögéből határozzuk meg az elkészítendő funkciókat a
 * A rendszer távolról való elérése, az aktuális információk megjelenítéséhez
 * **User Interface** (Felhasználói felület) megvalásítása, annak érdekében, hogy a felhasználó is interrakcióba léphessen.
 * **Platformfüggetlen** keretrendszer
+
+## 3. Hogyan (terv):
 
 ### 3.1. Projekt terv:
 
