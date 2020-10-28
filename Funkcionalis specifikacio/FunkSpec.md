@@ -40,3 +40,5 @@ Bármikor hozzáadhat, módosíthat, törölhet. Nincs több cetlizés vagy neh�
 * UI: Felhasználói felület (User Interface). A felhasználó számára megjelenített felület, amivel interakcióba lép.
 
 * Reszponzív design: Az oldal bármilyen eszközről megtekintve olvashatóan jelenik meg, nem marad le semmi az oldalról. (Mobil, Tablet, Desktop)
+
+* Konzisztens: Ellentmondásoktól mentes, egységes.
