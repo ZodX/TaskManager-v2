@@ -19,6 +19,13 @@ Az elkészített rendszerrel a felhasználó képes lesz:
 * megváltoztatni az oldal témáját *(dark/light/colorblind)*
 * a fentebb felsoroltakat akármilyen internethasználatra alkalmas eszközön végrehajtani
 
+### 1.2 A rendszer ***NEM*** céljai
+
+Az elkészített rendszerrel a felhasználó ***NEM*** lesz képes:
+
+* több felhasználó adatait külön-külön kezelni
+* megtekinteni, hogy milyen akciókat hajtott végre az oldalon belül *(log)*
+
 ## 2. Jelenlegi helyzet
 
 Feladataimat rendezetlenül tartom számon, hol egy-egy cetlire írom fel, hol a telefonomba, vagy egyszerűen csak próbálom fejben tartani.
