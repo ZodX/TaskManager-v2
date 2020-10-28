@@ -1,5 +1,14 @@
 # Funkcionális specifikáció
 
+## 1. A rendszer céljai és nem céljai
+
+### 1.1 A rendszer céljai
+
+Az elkészített rendszerrel a felhasználó képes lesz:
+
+* feladatait egy helyen, átláthatóan nyomonkövetni, felesleges szemét *(cetlik)* generálása nélkül
+* új feladatokat hozzáadni, módosítani a már létrehozottakat
+
 ## 2. Jelenlegi helyzet
 
 Feladataimat rendezetlenül tartom számon, hol egy-egy cetlire írom fel, hol a telefonomba, vagy egyszerűen csak próbálom fejben tartani.
