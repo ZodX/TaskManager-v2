@@ -4,6 +4,18 @@
 
 ## 3. Hogyan (terv):
 
+A felhasználó szemszögéből határozzuk meg az elkészítendő funkciókat a funkcionális specifikáció alapján.
+
+* **Rendszer használati esetek** és lefutásai meghatározzák az oktató oldal funkcióinak meg valósulását.
+* **Képernyő tervek**: egyedi jól megkülönböztethető megjelenési stílus,egyszerű áttekinthető elemek: háttér, keret, aktuális cetli jelzése, Dark/Light mode megvalósítása.
+* **Fizikai követelmények**: Fizikai környezet: A weboldalnak olyan kialakítása, amely rugalmasan alkalmazkodik a különböző böngészőkhöz, annnak képernyőjének méretéhez. Ennek célja az, hogy egy optimális megjelenítést biztosítson a felhasználónak minden böngészésre alkalmas eszközön. például: desktot, moobil, laptop, tablet, egyéb eszközök. 
+* **Prioritás keretrendszer**: A cetlik rendezése fontossági sorrend szerint, szintek megadása.
+* Könnyen üzemeltethető rendszer.
+* A rendszer **online** formában való kivitelezése.
+* A rendszer távolról való elérése, az aktuális információk megjelenítéséhez
+* **User Interface** (Felhasználói felület) megvalásítása, annak érdekében, hogy a felhasználó is interrakcióba léphessen.
+* **Platformfüggetlen** keretrendszer
+
 ### 3.1. Projekt terv:
 
 #### 3.1.1. Projekt szerepkörök, felelősségek:
