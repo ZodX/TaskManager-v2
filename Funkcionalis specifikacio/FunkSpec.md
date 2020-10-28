@@ -11,7 +11,13 @@ Az elkészített rendszerrel a felhasználó képes lesz:
 * csoportosítani a feladatokat
 * megadni a feladatok fontosságát *(prioritás)*
 * törölni, ha esetleg rosszul adott meg valamit, vagy késznek nyilvánítani a feladatokat
+* határidő megadása *(deadline)*
 * feladatok listázása *(összes vagy egy adott csoport)*
+* feldatok rendezése (prioritás, utolsó módosítás, stb.)
+* az elkészített feladatok listájának lekérdezésére
+* különböző feladat táblák létrehozása(amiben szintén külön csoportok feladatok vannak)
+* megváltoztatni az oldal témáját *(dark/light/colorblind)*
+* a fentebb felsoroltakat akármilyen internethasználatra alkalmas eszközön végrehajtani
 
 ## 2. Jelenlegi helyzet
 
