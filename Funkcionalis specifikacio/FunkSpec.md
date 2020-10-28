@@ -15,7 +15,9 @@
 <img src="src/feladat_csoportositasa.png" title="Task Manager  feladat csoportosítása">
 </p>
 - Feladatok csoportosítása: (A cetliket egy adott helyre csoportosítása vagy a füzetben egy adott oldalra írása)
-![Task Manager feladat késznek nyilvánítása](src/feladat_kesznek_nyilvanitasa.png)
+<p align="center"
+<img src="src/feladat_kesznek_nyilvanitasa.png" title="Task Manager feladat késznek nyilvánítása">
+</p>
 - Feladat késznek nyilvánítása: (Az adott cetlin a feladat mögé egy pipa helyezése)
 ![Task Manager feladat frissítése/módosítása](src/feladat_modositasa.png)
 
