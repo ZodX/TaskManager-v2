@@ -12,6 +12,11 @@
 
 #### 3.1.2. Projekt munkások és felelősségeik:
 
+* **Molnár András Imre** (GitHub: *ZodX*): *Projekt vezető, PA, Tesztelő*
+* **Bacsik Mátyás** (GitHub: *bacsikmatyas*): *PA, Tesztelő*
+* **Huri Patrik** (GitHub: *Hurip*): *PA*
+* **Heinrich László** (GitHub: *heinrichlaszlo*): *PA*
+
 #### 3.1.3. Ütemterv:
 
 #### 3.1.4. Mérföldkövek:
