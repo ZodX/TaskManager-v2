@@ -2,24 +2,28 @@
 
 ## 4. Jelenlegi üzleti folyamatok
  
-- Új feladat hozzáadása: (írás cetlire/telefonba/füzetbe)
-<p align="center"
+* Új feladat hozzáadása: (írás cetlire/telefonba/füzetbe)
+<p align="center">
 <img src="src/uj_feladat_hozzaadasa.png" title="Task Manager új feladat hozzáadása">
 </p>
-- Feladat törlése: (Az adott feladat lehúzása)
-<p align="center"
+
+* Feladat törlése: (Az adott feladat lehúzása)
+<p align="center">
 <img src="src/feladat_torlese.png" title="Task Manager feladat törlése">
 </p>
-- Feladat módosítása: (Az adott feladatot lehúzása és a helyére új írása.)
-<p align="center"
+
+* Feladat módosítása: (Az adott feladatot lehúzása és a helyére új írása.)
+<p align="center">
 <img src="src/feladat_csoportositasa.png" title="Task Manager  feladat csoportosítása">
 </p>
-- Feladatok csoportosítása: (A cetliket egy adott helyre csoportosítása vagy a füzetben egy adott oldalra írása)
-<p align="center"
+
+* Feladatok csoportosítása: (A cetliket egy adott helyre csoportosítása vagy a füzetben egy adott oldalra írása)
+<p align="center">
 <img src="src/feladat_kesznek_nyilvanitasa.png" title="Task Manager feladat késznek nyilvánítása">
 </p>
-- Feladat késznek nyilvánítása: (Az adott cetlin a feladat mögé egy pipa helyezése)
-<p align="center"
+
+* Feladat késznek nyilvánítása: (Az adott cetlin a feladat mögé egy pipa helyezése)
+<p align="center">
 <img src="src/feladat_modositasa.png" title="Task Manager feladat frissítése/módosítása">
 </p>
 
