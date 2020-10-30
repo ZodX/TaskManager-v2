@@ -101,6 +101,14 @@ látogató az oldalunkat. Szeretnénk, hogy az oldalt egyszerűen lehessen kezel
 ha túl nagy kreativitásnak adtunk teret a weblanak a készítése során, akkor valószínüleg ezek a megoldások a látogatóink jelentős részét akár el is riaszthatják,
 amit mi semmiképpen sem szeretnénk.
 
+* K03 A reszponzív design megalkotása. A weboldal rugalmason alkalmazkodjon az adott készüléken használt böngészőhöz, ezáltal 
+egy optimális megjelenést biztosít a felhasználó számára.
+
+* K04 platformfüggetlenség. A platformfüggetlen megjelenés egy mai modern weboldal esetében nem extra funkció, hanem már-már követelmény. Tény az, hogy azon felhasználók
+száma folyamatosan növekszik, akik okostelefonról, tabletről, vagy más mobil eszközről interneteznek, a hagyományos asztali gépek mellett (PC).
+Így egyre inkább elengedhetetlenné válik, hogy a weboldal alkalmazkodjon ezekhez a felületekhez, hogy a felhasználók ugyanazt a honlapot, ugyanolyan minőségben
+élvezhessék más-más eszköz esetén is.
+
 ## 9. Képernyőtervek
 
 - Legyen teljes , a felhasználó a felhasználói felületen keresztül a program minden funkciója elérhető legyen.
