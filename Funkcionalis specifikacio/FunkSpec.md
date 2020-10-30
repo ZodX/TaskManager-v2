@@ -113,6 +113,10 @@ száma folyamatosan növekszik, akik okostelefonról, tabletről, vagy más mobi
 Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető 
 legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb..
 
+* K06 Prioritás biztosítása a felhasználó számára. A mindennapokban is előfordul, hogy egy nap több teendőnk is van, és van olyan köztük, 
+ami elsőbbséget élvez, ami fontosabb mint a többi. Ezt a lehetőséget szeretnénk a cetliknél is a felhasználóknak átadni, hisz fontos az, hogy 
+kényelmesebbé tegyük a weboldal használatát ezzel a lehetőséggel.
+
 
 ## 9. Képernyőtervek
 
