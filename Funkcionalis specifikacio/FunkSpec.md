@@ -17,7 +17,18 @@ hogy minden háztartásban legyen internet-hozzáférés, aminek a segítségév
 embernek már mobil internet hozzáférés is újabb lehetőséget nyújt a tartalomfogyasztásra. A célunk így tehát az, hogy 
 a weboldal amit megalkotunk online is kezelhető legyen, ezáltal ez kényelmesebbé teszi az átlagos ember mindennapjait. Manapság
 már könnyen el tudjuk érni a weboldalakat a telefonról vagy a tabletről, a munkahelyi laptopról vagy esetleg a PC-ről, ami 
-megkönnyíti az életünket, és elérhetjük a weboldalt a nap bármelyik pillanatában.
+megkönnyíti az életünket, és elérhetjük a weboldalt a nap bármelyik pillanatában.A cél egy jó weblap létrehozása amivel
+felhasználókat be szeretnénk vonzani, valamint a meglévőket megtartani.
+Biztosítanunk kell azt, hogy ne legyen semmi olyan, ami akadályozná a felhasználót a weboldalt tartalmának könnyű 
+elérésében. Ebben a szemléletben a design kiemelkedően fontos hiszen a vizuális elemeket le kell egyszerűsíteni, és egy olyan
+weboldalt kell kialakítani, ami segíti a tartalom kiemelkedését.
+Amint már említettem kiemelt fontosságú a csapat számára az, hogy az oldal felhasználóbarát legyen, ezért az első benyomás 
+nagyon fontos, hisz akár a mindennapokban, ott sem elengedhetetlen az, hogy ha például bemutatnak minket valakinek, számít a
+megjelenés és a gesztus, ez ugyan úgy meghatározó szerepet tölt be a weboldalnál is.
+A weboldalak designjának fontos tulajdonsága az egyszerű megjelenés. Hiszen a honlap elsődleges feladata a 
+tartalom átadása, a jó design pedig ezt segíti. Befogadhatóbbá, vonzóbbá, könnyebbé teszi a tartalom megértését.
+A jól felépített design nem csupán az esztétikumról, hanem a helyes tipográfia megválasztásáról, a funkcionalitásról
+és az ergonómiáról is szól.
 
 ## 4. Jelenlegi üzleti folyamatok
  
