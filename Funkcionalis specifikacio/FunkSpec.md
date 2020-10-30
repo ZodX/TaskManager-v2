@@ -36,9 +36,9 @@ különböző módokkal is "feldobni" az oldalt, mint például: a színvak mód
 ugye ez egyre több alkalmazásban elterjedt például: facebook, instagram stb..
 A platformfüggetlen megjelenés egy mai modern weboldal esetében nem extra funkció, hanem már-már követelmény. Tény az, hogy azon felhasználók
 száma folyamatosan növekszik, akik okostelefonról, tabletről, vagy más mobil eszközről interneteznek, a hagyományos asztali gépek mellett (PC).
-Így egyre inkább elengedhetetlenné válik, hogy a weboldal alkalmazkodjon ezekhez a felületekhez, hogy a felhasználók ugyanazt a honlapot, ugyanolyan minőségben
-élvezhessék más-más eszköz esetén is. Ezért elvárt a böngésző-függetlenség is, tehát az, hogy minél több böngészőn elérhető legyen az oldal mint
-például a Google Chrome, Mozzila, Opera, Safari, Microsoft Edge és stb..
+Így egyre inkább elengedhetetlenné válik, hogy a weboldal alkalmazkodjon ezekhez a felületekhez, hogy a felhasználók 
+ugyanazt a honlapot, ugyanolyan minőségben élvezhessék más-más eszköz esetén is. Ezért elvárt a böngésző-függetlenség is, tehát az,
+hogy minél több böngészőn elérhető legyen az oldal mint például a Google Chrome, Mozzila, Opera, Safari, Microsoft Edge és stb..
 Manapság már gyakorlatilag minden harmadik ember okostelefonnal a zsebében rohangál, ezért foglalkoznunk kell a reszponzív designal is.
 Fontos a reszponzív design, mert szebbek a képek, és kényelmesebb a weboldal használata,
 így csökken a visszafordulási arány, tehát kevesebben hagyják el azonnal a weboldalt.
