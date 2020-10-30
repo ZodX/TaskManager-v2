@@ -89,7 +89,17 @@ használható is.
 - Feladatok hozzáadása és törlése: (A felhasználó tudjon feladatokat hozzáadni és a nem kívánt feladatokat eltávolítani)
 
 ## 6. Követelménylista
+* K01 Könnyen üzemeltethető rendszer. Mielőtt belekezdünk a weboldal elkészítésébe át kell tekintenünk azt, hogy milyen 
+milyen módon valósítható meg az üzemeltetés. Fontos az, hogy a weboldal készítési módszer kiválasztása során hosszútávon kezdjünk
+el gondolkodni, tehát nem azt kell néznünk, hogy most mire van szükségünk, hanem gondolni kell arra is, hogy 2-3 év múlva
+mire lesz szükségünk, milyen honlapot szeretnénk üzemeltetni.
 
+* K02 A weboldal felülete legyen a felhasználó számára letisztult, hiszen fontos az, hogy gördülékenyen tudja használni a 
+látogató az oldalunkat. Szeretnénk, hogy az oldalt egyszerűen lehessen kezelni, egyértelművé tenni mik a lehetőségeik a felhasználóinak, 
+és ezeket a folyamatokat egyszerűen megjeleníteni a weboldalon. A felhasználó célja az, hogy minél gyorsabban és minél egyszerűbben szeretné elvégezni
+ azt a feladatot, vagy megtalálni az információt, amiért a weboldalunkra ellátoganak. Ha egy weboldal túl bonyolult, vagy
+ha túl nagy kreativitásnak adtunk teret a weblanak a készítése során, akkor valószínüleg ezek a megoldások a látogatóink jelentős részét akár el is riaszthatják,
+amit mi semmiképpen sem szeretnénk.
 
 ## 9. Képernyőtervek
 
