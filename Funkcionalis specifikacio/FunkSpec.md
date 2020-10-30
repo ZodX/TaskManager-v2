@@ -9,7 +9,15 @@ A weboldalunknak továbbá célja az, hogy el tudjuk adni a cetlik által nyújt
 A csapat azt álmodta meg, hogy az oldal egyszerűen szerkeszthető legyen, és ennek középpontjában az áll,
 hogy felhasználóbarát is legyen egyben. A felhasználói élménynek a minősége úgy gondoljuk, hogy a weboldal 
 készítésének az alapvető része, ezért a felhasználók igényeivel szeretnénk folyamatosan lépést tartani, az igényeiket
-felmérni.
+felmérni.Ahhoz, hogy a folyamatos fejlődésben ne maradjunk le, fontos az, hogy keresnünk kell fejlődési lehetőségeket
+is a weboldalban. Azért szeretnénk a "cetliket" weboldalra vinni, hogy sok időt takarítsunk meg a látogatóink számára.
+A weboldalnak áttekinthetőnek kell lennie, valamint a funkciók is könnyen elérhető kell hogy legyen, ez kulcsfontosságú 
+ahhoz, hogy a felhasználónak az élménye jó legyen, a zavaró tényezőket ki kell zárni. A mai világban már elvárható az,
+hogy minden háztartásban legyen internet-hozzáférés, aminek a segítségével könnyen lehet weboldalakat elérni. A legtöbb 
+embernek már mobil internet hozzáférés is újabb lehetőséget nyújt a tartalomfogyasztásra. A célunk így tehát az, hogy 
+a weboldal amit megalkotunk online is kezelhető legyen, ezáltal ez kényelmesebbé teszi az átlagos ember mindennapjait. Manapság
+már könnyen el tudjuk érni a weboldalakat a telefonról vagy a tabletről, a munkahelyi laptopról vagy esetleg a PC-ről, ami 
+megkönnyíti az életünket, és elérhetjük a weboldalt a nap bármelyik pillanatában.
 
 ## 4. Jelenlegi üzleti folyamatok
  
