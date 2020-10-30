@@ -1,5 +1,16 @@
 # Funkcionális specifikáció
 
+
+## 3. Vágyálom rendszer
+
+A projektünk célja egy könnyen átlátható, és kezelhető weboldal létrehozása,
+amivel el szeretnénk érni azt, hogy a hétköznapi feladatainkat leegyszerűsítsük.
+A weboldalunknak továbbá célja az, hogy el tudjuk adni a cetlik által nyújtott szolgáltatást.
+A csapat azt álmodta meg, hogy az oldal egyszerűen szerkeszthető legyen, és ennek középpontjában az áll,
+hogy felhasználóbarát is legyen egyben. A felhasználói élménynek a minősége úgy gondoljuk, hogy a weboldal 
+készítésének az alapvető része, ezért a felhasználók igényeivel szeretnénk folyamatosan lépést tartani, az igényeiket
+felmérni.
+
 ## 4. Jelenlegi üzleti folyamatok
  
 * Új feladat hozzáadása: (írás cetlire/telefonba/füzetbe)
