@@ -104,8 +104,9 @@ amit mi semmiképpen sem szeretnénk.
 * K03 A reszponzív design megalkotása. A weboldal rugalmason alkalmazkodjon az adott készüléken használt böngészőhöz, ezáltal 
 egy optimális megjelenést biztosít a felhasználó számára.
 
-* K04 platformfüggetlenség. A platformfüggetlen megjelenés egy mai modern weboldal esetében nem extra funkció, hanem már-már követelmény. Tény az, hogy azon felhasználók
-száma folyamatosan növekszik, akik okostelefonról, tabletről, vagy más mobil eszközről interneteznek, a hagyományos asztali gépek mellett (PC).
+* K04 platformfüggetlenség. A platformfüggetlen megjelenés egy mai modern weboldal esetében nem extra funkció, hanem már-már követelmény. 
+Tény az, hogy azon felhasználók száma folyamatosan növekszik, akik okostelefonról, tabletről, vagy más mobil eszközről interneteznek,
+a hagyományos asztali gépek mellett (PC).
 Így egyre inkább elengedhetetlenné válik, hogy a weboldal alkalmazkodjon ezekhez a felületekhez, hogy a felhasználók ugyanazt a honlapot, ugyanolyan minőségben
 élvezhessék más-más eszköz esetén is.
 
@@ -116,7 +117,6 @@ legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Micr
 * K06 Prioritás biztosítása a felhasználó számára. A mindennapokban is előfordul, hogy egy nap több teendőnk is van, és van olyan köztük, 
 ami elsőbbséget élvez, ami fontosabb mint a többi. Ezt a lehetőséget szeretnénk a cetliknél is a felhasználóknak átadni, hisz fontos az, hogy 
 kényelmesebbé tegyük a weboldal használatát ezzel a lehetőséggel.
-
 
 ## 9. Képernyőtervek
 
