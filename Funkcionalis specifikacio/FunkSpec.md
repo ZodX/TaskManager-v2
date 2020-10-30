@@ -29,6 +29,13 @@ A weboldalak designjának fontos tulajdonsága az egyszerű megjelenés. Hiszen 
 tartalom átadása, a jó design pedig ezt segíti. Befogadhatóbbá, vonzóbbá, könnyebbé teszi a tartalom megértését.
 A jól felépített design nem csupán az esztétikumról, hanem a helyes tipográfia megválasztásáról, a funkcionalitásról
 és az ergonómiáról is szól.
+Ezért az oldalnak a megjelenése is nagyon fontos tényező ezért szeretnénk odafigyelni arra, hogy a 
+megfelelő színeket, betűméretet, betűtípust alkalmazzuk. Fontos az, hogy a karakterformázások vonatkozhatnak az egész
+dokumentumra, ésvonatkozhatnak az adott szövegre is attól függően, hogy hova írjuk. Szeretnénk továbbá a felületet 
+különböző módokkal is "feldobni" az oldalt, mint például: a színvak mód, vagy a manapság egyre jobban elterjedt Dark/Light mód,
+ugye ez egyre több alkalmazásban elterjedt például: facebook, instagram stb..
+A platformfüggetlen megjelenés egy mai modern weboldal esetében nem extra funkció, hanem már-már követelmény. Tény az, hogy azon felhasználók
+száma folyamatosan növekszik, akik okostelefonról, tabletről, vagy más mobil eszközről interneteznek, a hagyományos asztali gépek mellett (PC).
 
 ## 4. Jelenlegi üzleti folyamatok
  
