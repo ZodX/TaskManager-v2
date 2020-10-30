@@ -43,6 +43,16 @@ Manapság már gyakorlatilag minden harmadik ember okostelefonnal a zsebében ro
 Fontos a reszponzív design, mert szebbek a képek, és kényelmesebb a weboldal használata,
 így csökken a visszafordulási arány, tehát kevesebben hagyják el azonnal a weboldalt.
 Szeretnénk a weboldalnál megtalálni a mérleg egyensúlyi pontját a használhatóság, felhasználói élmény és a kreativitás között.
+A felhasználó célja az, hogy minél gyorsabban és minél egyszerűbben szeretné elvégezni azt a feladatot, vagy megtalálni az 
+információt, amiért a weboldalunkra ellátoganak. Ha egy weboldal túl bonyolult, vagy ha túl nagy kreativitásnak adtunk teret
+a weblanak a készítése során, akkor valószínüleg ezek a megoldások a látogatóink jelentős részét akár el is riaszthatják,
+amit mi semmiképpen sem szeretnénk. Ezért fontos az, hogy ne bonyolítsunk, az oldalnak közérthetőnek kell lennie.
+A tipográfiára is oda kell figyelnünk, hogy a megfelelő betűtípust és betűméretet válasszuk ki. A színsémákra is oda kell figyelnünk,
+a használhatóság során, hogy a szövegek legyenek jól olvashatóak és kontrasztosak. Szeretnénk a felhasználóinkat gombokkal is vezetni, 
+ezzel még egyszerűbbé tenni az oldal használhatóságát.
+A cél tehát az, hogy tudjuk megmutatni azt, hogy mit kínálunk az embereknek, 
+és a cetlik által okozott kellemetlenségekre tudjunk egy olyan megoldást nyújtani, ami megbízható, és kényelmesen
+használható is.
 
 ## 4. Jelenlegi üzleti folyamatok
  
