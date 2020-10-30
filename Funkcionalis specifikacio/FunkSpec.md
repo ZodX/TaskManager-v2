@@ -109,6 +109,11 @@ száma folyamatosan növekszik, akik okostelefonról, tabletről, vagy más mobi
 Így egyre inkább elengedhetetlenné válik, hogy a weboldal alkalmazkodjon ezekhez a felületekhez, hogy a felhasználók ugyanazt a honlapot, ugyanolyan minőségben
 élvezhessék más-más eszköz esetén is.
 
+* K05 Böngésző-függetlenség. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
+Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető 
+legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb..
+
+
 ## 9. Képernyőtervek
 
 - Legyen teljes , a felhasználó a felhasználói felületen keresztül a program minden funkciója elérhető legyen.
