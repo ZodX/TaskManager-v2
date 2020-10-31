@@ -63,5 +63,10 @@ A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület s
 - Javíthatóság: hibák mindig vannak, lesznek. Legyen lehetőség javítani. A javítás legyen egységes.
 - Felhasználóbarát: a program felülete és kezelhetősége legyen a felhasználók életkorának megfelelő. A tervezésnél figyelembe kell venni minden lehetőséget.
 
+### 3.7. Telepítési terv: 
+
+A felhasználó szemszögéből a telepítés a következőképp néz ki:
+- Internetelérésre alkalmas eszköz megléte, használatra kész állapotban.
+
 ## 4. Mikor:
 - Legkésőbb az osztályzásig véglegesíteni kell a rendszert.
