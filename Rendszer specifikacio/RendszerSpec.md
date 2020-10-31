@@ -56,3 +56,20 @@ A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület s
 * Fejlesztés befejezése
 * Kész szoftver átadása
 * Szoftver éles működésbe lépése
+
+## 3.2 Funkcionális terv:
+
+- Átláthatóság: Ennek megfelelően, egy olyan program legyen, amely minden programozó számára átlátható kódolással legyen megírva
+- Javíthatóság: hibák mindig vannak, lesznek. Legyen lehetőség javítani. A javítás legyen egységes.
+- Felhasználóbarát: a program felülete és kezelhetősége legyen a felhasználók életkorának megfelelő. A tervezésnél figyelembe kell venni minden lehetőséget.
+
+### 3.7. Telepítési terv: 
+
+A felhasználó szemszögéből a telepítés a következőképp néz ki:
+- Internetelérésre alkalmas eszköz megléte, használatra kész állapotban.
+- Internetelérés.
+- Böngésző használata.
+- Az oldal URL-jének címsorba történő begépelése.
+
+## 4. Mikor:
+- Legkésőbb az osztályzásig véglegesíteni kell a rendszert.
