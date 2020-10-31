@@ -67,6 +67,8 @@ A telefonos applikáció használata is megfelelő volt, de a piacon elérhető 
 
 ### 7.1 Aktorok (szereplők) meghatározása
 
+Esetünkben az egyetlen szereplő maga a ***felhasználó***.
+
 ## 9. Képernyőtervek
 
 - Legyen teljes , a felhasználó a felhasználói felületen keresztül a program minden funkciója elérhető legyen.
