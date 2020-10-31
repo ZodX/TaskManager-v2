@@ -27,7 +27,8 @@ Az elkészített rendszerrel a felhasználó ***NEM*** lesz képes:
 * megtekinteni, hogy milyen akciókat hajtott végre az oldalon belül *(log)*
 * széleskörűen testreszabni a rendszert *(értsd: csak light/dark/colorblind téma)*
 * egyszerre több csoportba is elhelyezni egy feladatot
-* ugyan azon adaokat elérni különböző eszközökről(első pont miatt)
+* ugyan azon adatokat elérni különböző eszközökről(első pont miatt)
+* több másik felhasználóval ugyan azokat a feladatokat kezelni
 
 ## 2. Jelenlegi helyzet
 
