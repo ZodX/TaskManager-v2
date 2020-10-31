@@ -1,5 +1,59 @@
 # Funkcionális specifikáció
 
+
+## 3. Vágyálom rendszer
+
+A projektünk célja egy könnyen átlátható, és kezelhető weboldal létrehozása,
+amivel el szeretnénk érni azt, hogy a hétköznapi feladatainkat leegyszerűsítsük.
+A weboldalunknak továbbá célja az, hogy el tudjuk adni a cetlik által nyújtott szolgáltatást.
+A csapat azt álmodta meg, hogy az oldal egyszerűen szerkeszthető legyen, és ennek középpontjában az áll,
+hogy felhasználóbarát is legyen egyben. A felhasználói élménynek a minősége úgy gondoljuk, hogy a weboldal 
+készítésének az alapvető része, ezért a felhasználók igényeivel szeretnénk folyamatosan lépést tartani, az igényeiket
+felmérni.Ahhoz, hogy a folyamatos fejlődésben ne maradjunk le, fontos az, hogy keresnünk kell fejlődési lehetőségeket
+is a weboldalban. Azért szeretnénk a "cetliket" weboldalra vinni, hogy sok időt takarítsunk meg a látogatóink számára.
+A weboldalnak áttekinthetőnek kell lennie, valamint a funkciók is könnyen elérhető kell hogy legyen, ez kulcsfontosságú 
+ahhoz, hogy a felhasználónak az élménye jó legyen, a zavaró tényezőket ki kell zárni. A mai világban már elvárható az,
+hogy minden háztartásban legyen internet-hozzáférés, aminek a segítségével könnyen lehet weboldalakat elérni. A legtöbb 
+embernek már mobil internet hozzáférés is újabb lehetőséget nyújt a tartalomfogyasztásra. A célunk így tehát az, hogy 
+a weboldal amit megalkotunk online is kezelhető legyen, ezáltal ez kényelmesebbé teszi az átlagos ember mindennapjait. Manapság
+már könnyen el tudjuk érni a weboldalakat a telefonról vagy a tabletről, a munkahelyi laptopról vagy esetleg a PC-ről, ami 
+megkönnyíti az életünket, és elérhetjük a weboldalt a nap bármelyik pillanatában.A cél egy jó weblap létrehozása amivel
+felhasználókat be szeretnénk vonzani, valamint a meglévőket megtartani.
+Biztosítanunk kell azt, hogy ne legyen semmi olyan, ami akadályozná a felhasználót a weboldalt tartalmának könnyű 
+elérésében. Ebben a szemléletben a design kiemelkedően fontos hiszen a vizuális elemeket le kell egyszerűsíteni, és egy olyan
+weboldalt kell kialakítani, ami segíti a tartalom kiemelkedését.
+Amint már említettem kiemelt fontosságú a csapat számára az, hogy az oldal felhasználóbarát legyen, ezért az első benyomás 
+nagyon fontos, hisz akár a mindennapokban, ott sem elengedhetetlen az, hogy ha például bemutatnak minket valakinek, számít a
+megjelenés és a gesztus, ez ugyan úgy meghatározó szerepet tölt be a weboldalnál is.
+A weboldalak designjának fontos tulajdonsága az egyszerű megjelenés. Hiszen a honlap elsődleges feladata a 
+tartalom átadása, a jó design pedig ezt segíti. Befogadhatóbbá, vonzóbbá, könnyebbé teszi a tartalom megértését.
+A jól felépített design nem csupán az esztétikumról, hanem a helyes tipográfia megválasztásáról, a funkcionalitásról
+és az ergonómiáról is szól.
+Ezért az oldalnak a megjelenése is nagyon fontos tényező ezért szeretnénk odafigyelni arra, hogy a 
+megfelelő színeket, betűméretet, betűtípust alkalmazzuk. Fontos az, hogy a karakterformázások vonatkozhatnak az egész
+dokumentumra, ésvonatkozhatnak az adott szövegre is attól függően, hogy hova írjuk. Szeretnénk továbbá a felületet 
+különböző módokkal is "feldobni" az oldalt, mint például: a színvak mód, vagy a manapság egyre jobban elterjedt Dark/Light mód,
+ugye ez egyre több alkalmazásban elterjedt például: facebook, instagram stb..
+A platformfüggetlen megjelenés egy mai modern weboldal esetében nem extra funkció, hanem már-már követelmény. Tény az, hogy azon felhasználók
+száma folyamatosan növekszik, akik okostelefonról, tabletről, vagy más mobil eszközről interneteznek, a hagyományos asztali gépek mellett (PC).
+Így egyre inkább elengedhetetlenné válik, hogy a weboldal alkalmazkodjon ezekhez a felületekhez, hogy a felhasználók 
+ugyanazt a honlapot, ugyanolyan minőségben élvezhessék más-más eszköz esetén is. Ezért elvárt a böngésző-függetlenség is, tehát az,
+hogy minél több böngészőn elérhető legyen az oldal mint például a Google Chrome, Mozzila, Opera, Safari, Microsoft Edge és stb..
+Manapság már gyakorlatilag minden harmadik ember okostelefonnal a zsebében rohangál, ezért foglalkoznunk kell a reszponzív designal is.
+Fontos a reszponzív design, mert szebbek a képek, és kényelmesebb a weboldal használata,
+így csökken a visszafordulási arány, tehát kevesebben hagyják el azonnal a weboldalt.
+Szeretnénk a weboldalnál megtalálni a mérleg egyensúlyi pontját a használhatóság, felhasználói élmény és a kreativitás között.
+A felhasználó célja az, hogy minél gyorsabban és minél egyszerűbben szeretné elvégezni azt a feladatot, vagy megtalálni az 
+információt, amiért a weboldalunkra ellátoganak. Ha egy weboldal túl bonyolult, vagy ha túl nagy kreativitásnak adtunk teret
+a weblanak a készítése során, akkor valószínüleg ezek a megoldások a látogatóink jelentős részét akár el is riaszthatják,
+amit mi semmiképpen sem szeretnénk. Ezért fontos az, hogy ne bonyolítsunk, az oldalnak közérthetőnek kell lennie.
+A tipográfiára is oda kell figyelnünk, hogy a megfelelő betűtípust és betűméretet válasszuk ki. A színsémákra is oda kell figyelnünk,
+a használhatóság során, hogy a szövegek legyenek jól olvashatóak és kontrasztosak. Szeretnénk a felhasználóinkat gombokkal is vezetni, 
+ezzel még egyszerűbbé tenni az oldal használhatóságát.
+A cél tehát az, hogy tudjuk megmutatni azt, hogy mit kínálunk az embereknek, 
+és a cetlik által okozott kellemetlenségekre tudjunk egy olyan megoldást nyújtani, ami megbízható, és kényelmesen
+használható is.
+
 ## 4. Jelenlegi üzleti folyamatok
  
 * Új feladat hozzáadása: (írás cetlire/telefonba/füzetbe)
@@ -33,6 +87,36 @@
 - Feladatok prioritásának megadása: (Feladat kiválasztása és a fontossági sorrend eldöntése)
 - Reszponzív design: (A felhasználó bármely készülékén a legoptimálisabb módon tudja megtekinteni a feladatait)
 - Feladatok hozzáadása és törlése: (A felhasználó tudjon feladatokat hozzáadni és a nem kívánt feladatokat eltávolítani)
+
+## 6. Követelménylista
+* K01 Könnyen üzemeltethető rendszer. Mielőtt belekezdünk a weboldal elkészítésébe át kell tekintenünk azt, hogy milyen 
+milyen módon valósítható meg az üzemeltetés. Fontos az, hogy a weboldal készítési módszer kiválasztása során hosszútávon kezdjünk
+el gondolkodni, tehát nem azt kell néznünk, hogy most mire van szükségünk, hanem gondolni kell arra is, hogy 2-3 év múlva
+mire lesz szükségünk, milyen honlapot szeretnénk üzemeltetni.
+
+* K02 A weboldal felülete legyen a felhasználó számára letisztult, hiszen fontos az, hogy gördülékenyen tudja használni a 
+látogató az oldalunkat. Szeretnénk, hogy az oldalt egyszerűen lehessen kezelni, egyértelművé tenni mik a lehetőségeik a felhasználóinak, 
+és ezeket a folyamatokat egyszerűen megjeleníteni a weboldalon. A felhasználó célja az, hogy minél gyorsabban és minél egyszerűbben szeretné elvégezni
+ azt a feladatot, vagy megtalálni az információt, amiért a weboldalunkra ellátoganak. Ha egy weboldal túl bonyolult, vagy
+ha túl nagy kreativitásnak adtunk teret a weblanak a készítése során, akkor valószínüleg ezek a megoldások a látogatóink jelentős részét akár el is riaszthatják,
+amit mi semmiképpen sem szeretnénk.
+
+* K03 A reszponzív design megalkotása. A weboldal rugalmason alkalmazkodjon az adott készüléken használt böngészőhöz, ezáltal 
+egy optimális megjelenést biztosít a felhasználó számára.
+
+* K04 platformfüggetlenség. A platformfüggetlen megjelenés egy mai modern weboldal esetében nem extra funkció, hanem már-már követelmény. 
+Tény az, hogy azon felhasználók száma folyamatosan növekszik, akik okostelefonról, tabletről, vagy más mobil eszközről interneteznek,
+a hagyományos asztali gépek mellett (PC).
+Így egyre inkább elengedhetetlenné válik, hogy a weboldal alkalmazkodjon ezekhez a felületekhez, hogy a felhasználók ugyanazt a honlapot, ugyanolyan minőségben
+élvezhessék más-más eszköz esetén is.
+
+* K05 Böngésző-függetlenség. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
+Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető 
+legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb..
+
+* K06 Prioritás biztosítása a felhasználó számára. A mindennapokban is előfordul, hogy egy nap több teendőnk is van, és van olyan köztük, 
+ami elsőbbséget élvez, ami fontosabb mint a többi. Ezt a lehetőséget szeretnénk a cetliknél is a felhasználóknak átadni, hisz fontos az, hogy 
+kényelmesebbé tegyük a weboldal használatát ezzel a lehetőséggel.
 
 ## 9. Képernyőtervek
 
