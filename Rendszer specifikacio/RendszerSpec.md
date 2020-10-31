@@ -62,3 +62,6 @@ A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület s
  - átláthatóság: Ennek megfelelően, egy olyan program legyen, amely minden programozó számára átlátható kódolással legyen megírva
 - javíthatóság: hibák mindig vannak, lesznek. Legyen lehetőség javítani. A javítás legyen egységes.
 - felhasználóbarát: a program felülete és kezelhetősége legyen a felhasználók életkorának megfelelő. A tervezésnél figyelembe kell venni minden lehetőséget.
+
+## 4. Mikor:
+- Legkésőbb az osztályzásig véglegesíteni kell a rendszert.
