@@ -63,6 +63,10 @@ A telefonos applikáció használata is megfelelő volt, de a piacon elérhető 
 - Reszponzív design: (A felhasználó bármely készülékén a legoptimálisabb módon tudja megtekinteni a feladatait)
 - Feladatok hozzáadása és törlése: (A felhasználó tudjon feladatokat hozzáadni és a nem kívánt feladatokat eltávolítani)
 
+## 7. Használati esetek
+
+### 7.1 Aktorok (szereplők) meghatározása
+
 ## 9. Képernyőtervek
 
 - Legyen teljes , a felhasználó a felhasználói felületen keresztül a program minden funkciója elérhető legyen.
