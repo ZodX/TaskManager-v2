@@ -56,3 +56,8 @@ A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület s
 * Fejlesztés befejezése
 * Kész szoftver átadása
 * Szoftver éles működésbe lépése
+
+## 3.2 Funkcionális terv
+
+ - átláthatóság: Ennek megfelelően, egy olyan program legyen, amely minden programozó számára átlátható kódolással legyen megírva
+- javíthatóság: hibák mindig vannak, lesznek. Legyen lehetőség javítani. A javítás legyen egységes.
