@@ -67,6 +67,9 @@ A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület s
 
 A felhasználó szemszögéből a telepítés a következőképp néz ki:
 - Internetelérésre alkalmas eszköz megléte, használatra kész állapotban.
+- Internetelérés.
+- Böngésző használata.
+- Az oldal URL-jének címsorba történő begépelése.
 
 ## 4. Mikor:
 - Legkésőbb az osztályzásig véglegesíteni kell a rendszert.
