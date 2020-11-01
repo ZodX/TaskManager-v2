@@ -69,6 +69,8 @@ A telefonos applikáció használata is megfelelő volt, de a piacon elérhető 
 
 Esetünkben az egyetlen szereplő maga a ***felhasználó***.
 
+### 7.2 Használati eset diagram
+
 ## 9. Képernyőtervek
 
 - Legyen teljes , a felhasználó a felhasználói felületen keresztül a program minden funkciója elérhető legyen.
