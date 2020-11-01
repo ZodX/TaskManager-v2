@@ -71,6 +71,8 @@ Esetünkben az egyetlen szereplő maga a ***felhasználó***.
 
 ### 7.2 Használati eset diagram
 
+![Task Manager Use Cases](src/Use_Case_Diagram_for_TaskManagerV2.png)
+
 ## 9. Képernyőtervek
 
 - Legyen teljes , a felhasználó a felhasználói felületen keresztül a program minden funkciója elérhető legyen.
