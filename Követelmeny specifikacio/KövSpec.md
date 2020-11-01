@@ -34,18 +34,32 @@ Fontos a reszponzív design, mert szebbek a képek, és kényelmesebb a weboldal
 így csökken a visszafordulási arány, tehát kevesebben hagyják el azonnal a weboldalt.
 Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy megfogjuk a látogatóinkat a designnal, amikor megtekintik először a weboldalt. A cél tehát az, hogy tudjuk megmutatni azt, hogy mit kínálunk az embereknek, és a cetlik által okozott kellemetlenségekre tudjunk egy olyan megoldást nyújtani, ami megbízható, és kényelmesen használható is.
 
-## 3. Jelenlegi üzleti folyamatok
+## 3. Jelenlegi üzleti folyamatok:
 
 * Új feladat hozzáadása: Cetli kiválasztása -> Cetlire írás -> Cetli táblára ragasztása
-![Task Manager új feladat hozzáadása](src/uj_feladat_hozzaadasa.png)
+<p align="center">
+<img src="src/uj_feladat_hozzaadasa.png" title="Task Manager új feladat hozzáadása">
+</p>
+
 * Feladat törlése: Cetli levétele a tábláról -> Cetli kukába dobása
-![Task Manager feladat törlése](src/feladat_torlese.png)
+<p align="center">
+<img src="src/feladat_torlese.png" title="Task Manager feladat törlése">
+</p>
+
 * Feladatok csoportosítása: Táblán csoport helyének kijelölése -> Meglévő cetlik letépése -> Cetlik felragasztása a megfelelő pozícióra
-![Task Manager  feladat csoportosítása](src/feladat_csoportositasa.png)
+<p align="center">
+<img src="src/feladat_csoportositasa.png" title="Task Manager  feladat csoportosítása">
+</p>
+
 * Feladat késznek nyilvánítása: Cetli levétele -> Cetli ‘kész’ csoporthoz való felragasztása
-![Task Manager feladat késznek nyilvánítása](src/feladat_kesznek_nyilvanitasa.png)
+<p align="center">
+<img src="src/feladat_kesznek_nyilvanitasa.png" title="Task Manager feladat késznek nyilvánítása">
+</p>
+
 * Feladat frissítése/módosítása: Meglévő cetli levétele a tábláról -> Cetli kidobása -> Új cetli kiválasztása -> Cetlire írás -> Cetli táblára ragasztása
-![Task Manager feladat frissítése/módosítása](src/feladat_modositasa.png)
+<p align="center">
+<img src="src/feladat_modositasa.png" title="Task Manager feladat frissítése/módosítása">
+</p>
 
 ## 4. Igényelt üzleti folyamatok
 
