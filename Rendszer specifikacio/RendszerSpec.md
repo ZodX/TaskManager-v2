@@ -76,6 +76,11 @@ a következő eszközöket fogjuk használni:
 A weboldal sikeres működéséhez szükségünk lesz backendre is az ehhez szükséges fejlesztői eszközök pedig a
 következők:
 
+* JavaScript: A Javascript az ECMAScript szabvány alapján implementált kliens oldali programozási nyelv, 
+amelyet minden böngésző támogat. A Javascript alkalmas a webprogramok futtatására kliens oldalon, amely
+azt is jelenti, hogy a statikus HTML weboldal dinamikussá tehető különböző interakciók kliens oldalon 
+történő lekezelésével.
+
 
 ### 3.7. Telepítési terv: 
 
