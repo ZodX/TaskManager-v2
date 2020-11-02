@@ -71,6 +71,9 @@ a következő eszközöket fogjuk használni:
 
 * HTML: A HTML-ről annyit érdemes tudni, hogy ez egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára ez mér internetes szabvánnyá vált. Jelenleg az aktuális változata az 5-ös, tehát a HTML5. Ennek az egyik fő célja, hogy a webes alkalmazásokhoz ne legyen szükségünk pluginokra. A Javascript segítségével lehetőségünk van akár rajzolni, vagy képet beilleszteni is.
 
+* CSS (Bootstrap keretrendszer): A Bootsrap napjainkban a legnépszerűbb front-end keretrendszere. A keretrendszerről érdemes annyit tudni, hogy előre megírt eszközkészlet, viszont ismernünk kell ahhoz, hogy megfelelően használjuk. A Bootstrap egy előre megírt, multifunkcionálisan alkalmazható eszközkészletet kínál, aminek segítségével gyorsabban, átláthatóbban és hatékonyabban dolgozhatunk. Azonban ahhoz, hogy használni tudjuk ismernünk kell a legújabb, webfejlesztésekhez kapcsolódó technikákat, illetve elegendő időt kell fordítanunk a rendszer tanulására.
+
+
 ### 3.7. Telepítési terv: 
 
 A felhasználó szemszögéből a telepítés a következőképp néz ki:
