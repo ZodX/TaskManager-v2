@@ -63,6 +63,12 @@ A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület s
 - Javíthatóság: hibák mindig vannak, lesznek. Legyen lehetőség javítani. A javítás legyen egységes.
 - Felhasználóbarát: a program felülete és kezelhetősége legyen a felhasználók életkorának megfelelő. A tervezésnél figyelembe kell venni minden lehetőséget.
 
+
+### 3.3. Fizikai környezet:
+
+A fejlesztett rendszer, amit el fogunk készíteni egy web applikáció lesz, ahol a frontend fejlesztéséhez,
+a következő eszközöket fogjuk használni:
+
 ### 3.7. Telepítési terv: 
 
 A felhasználó szemszögéből a telepítés a következőképp néz ki:
