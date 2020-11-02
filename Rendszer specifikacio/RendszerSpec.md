@@ -73,6 +73,9 @@ a következő eszközöket fogjuk használni:
 
 * CSS (Bootstrap keretrendszer): A Bootsrap napjainkban a legnépszerűbb front-end keretrendszere. A keretrendszerről érdemes annyit tudni, hogy előre megírt eszközkészlet, viszont ismernünk kell ahhoz, hogy megfelelően használjuk. A Bootstrap egy előre megírt, multifunkcionálisan alkalmazható eszközkészletet kínál, aminek segítségével gyorsabban, átláthatóbban és hatékonyabban dolgozhatunk. Azonban ahhoz, hogy használni tudjuk ismernünk kell a legújabb, webfejlesztésekhez kapcsolódó technikákat, illetve elegendő időt kell fordítanunk a rendszer tanulására.
 
+A weboldal sikeres működéséhez szükségünk lesz backendre is az ehhez szükséges fejlesztői eszközök pedig a
+következők:
+
 
 ### 3.7. Telepítési terv: 
 
