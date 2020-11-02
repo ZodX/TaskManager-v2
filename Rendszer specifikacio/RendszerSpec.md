@@ -63,6 +63,45 @@ A cél az, hogy a felhasználó egy könnyen kezelhető, átlátható felület s
 - Javíthatóság: hibák mindig vannak, lesznek. Legyen lehetőség javítani. A javítás legyen egységes.
 - Felhasználóbarát: a program felülete és kezelhetősége legyen a felhasználók életkorának megfelelő. A tervezésnél figyelembe kell venni minden lehetőséget.
 
+
+### 3.3. Fizikai környezet:
+
+A fejlesztett rendszer, amit el fogunk készíteni egy web applikáció lesz, ahol a frontend fejlesztéséhez,
+a következő eszközöket fogjuk használni:
+
+* HTML: A HTML-ről annyit érdemes tudni, hogy ez egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára ez mér internetes szabvánnyá vált. Jelenleg az aktuális változata az 5-ös, tehát a HTML5. Ennek az egyik fő célja, hogy a webes alkalmazásokhoz ne legyen szükségünk pluginokra. A Javascript segítségével lehetőségünk van akár rajzolni, vagy képet beilleszteni is.
+
+* CSS (Bootstrap keretrendszer): A Bootsrap napjainkban a legnépszerűbb front-end keretrendszere. A keretrendszerről érdemes annyit tudni, hogy előre megírt eszközkészlet, viszont ismernünk kell ahhoz, hogy megfelelően használjuk. A Bootstrap egy előre megírt, multifunkcionálisan alkalmazható eszközkészletet kínál, aminek segítségével gyorsabban, átláthatóbban és hatékonyabban dolgozhatunk. Azonban ahhoz, hogy használni tudjuk ismernünk kell a legújabb, webfejlesztésekhez kapcsolódó technikákat, illetve elegendő időt kell fordítanunk a rendszer tanulására.
+
+A weboldal sikeres működéséhez szükségünk lesz backendre is az ehhez szükséges fejlesztői eszközök pedig a
+következők:
+
+* JavaScript: A Javascript az ECMAScript szabvány alapján implementált kliens oldali programozási nyelv, 
+amelyet minden böngésző támogat. A Javascript alkalmas a webprogramok futtatására kliens oldalon, amely
+azt is jelenti, hogy a statikus HTML weboldal dinamikussá tehető különböző interakciók kliens oldalon 
+történő lekezelésével.
+
+* SQL (flask-sqlalchemy csomag): Ahhoz, hogy a látogatóinkat tudjuk megfelelően kezelni, ehhez szükségünk van
+az adatok könnyű tárolását és elérhetőségét biztosító adatbázisrendszerre.
+
+A Frontend teszteléséhez szükségünk van:
+
+* Java + Selenium WebDriver + Galen keretrendszerre.
+
+Backend teszteléséhez:
+
+* JavaScript.
+
+Az alkalmazás futtatására alkalmas böngészők:
+
+* Firefox.
+
+* Google Chrome.
+
+* Opera.
+
+* Safari(macOS).
+
 ### 3.7. Telepítési terv: 
 
 A felhasználó szemszögéből a telepítés a következőképp néz ki:
