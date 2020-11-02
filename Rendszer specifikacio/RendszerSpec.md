@@ -84,6 +84,23 @@ történő lekezelésével.
 * SQL (flask-sqlalchemy csomag): Ahhoz, hogy a látogatóinkat tudjuk megfelelően kezelni, ehhez szükségünk van
 az adatok könnyű tárolását és elérhetőségét biztosító adatbázisrendszerre.
 
+A Frontend teszteléséhez szükségünk van:
+
+* Java + Selenium WebDriver + Galen keretrendszerre.
+
+Backend teszteléséhez:
+
+* JavaScript.
+
+Az alkalmazás futtatására alkalmas böngészők:
+
+* Firefox.
+
+* Google Chrome.
+
+* Opera.
+
+* Safari(macOS).
 
 ### 3.7. Telepítési terv: 
 
