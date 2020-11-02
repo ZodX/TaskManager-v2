@@ -81,6 +81,9 @@ amelyet minden böngésző támogat. A Javascript alkalmas a webprogramok futtat
 azt is jelenti, hogy a statikus HTML weboldal dinamikussá tehető különböző interakciók kliens oldalon 
 történő lekezelésével.
 
+* SQL (flask-sqlalchemy csomag): Ahhoz, hogy a látogatóinkat tudjuk megfelelően kezelni, ehhez szükségünk van
+az adatok könnyű tárolását és elérhetőségét biztosító adatbázisrendszerre.
+
 
 ### 3.7. Telepítési terv: 
 
