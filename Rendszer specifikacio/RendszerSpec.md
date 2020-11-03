@@ -169,7 +169,7 @@ Törvényi előírás:
 
 * Egyszerűsített ellenőrző lista, kötelező honlap elemek Szolgáltató név Szolgáltató székhely, telephely,
  ennek hiányában lakcím Szolgáltató elérhetőségei, így pl. a felhasználókkal való kapcsolattartásra 
- használható e-mail cím Amennyiben a szolgáltató létrejöttét vagy tevékenysége gyakorlásának megkezdése nyilvántartásba való bejegyzéstől függ, a szolgáltatót a nyilvántartásba bejegyző bíróság vagy hatóság megnevezése és a nyilvántartásba vételi szám. Amennyiben a szolgáltató tevékenységének gyakorlása engedélyköteles, akkor ez a tény és az engedélyező hatóság megnevezése és elérhetőségi adatai, valamint az engedély száma.
+ használható e-mail cím. Amennyiben a szolgáltató létrejöttét vagy tevékenysége gyakorlásának megkezdése nyilvántartásba való bejegyzéstől függ, a szolgáltatót a nyilvántartásba bejegyző bíróság vagy hatóság megnevezése és a nyilvántartásba vételi szám. Amennyiben a szolgáltató tevékenységének gyakorlása engedélyköteles, akkor ez a tény és az engedélyező hatóság megnevezése és elérhetőségi adatai, valamint az engedély száma.
 
 ## 4. Mikor:
 - Legkésőbb az osztályzásig véglegesíteni kell a rendszert.
