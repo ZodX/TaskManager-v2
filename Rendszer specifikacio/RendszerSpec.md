@@ -163,6 +163,9 @@ A weboldal legyen reszponzív, rugalmasan alkalmazkodjon a különböző böngé
 Elvárt, hogy az alkamazásunk az böngészőfüggetlen legyen. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
 Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb.. A látogatóinknak szeretnénk megadni a prioritás lehetőségét is, hiszen előfordulhat olyan szituáció, amikor a feladatok között felállítunk egy fontossági sorrendet, ezt szeretnénk a weboldalon is lehetővé tenni ezt a funkciót.
 
+Törvényi előírás: 
+
+* Jogszabály előírásait a weboldal impresszum kötelező tartalma tekintetében: 2001. évi CVIII. törvény az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szabályozza.
 
 ## 4. Mikor:
 - Legkésőbb az osztályzásig véglegesíteni kell a rendszert.
