@@ -159,7 +159,10 @@ amit mi semmiképpen sem szeretnénk. Bármely internet hozzáféréssel rendelk
 Tény az, hogy azon felhasználók száma folyamatosan növekszik, akik okostelefonról, tabletről, 
 vagy más mobil eszközről interneteznek, a hagyományos asztali gépek mellett (PC).
 Így egyre inkább elengedhetetlenné válik, hogy a weboldal alkalmazkodjon ezekhez a felületekhez, hogy a felhasználók ugyanazt a honlapot, ugyanolyan minőségben élvezhessék más-más eszköz esetén is.
-A weboldal legyen reszponzív, rugalmasan alkalmazkodjon a különböző böngészők méreteihez. Ez a lehetőség egy optimális megjelenést biztosít a felhasználó számára. 
+A weboldal legyen reszponzív, rugalmasan alkalmazkodjon a különböző böngészők méreteihez. Ez a lehetőség egy optimális megjelenést biztosít a felhasználó számára. Az ilyen eszközök pl: mobil, tablet, laptop, pc stb.. 
+Elvárt, hogy az alkamazásunk az böngészőfüggetlen legyen. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
+Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb.. A látogatóinknak szeretnénk megadni a prioritás lehetőségét is, hiszen előfordulhat olyan szituáció, amikor a feladatok között felállítunk egy fontossági sorrendet, ezt szeretnénk a weboldalon is lehetővé tenni ezt a funkciót.
+
 
 ## 4. Mikor:
 - Legkésőbb az osztályzásig véglegesíteni kell a rendszert.
