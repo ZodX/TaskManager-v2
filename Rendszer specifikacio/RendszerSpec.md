@@ -146,6 +146,7 @@ A felhasználó szemszögéből a telepítés a következőképp néz ki:
 
 ### 3.8. Követelmények:
 
+A weboldalnál fontos a könnyen üzemelhető rendszer. Mielőtt belekezdünk a weboldal elkészítésébe át kell tekintenünk azt, hogy milyen módon valósítható meg az üzemeltetés. Fontos az, hogy a weboldal készítési módszer kiválasztása során hosszútávon kezdjünk el gondolkodni, tehát nem azt kell néznünk, hogy most mire van szükségünk, hanem gondolni kell arra is, hogy 2-3 év múlva mire lesz szükségünk, milyen honlapot szeretnénk üzemeltetni.
 
 
 ## 4. Mikor:
