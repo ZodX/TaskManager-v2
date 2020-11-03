@@ -117,6 +117,14 @@ kiegészíteni valamivel, ha például valamit kifelejtettünk belőle.
 * Feladat törlése: Azokat a feladatokat amiket már elvégeztünk, vagy ha véletlen rossz cetlit vittünk fel
 a táblára a figyelmetlenségünk miatt, akkor ezeket lehessen törölni.
 
+* Prioritási sorrend: Szeretnénk megadni a felhasználóink számára a prioritás lehetőségét. A mindennapokban is előfordul,
+hogy egy nap több teendőnk is van, és van olyan köztük, ami elsőbbséget élvez, ami fontosabb mint a többi. 
+Ezt a lehetőséget szeretnénk a cetliknél is a felhasználóknak átadni, hisz fontos az, hogy 
+kényelmesebbé tegyük a weboldal használatát ezzel a lehetőséggel.
+
+Tesztelnünk kell továbbá az oldal megjelenését, hogy minden láthatóan és olvashatóan jelenik-e meg a felhasználó
+számára:
+
 
 ### 3.7. Telepítési terv: 
 
