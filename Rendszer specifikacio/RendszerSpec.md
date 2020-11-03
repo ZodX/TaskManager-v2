@@ -125,6 +125,12 @@ kényelmesebbé tegyük a weboldal használatát ezzel a lehetőséggel.
 Tesztelnünk kell továbbá az oldal megjelenését, hogy minden láthatóan és olvashatóan jelenik-e meg a felhasználó
 számára:
 
+* Az oldalnak reszponzívan kell megjelenniük a különböző eszközökön: Manapság már gyakorlatilag minden harmadik ember okostelefonnal a zsebében rohangál, ezért foglalkoznunk kell a reszponzív designal is.
+Fontos a reszponzív design, mert szebbek a képek, és kényelmesebb a weboldal használata,
+így csökken a visszafordulási arány, tehát kevesebben hagyják el azonnal a weboldalt.
+
+* A weboldal legyen egyszerűen átlátható: Nagyon fontos, hogy egyszerű, átlátható menürendszerünk, táblánk legyen és az 
+egész weboldal használata, mondhatni kézenfekvő legyen a felhasználóink számára. A honlap elsődleges feladata a tartalom átadása, ehhez pedig elengedhetetlen a jó design megálmodása, hisz a design befogadhatóbbá, vonzóbbá, könnyebbé teszi a tartalom megértését.
 
 ### 3.7. Telepítési terv: 
 
