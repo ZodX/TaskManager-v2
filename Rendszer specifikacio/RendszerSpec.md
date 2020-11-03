@@ -144,5 +144,9 @@ A felhasználó szemszögéből a telepítés a következőképp néz ki:
 - Böngésző használata.
 - Az oldal URL-jének címsorba történő begépelése.
 
+### 3.8. Követelmények:
+
+
+
 ## 4. Mikor:
 - Legkésőbb az osztályzásig véglegesíteni kell a rendszert.
