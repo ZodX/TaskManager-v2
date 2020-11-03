@@ -102,6 +102,9 @@ Az alkalmazás futtatására alkalmas böngészők:
 
 * Safari(macOS).
 
+### 3.6. Tesztterv:
+
+
 ### 3.7. Telepítési terv: 
 
 A felhasználó szemszögéből a telepítés a következőképp néz ki:
