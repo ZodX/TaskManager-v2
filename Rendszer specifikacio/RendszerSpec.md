@@ -104,6 +104,11 @@ Az alkalmazás futtatására alkalmas böngészők:
 
 ### 3.6. Tesztterv:
 
+Ahhoz, hogy tudjuk minden megfelelően működik tesztelnünk kell a weboldalunk minden egyes funkcióját, 
+ezzel biztosítani az alkalmazásunk helyes működését.
+Ezek a funkciók a következők:
+
+
 
 ### 3.7. Telepítési terv: 
 
