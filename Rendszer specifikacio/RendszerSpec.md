@@ -156,7 +156,10 @@ azt a feladatot, vagy megtalálni az információt, amiért a weboldalunkra ell�
 Ha egy weboldal túl bonyolult, vagy ha túl nagy kreativitásnak adtunk teret a weblapnak a készítése során,
 akkor valószínüleg ezek a megoldások a látogatóink jelentős részét akár el is riaszthatják,
 amit mi semmiképpen sem szeretnénk. Bármely internet hozzáféréssel rendelkező eszközről elérhető kell, hogy legyen a weboldal. A platformfüggetlen megjelenés egy mai modern weboldal esetében nem extra funkció, hanem már-már követelmény. 
-
+Tény az, hogy azon felhasználók száma folyamatosan növekszik, akik okostelefonról, tabletről, 
+vagy más mobil eszközről interneteznek, a hagyományos asztali gépek mellett (PC).
+Így egyre inkább elengedhetetlenné válik, hogy a weboldal alkalmazkodjon ezekhez a felületekhez, hogy a felhasználók ugyanazt a honlapot, ugyanolyan minőségben élvezhessék más-más eszköz esetén is.
+A weboldal legyen reszponzív, rugalmasan alkalmazkodjon a különböző böngészők méreteihez. Ez a lehetőség egy optimális megjelenést biztosít a felhasználó számára. 
 
 ## 4. Mikor:
 - Legkésőbb az osztályzásig véglegesíteni kell a rendszert.
