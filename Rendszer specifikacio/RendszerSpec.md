@@ -102,6 +102,40 @@ Az alkalmazás futtatására alkalmas böngészők:
 
 * Safari(macOS).
 
+### 3.6. Tesztterv:
+
+Ahhoz, hogy tudjuk minden megfelelően működik tesztelnünk kell a weboldalunk minden egyes funkcióját, 
+ezzel biztosítani az alkalmazásunk helyes működését.
+Ezek a funkciók a következők:
+
+* Új feladat hozzáadása: A cetlik hozzáadása a táblához. A feladatainkat amiket el szeretnénk végezni, 
+hozzá kell tudni adni a táblához, a helyes működés érdekében.
+
+* Feladat módosítása: A feladatainkat amiket már korábban felvittünk a táblára, azokat lehessen módosítani, 
+kiegészíteni valamivel, ha például valamit kifelejtettünk belőle. 
+
+* Feladat törlése: Azokat a feladatokat amiket már elvégeztünk, vagy ha véletlen rossz cetlit vittünk fel
+a táblára a figyelmetlenségünk miatt, akkor ezeket lehessen törölni.
+
+* Prioritási sorrend: Szeretnénk megadni a felhasználóink számára a prioritás lehetőségét. A mindennapokban is előfordul,
+hogy egy nap több teendőnk is van, és van olyan köztük, ami elsőbbséget élvez, ami fontosabb mint a többi. 
+Ezt a lehetőséget szeretnénk a cetliknél is a felhasználóknak átadni, hisz fontos az, hogy 
+kényelmesebbé tegyük a weboldal használatát ezzel a lehetőséggel.
+
+Tesztelnünk kell továbbá az oldal megjelenését, hogy minden láthatóan és olvashatóan jelenik-e meg a felhasználó
+számára:
+
+* Az oldalnak reszponzívan kell megjelenniük a különböző eszközökön: Manapság már gyakorlatilag minden harmadik ember okostelefonnal a zsebében rohangál, ezért foglalkoznunk kell a reszponzív designal is.
+Fontos a reszponzív design, mert szebbek a képek, és kényelmesebb a weboldal használata,
+így csökken a visszafordulási arány, tehát kevesebben hagyják el azonnal a weboldalt.
+
+* A weboldal legyen egyszerűen átlátható: Nagyon fontos, hogy egyszerű, átlátható menürendszerünk, táblánk legyen és az 
+egész weboldal használata, mondhatni kézenfekvő legyen a felhasználóink számára. A honlap elsődleges feladata a tartalom átadása, ehhez pedig elengedhetetlen a jó design megálmodása, hisz a design befogadhatóbbá, vonzóbbá, könnyebbé teszi a tartalom megértését.
+
+* Az alkalmazás könnyen kezelhető legyen az átlagfelhasználók számára: A weboldalt a látogatóinknak készítjük, ezért nekik kell, hogy egyértelmű legyen, könnyen megtalálják azt amit keresnek. Ha könnyen és gyorsan hozzáférnek az adott információhoz, akkor szeretni fogják, ezáltal visszatérnek és másnak is ajánlhatják. 
+
+* Az oldal legyen felhasználóbarát: A csapat számára fontos az, hogy az oldal felhasználóbarát legyen, ezért az első benyomás nagyon fontos, hisz akár a mindennapokban, ott sem elengedhetetlen az, hogy ha például bemutatnak minket valakinek, számít a megjelenés és a gesztus, ez ugyan úgy meghatározó szerepet tölt be a weboldalnál is.
+
 ### 3.7. Telepítési terv: 
 
 A felhasználó szemszögéből a telepítés a következőképp néz ki:
@@ -109,6 +143,33 @@ A felhasználó szemszögéből a telepítés a következőképp néz ki:
 - Internetelérés.
 - Böngésző használata.
 - Az oldal URL-jének címsorba történő begépelése.
+
+### 3.8. Követelmények:
+
+A weboldalnál fontos a könnyen üzemelhető rendszer. Mielőtt belekezdünk a weboldal elkészítésébe át kell tekintenünk azt, hogy milyen módon valósítható meg az üzemeltetés. Fontos az, hogy a weboldal készítési módszer kiválasztása során hosszútávon kezdjünk el gondolkodni, tehát nem azt kell néznünk, hogy most mire van szükségünk, hanem gondolni kell arra is, hogy 2-3 év múlva mire lesz szükségünk, milyen honlapot szeretnénk üzemeltetni.
+Az oldalnak könnyen olvashatónak és könnyen áttekinthetőnek kell lennie, azért, hogy ez egyszerű felhasználó is 
+bármikor tudja kezelni. Fontos, hogy a tábla az legyen egyszerű, és átlátható, mert ez határozza meg azt, hogy a 
+weboldal mennyire lesz kézenfekvő a látogatóink számára. A honlap elsődleges feladata tartalom átadása, ehhez pedig elengedhetetlen a jó design megvalósítása, hisz a design segít a weboldalnak abban, hogy befogadhatóbb, és vonzóbb legyen. 
+A weboldal legyen a felhasználó számára letisztult, hisz fontos az, hogy az oldalt gördülékenyen tudja használni.
+A felhasználó célja az, hogy minél gyorsabban és minél egyszerűbben szeretné elvégezni
+azt a feladatot, vagy megtalálni az információt, amiért a weboldalunkra ellátogatnak. 
+Ha egy weboldal túl bonyolult, vagy ha túl nagy kreativitásnak adtunk teret a weblapnak a készítése során,
+akkor valószínüleg ezek a megoldások a látogatóink jelentős részét akár el is riaszthatják,
+amit mi semmiképpen sem szeretnénk. Bármely internet hozzáféréssel rendelkező eszközről elérhető kell, hogy legyen a weboldal. A platformfüggetlen megjelenés egy mai modern weboldal esetében nem extra funkció, hanem már-már követelmény. 
+Tény az, hogy azon felhasználók száma folyamatosan növekszik, akik okostelefonról, tabletről, 
+vagy más mobil eszközről interneteznek, a hagyományos asztali gépek mellett (PC).
+Így egyre inkább elengedhetetlenné válik, hogy a weboldal alkalmazkodjon ezekhez a felületekhez, hogy a felhasználók ugyanazt a honlapot, ugyanolyan minőségben élvezhessék más-más eszköz esetén is.
+A weboldal legyen reszponzív, rugalmasan alkalmazkodjon a különböző böngészők méreteihez. Ez a lehetőség egy optimális megjelenést biztosít a felhasználó számára. Az ilyen eszközök pl: mobil, tablet, laptop, pc stb.. 
+Elvárt, hogy az alkamazásunk az böngészőfüggetlen legyen. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
+Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb.. A látogatóinknak szeretnénk megadni a prioritás lehetőségét is, hiszen előfordulhat olyan szituáció, amikor a feladatok között felállítunk egy fontossági sorrendet, ezt szeretnénk a weboldalon is lehetővé tenni ezt a funkciót.
+
+Törvényi előírás: 
+
+* Jogszabály előírásait a weboldal impresszum kötelező tartalma tekintetében: 2001. évi CVIII. törvény az elektronikus kereskedelmi szolgáltatások, valamint az információs társadalommal összefüggő szolgáltatások egyes kérdéseiről szabályozza.
+
+* Egyszerűsített ellenőrző lista, kötelező honlap elemek Szolgáltató név Szolgáltató székhely, telephely,
+ ennek hiányában lakcím Szolgáltató elérhetőségei, így pl. a felhasználókkal való kapcsolattartásra 
+ használható e-mail cím. Amennyiben a szolgáltató létrejöttét vagy tevékenysége gyakorlásának megkezdése nyilvántartásba való bejegyzéstől függ, a szolgáltatót a nyilvántartásba bejegyző bíróság vagy hatóság megnevezése és a nyilvántartásba vételi szám. Amennyiben a szolgáltató tevékenységének gyakorlása engedélyköteles, akkor ez a tény és az engedélyező hatóság megnevezése és elérhetőségi adatai, valamint az engedély száma.
 
 ## 4. Mikor:
 - Legkésőbb az osztályzásig véglegesíteni kell a rendszert.
