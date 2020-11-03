@@ -108,6 +108,14 @@ Ahhoz, hogy tudjuk minden megfelelően működik tesztelnünk kell a weboldalunk
 ezzel biztosítani az alkalmazásunk helyes működését.
 Ezek a funkciók a következők:
 
+* Új feladat hozzáadása: A cetlik hozzáadása a táblához. A feladatainkat amiket el szeretnénk végezni, 
+hozzá kell tudni adni a táblához, a helyes működés érdekében.
+
+* Feladat módosítása: A feladatainkat amiket már korábban felvittünk a táblára, azokat lehessen módosítani, 
+kiegészíteni valamivel, ha például valamit kifelejtettünk belőle. 
+
+* Feladat törlése: Azokat a feladatokat amiket már elvégeztünk, vagy ha véletlen rossz cetlit vittünk fel
+a táblára a figyelmetlenségünk miatt, akkor ezeket lehessen törölni.
 
 
 ### 3.7. Telepítési terv: 
