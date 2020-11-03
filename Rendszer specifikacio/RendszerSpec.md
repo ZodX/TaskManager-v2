@@ -150,7 +150,12 @@ A weboldalnál fontos a könnyen üzemelhető rendszer. Mielőtt belekezdünk a 
 Az oldalnak könnyen olvashatónak és könnyen áttekinthetőnek kell lennie, azért, hogy ez egyszerű felhasználó is 
 bármikor tudja kezelni. Fontos, hogy a tábla az legyen egyszerű, és átlátható, mert ez határozza meg azt, hogy a 
 weboldal mennyire lesz kézenfekvő a látogatóink számára. A honlap elsődleges feladata tartalom átadása, ehhez pedig elengedhetetlen a jó design megvalósítása, hisz a design segít a weboldalnak abban, hogy befogadhatóbb, és vonzóbb legyen. 
-
+A weboldal legyen a felhasználó számára letisztult, hisz fontos az, hogy az oldalt gördülékenyen tudja használni.
+A felhasználó célja az, hogy minél gyorsabban és minél egyszerűbben szeretné elvégezni
+azt a feladatot, vagy megtalálni az információt, amiért a weboldalunkra ellátogatnak. 
+Ha egy weboldal túl bonyolult, vagy ha túl nagy kreativitásnak adtunk teret a weblapnak a készítése során,
+akkor valószínüleg ezek a megoldások a látogatóink jelentős részét akár el is riaszthatják,
+amit mi semmiképpen sem szeretnénk. Bármely internet hozzáféréssel rendelkező eszközről elérhető kell, hogy legyen a weboldal. A platformfüggetlen megjelenés egy mai modern weboldal esetében nem extra funkció, hanem már-már követelmény. 
 
 
 ## 4. Mikor:
