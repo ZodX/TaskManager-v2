@@ -132,6 +132,10 @@ Fontos a reszponzív design, mert szebbek a képek, és kényelmesebb a weboldal
 * A weboldal legyen egyszerűen átlátható: Nagyon fontos, hogy egyszerű, átlátható menürendszerünk, táblánk legyen és az 
 egész weboldal használata, mondhatni kézenfekvő legyen a felhasználóink számára. A honlap elsődleges feladata a tartalom átadása, ehhez pedig elengedhetetlen a jó design megálmodása, hisz a design befogadhatóbbá, vonzóbbá, könnyebbé teszi a tartalom megértését.
 
+* Az alkalmazás könnyen kezelhető legyen az átlagfelhasználók számára: A weboldalt a látogatóinknak készítjük, ezért nekik kell, hogy egyértelmű legyen, könnyen megtalálják azt amit keresnek. Ha könnyen és gyorsan hozzáférnek az adott információhoz, akkor szeretni fogják, ezáltal visszatérnek és másnak is ajánlhatják. 
+
+* Az oldal legyen felhasználóbarát: A csapat számára fontos az, hogy az oldal felhasználóbarát legyen, ezért az első benyomás nagyon fontos, hisz akár a mindennapokban, ott sem elengedhetetlen az, hogy ha például bemutatnak minket valakinek, számít a megjelenés és a gesztus, ez ugyan úgy meghatározó szerepet tölt be a weboldalnál is.
+
 ### 3.7. Telepítési terv: 
 
 A felhasználó szemszögéből a telepítés a következőképp néz ki:
