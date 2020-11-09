@@ -1,5 +1,47 @@
 # Funkcionális specifikáció
 
+## 1. A rendszer céljai és nem céljai
+
+### 1.1 A rendszer céljai
+
+Az elkészített rendszerrel a felhasználó képes lesz:
+
+* feladatait egy helyen, átláthatóan nyomonkövetni, felesleges szemét *(cetlik)* generálása nélkül
+* új feladatokat hozzáadni, módosítani a már létrehozottakat
+* csoportosítani a feladatokat
+* megadni a feladatok fontosságát *(prioritás)*
+* törölni, ha esetleg rosszul adott meg valamit, vagy késznek nyilvánítani a feladatokat
+* határidő megadása *(deadline)*
+* feladatok listázása *(összes vagy egy adott csoport)*
+* feldatok rendezése (prioritás, utolsó módosítás, stb.)
+* az elkészített feladatok listájának lekérdezésére
+* különböző feladat táblák létrehozása(amiben szintén külön csoportok feladatok vannak)
+* megváltoztatni az oldal témáját *(dark/light/colorblind)*
+* a fentebb felsoroltakat akármilyen internethasználatra alkalmas eszközön végrehajtani
+
+### 1.2 A rendszer ***NEM*** céljai
+
+Az elkészített rendszerrel a felhasználó ***NEM*** lesz képes:
+
+* több felhasználó adatait külön-külön kezelni(böngészőnként tároljuk az adatokat)
+* megtekinteni, hogy milyen akciókat hajtott végre az oldalon belül *(log)*
+* széleskörűen testreszabni a rendszert *(értsd: csak light/dark/colorblind téma)*
+* egyszerre több csoportba is elhelyezni egy feladatot
+* ugyan azon adatokat elérni különböző eszközökről(első pont miatt)
+* több másik felhasználóval ugyan azokat a feladatokat kezelni
+
+## 2. Jelenlegi helyzet
+
+Feladataimat rendezetlenül tartom számon, hol egy-egy cetlire írom fel, hol a telefonomba, vagy egyszerűen csak próbálom fejben tartani.
+Ez a helyzet nem a legoptimálisabb, hiszen több különböző helyen 'tárolom' teendőim éppen rövidebb vagy hosszabb listáját.
+Az észben tartós módszer a legkevésbé hatékony, ugyanis helyette másra is koncentrálhatnám figyelmem, hasznosabb dolgokra.
+Mindemellett egy feladat nagyon könnyen elfejelthető, esetleg egyes részleteire rosszul emlékezhetünk.
+A füzetre vagy cetlire való felírás már egy fokkal hatékonyabb.
+Itt a probléma inkább abban merül ki, hogy rengeteg papírt használok ezzel, amik ráadásul elkeveredhetnek, ha sokfelé tárolom őket.
+Sok szemetet is generál ez a megoldás, főleg, ha sokszor 'módosítom' a feladatomat, betelik a cetli és írhatok egy újat, megintcsak sok szemetet generálva.
+Ezt egy fokkal hatékonyabban oldotta meg az, amikor a füzetbe felírogatást elhagytam és csak cetliket használtam, egy táblára ragasztgatva.
+A telefonos applikáció használata is megfelelő volt, de a piacon elérhető opciók nem feleltek meg nekem maradéktalanul.
+Úgy gondolom egy weballkalmazás lenne számomra a legalkalmasabb, kombinálva a fentebbi két módszert.
 
 ## 3. Vágyálom rendszer
 
@@ -87,6 +129,16 @@ használható is.
 - Feladatok prioritásának megadása: (Feladat kiválasztása és a fontossági sorrend eldöntése)
 - Reszponzív design: (A felhasználó bármely készülékén a legoptimálisabb módon tudja megtekinteni a feladatait)
 - Feladatok hozzáadása és törlése: (A felhasználó tudjon feladatokat hozzáadni és a nem kívánt feladatokat eltávolítani)
+
+## 7. Használati esetek
+
+### 7.1 Aktorok (szereplők) meghatározása
+
+Esetünkben az egyetlen szereplő maga a ***felhasználó***.
+
+### 7.2 Használati eset diagram
+
+![Task Manager Use Cases](src/Use_Case_Diagram_for_TaskManagerV2.png)
 
 ## 6. Követelménylista
 * K01 Könnyen üzemeltethető rendszer. Mielőtt belekezdünk a weboldal elkészítésébe át kell tekintenünk azt, hogy milyen 
