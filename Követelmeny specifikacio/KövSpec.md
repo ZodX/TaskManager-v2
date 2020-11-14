@@ -89,3 +89,6 @@ Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, 
 
 * K05 Prioritás biztosítása a felhasználó számára. A mindennapokban is előfordul, hogy egy nap több teendőnk is van, és van olyan köztük, ami elsőbbséget élvez, ami fontosabb mint a többi. Ezt a lehetőséget szeretnénk a cetliknél is a felhasználóknak átadni, hisz fontos az, hogy kényelmesebbé tegyük a weboldal használatát ezzel a lehetőséggel.
 
+* K06 A cetlik szerkeszthetőek legyenek. A mindennapok során előfordul, hogy egy feladat időközben módosul. 
+Ekkor a felhasználónak álljon módjában az adott cetlit kedve szerint szerkeszteni.
+
