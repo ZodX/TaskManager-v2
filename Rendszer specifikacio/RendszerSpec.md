@@ -180,3 +180,4 @@ A projekt elkészítéséhez a csapat saját erőforrásait fogjuk használni.
 A kódolást mindenki a saját számítógépén/notebookján oldja meg, vagy esetleg egyéb általa megvalósítható módszerrel.
 A fejlesztéshez szükséges kommunikációt, valamint a feladatok nyomonkövetésére használt Trello használatát is hasonlójéppen oldjuk meg.
 Maga a TaskManager-v2 egy böngésző futtatását fogja igényleni, ami alkalmas az IndexedDB használatára.
+Mivel maga a kód lokálisan fut és az adatok eltárolása is a böngészőben történik, így szerverre sincs szükség.
