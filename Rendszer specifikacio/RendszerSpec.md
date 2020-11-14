@@ -173,3 +173,5 @@ Törvényi előírás:
 
 ## 4. Mikor:
 - Legkésőbb az osztályzásig véglegesíteni kell a rendszert.
+
+## 5. Miből:
