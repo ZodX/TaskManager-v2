@@ -94,3 +94,6 @@ Ekkor a felhasználónak álljon módjában az adott cetlit kedve szerint szerke
 
 * K07 A cetlik legyenek törölhetőek. Ha a mindennapok során előfordul, hogy egy feladatot mégsem kell elvégezni, ekkor a felhasználó az adott feladatot tudja törölni a listából.
 
+* K08 Felhasználóbarát UI. A felhasználó számára legyen elérhető több UI amit kedve szerint tud módosítani. 
+A módosítás legyen egyértelmű és átlátható. Esetünkben az alábbi 3 mód lesz elérhető : Dark mode, Light mode, Színvak mode. Ezek között az adott button megnyomásával tud váltogatni.
+
