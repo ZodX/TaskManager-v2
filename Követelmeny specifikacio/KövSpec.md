@@ -97,3 +97,6 @@ Ekkor a felhasználónak álljon módjában az adott cetlit kedve szerint szerke
 * K08 Felhasználóbarát UI. A felhasználó számára legyen elérhető több UI amit kedve szerint tud módosítani. 
 A módosítás legyen egyértelmű és átlátható. Esetünkben az alábbi 3 mód lesz elérhető : Dark mode, Light mode, Színvak mode. Ezek között az adott button megnyomásával tud váltogatni.
 
+* K09 Cetlik listázása kategóriák szerint. Szeretnénk még jobban átláthatóvá tenni a felhasználó számára a feladatait, ezért biztosítjuk a számára a feladatainak a kategorizálását.
+A kategóriák a következőek lehetnek : kész feladatok szerint, aktuális feladatok szerint, a K05 pontban kifejtett prioritás szerint.
+
