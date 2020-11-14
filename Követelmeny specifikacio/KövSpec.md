@@ -92,3 +92,5 @@ Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, 
 * K06 A cetlik szerkeszthetőek legyenek. A mindennapok során előfordul, hogy egy feladat időközben módosul. 
 Ekkor a felhasználónak álljon módjában az adott cetlit kedve szerint szerkeszteni.
 
+* K07 A cetlik legyenek törölhetőek. Ha a mindennapok során előfordul, hogy egy feladatot mégsem kell elvégezni, ekkor a felhasználó az adott feladatot tudja törölni a listából.
+
