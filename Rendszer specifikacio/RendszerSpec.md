@@ -175,3 +175,5 @@ Törvényi előírás:
 - Legkésőbb az osztályzásig véglegesíteni kell a rendszert.
 
 ## 5. Miből:
+
+A projekt elkészítéséhez a csapat saját erőforrásait fogjuk használni.
