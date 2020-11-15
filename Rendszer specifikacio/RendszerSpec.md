@@ -104,6 +104,7 @@ Az alkalmazás futtatására alkalmas böngészők:
 
 ### 3.4. Adatbázzis terv
 
+A rendszer IndexedDB-t fog használni, ami kulcs-érték párokat tartalmazó, nem relációs adatbázis.
 
 ### 3.6. Tesztterv:
 
