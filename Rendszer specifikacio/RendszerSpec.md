@@ -120,6 +120,7 @@ Mivel kulcs-érték párokat tároló adatbázisról beszélünk, ezért egy tá
 ### 3.5. Implementációs terv
 
 A webapplikációnk frontendjét HTML5/CSS segítségével állítjuk össze, míg az ehhez szükséges hátteret javascript segítségével biztosítjuk.
+A megfelelő megtódusok egy külön fileban (tegyük fel "Controller.js") implementáljuk, amit a megfelelő módon hivatkozunk a HTML fileokban.
 
 ### 3.6. Tesztterv:
 
