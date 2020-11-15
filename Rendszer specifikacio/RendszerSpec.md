@@ -106,6 +106,8 @@ Az alkalmazás futtatására alkalmas böngészők:
 
 A rendszer IndexedDB-t fog használni, ami kulcs-érték párokat tartalmazó, nem relációs adatbázis.
 Az adatokat a böngésző tárolja.
+Mivel kulcs-érték párokat tároló adatbázisról beszélünk, ezért egy táblánk lesz, melynek az oszlopai a következők:
+
 ### 3.6. Tesztterv:
 
 Ahhoz, hogy tudjuk minden megfelelően működik tesztelnünk kell a weboldalunk minden egyes funkcióját, 
