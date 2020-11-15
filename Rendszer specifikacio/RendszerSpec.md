@@ -114,6 +114,8 @@ Mivel kulcs-érték párokat tároló adatbázisról beszélünk, ezért egy tá
 * prioritás(szám): a feladat prioritása(1-10)
 * utolsó módosítás(dátum): hozzáadás vagy későbbi módosítás dátuma
 * kész(logikai): azt jelzi, hogy az adott feladat kész (true) vagy aktív (false)
+* tábla(szöveg): annak a táblának a neve, amelyikbe az adott feladat felvételre kerül
+* határidő(dátum): a feladat határideje
 
 ### 3.6. Tesztterv:
 
