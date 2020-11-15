@@ -11,3 +11,12 @@ db.collection('tasks').get().then(tasks => {
         } else {
             current_id = 1;
     }});
+
+function getCurrentDate() {
+    var currentdate = new Date(); 
+    var datetime =  currentdate.getDate() + "/"
+                    + (currentdate.getMonth()+1)  + "/" 
+                    + currentdate.getFullYear();
+
+    return datetime;
+}
