@@ -108,6 +108,9 @@ A rendszer IndexedDB-t fog használni, ami kulcs-érték párokat tartalmazó, n
 Az adatokat a böngésző tárolja.
 Mivel kulcs-érték párokat tároló adatbázisról beszélünk, ezért egy táblánk lesz, melynek az oszlopai a következők:
 
+* id(szám): ez a generált kulcs
+* feladat(szöveg): a feladat leírása
+
 ### 3.6. Tesztterv:
 
 Ahhoz, hogy tudjuk minden megfelelően működik tesztelnünk kell a weboldalunk minden egyes funkcióját, 
