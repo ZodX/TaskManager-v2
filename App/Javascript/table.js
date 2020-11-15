@@ -45,3 +45,26 @@ function addBtn() {
         })
     })
 }
+
+function getAllBtn() {
+    const container = document.getElementById("container");
+    container.innerHTML = ``;
+
+    db.collection('tasks').orderBy('id').get()
+        .then(tasks => {
+            console.log('tasks: ', tasks)
+            tasks.forEach(task => {
+                container.innerHTML += `
+                <tr>
+                  <th scope="row">${task.id}</th>
+                  <td>${task.name}</td>
+                  <td>${task.description}</td>
+                  <td>${task.priority}</td>
+                  <td>${task.date}</td>
+                  <td><button onclick="updateBtnPressed(this.id)" id="U${task.id}">Modify</button></td>
+                  <td><button onclick="deleteBtnPressed(this.id)" id="D${task.id}">Delete</button></td>
+                </tr>
+                `;
+            });
+        })
+}
