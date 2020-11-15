@@ -102,6 +102,9 @@ Az alkalmazás futtatására alkalmas böngészők:
 
 * Safari(macOS).
 
+### 3.4. Adatbázzis terv
+
+
 ### 3.6. Tesztterv:
 
 Ahhoz, hogy tudjuk minden megfelelően működik tesztelnünk kell a weboldalunk minden egyes funkcióját, 
