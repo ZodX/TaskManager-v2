@@ -110,6 +110,8 @@ Mivel kulcs-érték párokat tároló adatbázisról beszélünk, ezért egy tá
 
 * id(szám): ez a generált kulcs
 * feladat(szöveg): a feladat leírása
+* csoport(szöveg): a feladat csoportja
+* prioritás(szám): a feladat prioritása(1-10)
 
 ### 3.6. Tesztterv:
 
