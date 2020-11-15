@@ -102,6 +102,29 @@ Az alkalmazás futtatására alkalmas böngészők:
 
 * Safari(macOS).
 
+### 3.4. Adatbázzis terv
+
+A rendszer IndexedDB-t fog használni, ami kulcs-érték párokat tartalmazó, nem relációs adatbázis.
+Az adatokat a böngésző tárolja.
+Mivel kulcs-érték párokat tároló adatbázisról beszélünk, ezért egy táblánk lesz, melynek az oszlopai a következők:
+
+* id(szám): ez a generált kulcs
+* feladat(szöveg): a feladat leírása
+* csoport(szöveg): a feladat csoportja
+* prioritás(szám): a feladat prioritása(1-10)
+* utolsó módosítás(dátum): hozzáadás vagy későbbi módosítás dátuma
+* kész(logikai): azt jelzi, hogy az adott feladat kész (true) vagy aktív (false)
+* tábla(szöveg): annak a táblának a neve, amelyikbe az adott feladat felvételre kerül
+* határidő(dátum): a feladat határideje
+
+### 3.5. Implementációs terv
+
+A webapplikációnk frontendjét HTML5/CSS segítségével állítjuk össze, míg az ehhez szükséges hátteret javascript segítségével biztosítjuk.
+A megfelelő megtódusok egy külön fileban (tegyük fel "Controller.js") implementáljuk, amit a megfelelő módon hivatkozunk a HTML fileokban.
+A stíluslapokkal hasonlóképp teszünk, valamint ha Bootstrap használata mellett döntünk, akkor azzal is.
+Az adatbázis implemetálása is javascriptben történik majd, IndexedDB használatával(amennyiben nem merül fel előre nem látott probléma a technológiával).
+Az implementációval kapcsolatos további problémákkal/kérdésekkel a megvalósítás során foglalkozunk.
+
 ### 3.6. Tesztterv:
 
 Ahhoz, hogy tudjuk minden megfelelően működik tesztelnünk kell a weboldalunk minden egyes funkcióját, 
@@ -173,3 +196,11 @@ Törvényi előírás:
 
 ## 4. Mikor:
 - Legkésőbb az osztályzásig véglegesíteni kell a rendszert.
+
+## 5. Miből:
+
+A projekt elkészítéséhez a csapat saját erőforrásait fogjuk használni.
+A kódolást mindenki a saját számítógépén/notebookján oldja meg, vagy esetleg egyéb általa megvalósítható módszerrel.
+A fejlesztéshez szükséges kommunikációt, valamint a feladatok nyomonkövetésére használt Trello használatát is hasonlójéppen oldjuk meg.
+Maga a TaskManager-v2 egy böngésző futtatását fogja igényleni, ami alkalmas az IndexedDB használatára.
+Mivel maga a kód lokálisan fut és az adatok eltárolása is a böngészőben történik, így szerverre sincs szükség.
