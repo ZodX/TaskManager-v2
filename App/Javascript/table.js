@@ -61,7 +61,7 @@ function getAllBtn() {
                   <td>${task.description}</td>
                   <td>${task.priority}</td>
                   <td>${task.date}</td>
-                  <td><button onclick="updateBtnPressed(this.id)" id="U${task.id}">Modify</button></td>
+                  <td><button onclick="updateBtnPressed(this.id)" id="U${task.id}">Update</button></td>
                   <td><button onclick="deleteBtnPressed(this.id)" id="D${task.id}">Delete</button></td>
                 </tr>
                 `;
@@ -81,4 +81,67 @@ function deleteBtnPressed(clicked_id) {
         })
     })
     console.log(clicked_id + " deleted");
+}
+
+function updateBtnPressed(clicked_id) {
+    var table = document.getElementById("table");
+    table.innerHTML = ``;
+    var updateField = document.getElementById("activityContainer");
+    updateField.innerHTML = `
+    <form name = "modosit">
+        Name:
+        <input type="text" name = "updateInp1">
+        Text:
+        <input type="text" name = "updateInp2">
+        Prio:
+        <input type="text" name = "updateInp3">
+        <input type="button" value="Update" id="updateBtn">
+    </form>
+    `;
+    update_id = parseInt(clicked_id.substring(1));
+    
+    let buttonUpdate = document.getElementById("updateBtn")
+    buttonUpdate.addEventListener('click', updateBtn)
+}
+
+function updateBtn() {
+    var task_name = document.modosit.updateInp1.value;
+    var task_description = document.modosit.updateInp2.value;
+    var task_priority = document.modosit.updateInp3.value;
+    var updateField = document.getElementById("activityContainer");
+    var table = document.getElementById("table");
+
+    db.collection('tasks').doc({id: update_id}).set({
+        id: update_id,
+        name: task_name,
+        description: task_description,
+        priority: task_priority,
+        date: getCurrentDate()
+    }).then(function() {
+        updateField.innerHTML = `
+        <form name = "felvesz">
+            Name: 
+            <input type="text" name = "addInp1">
+            Text: 
+            <input type="text" name = "addInp2">
+            Prio: 
+            <input type="text" name = "addInp3">
+            <input type="button" value="Add Task" id="addBtn">
+          </form>`;
+          table.innerHTML = `
+          <thead>
+            <tr>
+                <th>#</th>
+                <th>név</th>
+                <th>feladat</th>
+                <th>prioritás</th>
+                <th>utolsó módosítás</th>
+                <th></th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody id="container">
+            </tbody>`;
+        getAllBtn();
+    })
 }
