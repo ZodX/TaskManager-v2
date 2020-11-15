@@ -68,3 +68,17 @@ function getAllBtn() {
             });
         })
 }
+
+function deleteBtnPressed(clicked_id) {
+    del_id = clicked_id.substring(1); 
+    db.collection('tasks').doc({id: parseInt(del_id)}).delete()
+    .then(function() {
+        db.collection('tasks').orderBy('id').get()
+        .then(tasks => {
+            console.log('tasks: ', tasks)
+            container.innerHTML = ``;
+            getAllBtn();
+        })
+    })
+    console.log(clicked_id + " deleted");
+}
