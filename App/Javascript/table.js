@@ -143,5 +143,7 @@ function updateBtn() {
             <tbody id="container">
             </tbody>`;
         getAllBtn();
+        let buttonAdd = document.getElementById("addBtn")
+        buttonAdd.addEventListener('click', addBtn)
     })
 }
