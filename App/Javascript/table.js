@@ -24,6 +24,8 @@ function getCurrentDate() {
     return datetime;
 }
 
+getAllBtn();
+
 function addBtn() {
     var task_name = document.felvesz.addInp1.value;
     var task_description = document.felvesz.addInp2.value;
