@@ -112,6 +112,8 @@ Mivel kulcs-érték párokat tároló adatbázisról beszélünk, ezért egy tá
 * feladat(szöveg): a feladat leírása
 * csoport(szöveg): a feladat csoportja
 * prioritás(szám): a feladat prioritása(1-10)
+* utolsó módosítás(dátum): hozzáadás vagy későbbi módosítás dátuma
+* kész(logikai): azt jelzi, hogy az adott feladat kész (true) vagy aktív (false)
 
 ### 3.6. Tesztterv:
 
