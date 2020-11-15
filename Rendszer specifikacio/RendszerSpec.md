@@ -122,6 +122,7 @@ Mivel kulcs-érték párokat tároló adatbázisról beszélünk, ezért egy tá
 A webapplikációnk frontendjét HTML5/CSS segítségével állítjuk össze, míg az ehhez szükséges hátteret javascript segítségével biztosítjuk.
 A megfelelő megtódusok egy külön fileban (tegyük fel "Controller.js") implementáljuk, amit a megfelelő módon hivatkozunk a HTML fileokban.
 A stíluslapokkal hasonlóképp teszünk, valamint ha Bootstrap használata mellett döntünk, akkor azzal is.
+Az adatbázis implemetálása is javascriptben történik majd, IndexedDB használatával(amennyiben nem merül fel előre nem látott probléma a technológiával).
 
 ### 3.6. Tesztterv:
 
