@@ -12,6 +12,9 @@ db.collection('tasks').get().then(tasks => {
             current_id = 1;
     }});
 
+let buttonAdd = document.getElementById("addBtn")
+buttonAdd.addEventListener('click', addBtn)
+
 function getCurrentDate() {
     var currentdate = new Date(); 
     var datetime =  currentdate.getDate() + "/"
@@ -19,4 +22,26 @@ function getCurrentDate() {
                     + currentdate.getFullYear();
 
     return datetime;
+}
+
+function addBtn() {
+    var task_name = document.felvesz.addInp1.value;
+    var task_description = document.felvesz.addInp2.value;
+    var task_priority = document.felvesz.addInp3.value;
+
+    db.collection('tasks').add({
+        id: current_id++,
+        name: task_name,
+        description: task_description,
+        priority: task_priority,
+        date: getCurrentDate()
+    }).then(function() {
+        var container = document.getElementById("container");
+        container.innerHTML = ``;
+        db.collection('tasks').orderBy('id').get()
+        .then(tasks => {
+            console.log('tasks: ', tasks)
+            getAllBtn();
+        })
+    })
 }
