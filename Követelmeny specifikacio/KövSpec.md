@@ -78,14 +78,25 @@ Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy meg
 
 ## 6. Követelménylista
 
-* K01 Könnyen üzemeltethető rendszer. Mielőtt belekezdünk a weboldal elkészítésébe át kell tekintenünk azt, hogy milyen módon valósítható meg az üzemeltetés. Fontos az, hogy a weboldal készítési módszer kiválasztása során hosszútávon kezdjünk el gondolkodni, tehát nem azt kell néznünk, hogy most mire van szükségünk, hanem gondolni kell arra is, hogy 2-3 év múlvamire lesz szükségünk, milyen honlapot szeretnénk üzemeltetni.
+* K01: -  Könnyen üzemeltethető rendszer. Mielőtt belekezdünk a weboldal elkészítésébe át kell tekintenünk azt, hogy milyen módon valósítható meg az üzemeltetés. Fontos az, hogy a weboldal készítési módszer kiválasztása során hosszútávon kezdjünk el gondolkodni, tehát nem azt kell néznünk, hogy most mire van szükségünk, hanem gondolni kell arra is, hogy 2-3 év múlva mire lesz szükségünk, milyen honlapot szeretnénk üzemeltetni.
 
-* K02 A weboldal felülete legyen a felhasználó számára letisztult, hiszen fontos az, hogy gördülékenyen tudja használni a látogató az oldalunkat. Szeretnénk, hogy az oldalt egyszerűen lehessen kezelni, egyértelművé tenni mik a lehetőségeik a felhasználóinak, és ezeket a folyamatokat egyszerűen megjeleníteni a weboldalon.
+* K02: -  A weboldal felülete legyen a felhasználó számára letisztult, hiszen fontos az, hogy gördülékenyen tudja használni a látogató az oldalunkat. Szeretnénk, hogy az oldalt egyszerűen lehessen kezelni, egyértelművé tenni mik a lehetőségeik a felhasználóinak, és ezeket a folyamatokat egyszerűen megjeleníteni a weboldalon.
 
-* K03 A reszponzív design megalkotása. A weboldal rugalmason alkalmazkodjon az adott készüléken használt böngészőhöz, ezáltal egy optimális megjelenést biztosít a felhasználó számára.
+* K03: -  A reszponzív design megalkotása. A weboldal rugalmason alkalmazkodjon az adott készüléken használt böngészőhöz, ezáltal egy optimális megjelenést biztosít a felhasználó számára.
 
-* K04 Böngésző-függetlenség. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
+* K04: -  Böngésző-függetlenség. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
 Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb..
 
-* K05 Prioritás biztosítása a felhasználó számára. A mindennapokban is előfordul, hogy egy nap több teendőnk is van, és van olyan köztük, ami elsőbbséget élvez, ami fontosabb mint a többi. Ezt a lehetőséget szeretnénk a cetliknél is a felhasználóknak átadni, hisz fontos az, hogy kényelmesebbé tegyük a weboldal használatát ezzel a lehetőséggel.
+* K05: -  Prioritás biztosítása a felhasználó számára. A mindennapokban is előfordul, hogy egy nap több teendőnk is van, és van olyan köztük, ami elsőbbséget élvez, ami fontosabb mint a többi. Ezt a lehetőséget szeretnénk a cetliknél is a felhasználóknak átadni, hisz fontos az, hogy kényelmesebbé tegyük a weboldal használatát ezzel a lehetőséggel.
+
+* K06: -  A cetlik szerkeszthetőek legyenek. A mindennapok során előfordul, hogy egy feladat időközben módosul. 
+Ekkor a felhasználónak álljon módjában az adott cetlit kedve szerint szerkeszteni.
+
+* K07: -  A cetlik legyenek törölhetőek. Ha a mindennapok során előfordul, hogy egy feladatot mégsem kell elvégezni, ekkor a felhasználó az adott feladatot tudja törölni a listából.
+
+* K08: -  Felhasználóbarát UI. A felhasználó számára legyen elérhető több UI amit kedve szerint tud módosítani. 
+A módosítás legyen egyértelmű és átlátható. Esetünkben az alábbi 3 mód lesz elérhető : Dark mode, Light mode, Színvak mode. Ezek között az adott button megnyomásával tud váltogatni.
+
+* K09: - Cetlik listázása kategóriák szerint. Szeretnénk még jobban átláthatóvá tenni a felhasználó számára a feladatait, ezért biztosítjuk a számára a feladatainak a kategorizálását.
+A kategóriák a következőek lehetnek : kész feladatok szerint, aktuális feladatok szerint, a K05 pontban kifejtett prioritás szerint.
 
