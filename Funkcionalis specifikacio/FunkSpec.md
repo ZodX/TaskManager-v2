@@ -185,7 +185,11 @@ Kezdőképernyőterv:
 <img src="src/kezdokepernyo.jpg" title="kezdokepernyo">
 </p>
 
+Képernyőterv:
 
+<p align="center">
+<img src="src/kepernyo.jpg" title="kepernyo">
+</p>
 
 ## 10. Forgatókönyvek
 Móka Mikinek a minden napok során egyre több és több feladata lett. Feladatait észben tartani már nem bírta. Ennek orvoslására sok mindent számításba vett és legjobb lehetőségnek azt tartotta, hogy feladatait cetlikre felírva tartsa.
