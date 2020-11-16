@@ -3,9 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        
+        <script src="https://unpkg.com/localbase/dist/localbase.dev.js"></script>
         <title>Task Manager</title>
         <style>
+
+            html, body {
+              height: 100%;
+              width: 100%;
+              padding: 0;
+              margin: 0;
+            }
 
             table.center{
                 margin-left: auto; 
@@ -35,8 +42,19 @@
     </head>
     <body>
         <h1>Task Manager</h1>
-
-        <table class="table table-striped table-responsive-md btn-table">
+        <div id="activityContainer">
+          <form name = "felvesz">
+            Name: 
+            <input type="text" name = "addInp1">
+            Text: 
+            <input type="text" name = "addInp2">
+            Prio: 
+            <input type="text" name = "addInp3">
+            <input type="button" value="Add Task" id="addBtn">
+          </form>
+        </div>
+        
+        <table id="table">
 
             <thead>
               <tr>
@@ -44,38 +62,15 @@
                 <th>név</th>
                 <th>feladat</th>
                 <th>prioritás</th>
+                <th>utolsó módosítás</th>
                 <th></th>
                 <th></th>
               </tr>
             </thead>
-            <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>asdasdasdd</td>
-                  <td>asddas</td>
-                  <td>7</td>
-                  <td>  <button id="addToDo">Módosít</button></td>
-                  <td>  <button id="addToDo">Törlés</button></td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>adsadweawdsd</td>
-                    <td>asdasddas</td>
-                    <td>7</td>
-                    <td>  <button id="addToDo">Módosít</button></td>
-                    <td>  <button id="addToDo">Törlés</button></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>asqwdqwdsadd</td>
-                    <td>asddsadasddas</td>
-                    <td>7</td>
-                    <td>  <button id="addToDo">Módosít</button></td>
-                    <td>  <button id="addToDo">Törlés</button></td>
-                  </tr>
-                </tbody>
+            <tbody id="container">
+            </tbody>
                 
                 </table>
-          
+          <script src="../Javascript/table.js"></script>
     </body>
 </html>
