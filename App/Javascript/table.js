@@ -10,7 +10,10 @@ db.collection('tasks').get().then(tasks => {
             current_id = Math.max(...all_id) + 1;
         } else {
             current_id = 1;
-    }});
+    }})
+    .then(function() {
+        getAllBtn();
+    });
 
 let buttonAdd = document.getElementById("addBtn")
 buttonAdd.addEventListener('click', addBtn)
@@ -24,7 +27,7 @@ function getCurrentDate() {
     return datetime;
 }
 
-getAllBtn();
+
 
 function addBtn() {
     var task_name = document.felvesz.addInp1.value;
@@ -49,7 +52,7 @@ function addBtn() {
 }
 
 function getAllBtn() {
-    const container = document.getElementById("container");
+    var container = document.getElementById("container");
     container.innerHTML = ``;
 
     db.collection('tasks').orderBy('id').get()
@@ -58,15 +61,15 @@ function getAllBtn() {
             tasks.forEach(task => {
                 container.innerHTML += `
                 <tr>
-                  <th scope="row">${task.id}</th>
-                  <td>${task.name}</td>
-                  <td>${task.description}</td>
-                  <td>${task.priority}</td>
-                  <td>${task.date}</td>
-                  <td><button onclick="updateBtnPressed(this.id)" id="U${task.id}">Update</button></td>
-                  <td><button onclick="deleteBtnPressed(this.id)" id="D${task.id}">Delete</button></td>
-                </tr>
-                `;
+                <th scope="row">${task.id}</th>
+                <td>${task.name}</td>
+                <td>${task.description}</td>
+                <td>${task.priority}</td>
+                <td>${task.date}</td>
+                <td><button onclick="updateBtnPressed(this.id)" id="U${task.id}">Update</button></td>
+                <td><button onclick="deleteBtnPressed(this.id)" id="D${task.id}">Delete</button></td>
+              </tr>
+                `;   
             });
         })
 }
@@ -78,7 +81,6 @@ function deleteBtnPressed(clicked_id) {
         db.collection('tasks').orderBy('id').get()
         .then(tasks => {
             console.log('tasks: ', tasks)
-            container.innerHTML = ``;
             getAllBtn();
         })
     })
@@ -131,19 +133,19 @@ function updateBtn() {
             <input type="button" value="Add Task" id="addBtn">
           </form>`;
           table.innerHTML = `
-          <thead>
-            <tr>
-                <th>#</th>
-                <th>név</th>
-                <th>feladat</th>
-                <th>prioritás</th>
-                <th>utolsó módosítás</th>
-                <th></th>
-                <th></th>
-            </tr>
+          <table id="table" class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+                <th scope="col">Priority</th>
+                <th scopce="col">Date</th>
+                <th scopce="col"></th>
+                <th scopce="col"></th>
+              </tr>
             </thead>
-            <tbody id="container">
-            </tbody>`;
+            <tbody id="container"></tbody></table>`;
         getAllBtn();
         let buttonAdd = document.getElementById("addBtn")
         buttonAdd.addEventListener('click', addBtn)
