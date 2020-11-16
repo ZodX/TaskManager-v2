@@ -179,6 +179,14 @@ kényelmesebbé tegyük a weboldal használatát ezzel a lehetőséggel.
 - Legyen visszaállíható , a felületnek rendelkeznie kell olyan mechanizmusokkal , amelyek lehetővé teszik a felhasználók számára a hiba után történő visszaállítást.
 - A felületnek megfelelő interakciós lehetőségekkel kell rendelkeznie a rendszer különféle felhasználói számára.
 
+Kezdőképernyőterv: 
+
+<p align="center">
+<img src="src/kezdokepernyo.jpg" title="kezdokepernyo">
+</p>
+
+
+
 ## 10. Forgatókönyvek
 Móka Mikinek a minden napok során egyre több és több feladata lett. Feladatait észben tartani már nem bírta. Ennek orvoslására sok mindent számításba vett és legjobb lehetőségnek azt tartotta, hogy feladatait cetlikre felírva tartsa.
 De a cetlire felírás nem volt hatékony, mert a cetlik hamar beteltek, drágák voltak, sok szemét keletkezett. Ráadásul a cetliket mindig magával kellett cipelnie, ami nehéz volt és sok helyet foglalt. 
