@@ -1,68 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/localbase/dist/localbase.dev.js"></script>
-        <link rel="stylesheet" href="../Stylesheets/table.css">
-        <title>Task Manager</title>
-        <style>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskManager --v2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/localbase/dist/localbase.dev.js"></script>
+    <link rel="stylesheet" href="../Stylesheets/table.css">
+  </head>
+  <body>
+    <div class="ph"></div>
+    <div class="ph"></div>
 
-            
-        </style>
-    </head>
-    <body>
-        <h1>Task Manager</h1>
-        <div id="activityContainer">
-          <form name = "felvesz">
-            Name: 
-            <input type="text" name = "addInp1">
-            Text: 
-            <input type="text" name = "addInp2">
-            Prio: 
-            <input type="text" name = "addInp3">
-            <input type="button" value="Add Task" id="addBtn">
-          </form>
-        </div>
-        
-        <!-- <table id="table">
+    <div id="title" class="col-md-10 offset-md-1">
+      <p id="titleParagraph">T a s k - M a n a g e r</p>
+    </div>
 
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>név</th>
-                <th>feladat</th>
-                <th>prioritás</th>
-                <th>utolsó módosítás</th>
-                <th></th>
-                <th></th>
-              </tr>
-            </thead>
-            <tbody id="container">
-            </tbody> -->
-                
-                </table>
-          <script src="../Javascript/table.js"></script>
+    <div class="ph"></div>
 
+    <div id="container" class="col-md-10 offset-md-1">
+      <div id="activityContainer" class="col-md-12">
+        <form name = "felvesz">
+          <input type="text" name = "addInp1" placeholder="Name">
+          <input type="text" name = "addInp2" placeholder="Description">
+          <input type="text" name = "addInp3" placeholder="Priority">
+          <input type="button" value="Add Task" id="addBtn" class="btn btn-primary">
+        </form>
+      </div>
+      
+      <div id="taskDetails">
+        <p id="detailParagraph" class="col-2"><b>Task Name</b></p>
+        <p id="detailParagraph" class="col-4"><b>Description</b></p>
+        <p id="detailParagraph" class="col-1"><b>Priority</b></p>
+        <p id="detailParagraph" class="col-2"><b>Last Modified</b></p>
+        <p id="detailParagraph" class="col-1"><b>#</b></p>
+        <p id="detailParagraph" class="col-1"><b>#</b></p>
+        <p id="detailParagraph" class="col-1"><b>#</b></p>
+      </div>
 
-          <table id="table" class="table">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Name</th>
-                <th scope="col">Description</th>
-                <th scope="col">Priority</th>
-                <th scopce="col">Date</th>
-                <th scopce="col"></th>
-                <th scopce="col"></th>
-              </tr>
-            </thead>
-            <tbody id="container">
-            </tbody>
-          </table>
-    </body>
+      <div id="tasksContainer"></div>
+    </div>
+
+    <script src="../Javascript/table.js"></script>
+  </body>
 </html>
