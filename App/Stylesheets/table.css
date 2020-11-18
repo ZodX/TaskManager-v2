@@ -16,11 +16,11 @@ body {
 }
 
 .ph {
-  height: 5%;
+  height: 2.5%;
 }
 
 #title {
-  height: 20%;
+  height: 15%;
   background-color: var(--primary-bg);
   display: flex;
   justify-content: center;
@@ -28,7 +28,7 @@ body {
 }
 
 #container {
-  height: 65%;
+  height: 75%;
   background-color: var(--primary-bg);
 }
 
@@ -72,6 +72,38 @@ body {
   form > * {
     margin-right: 0.6vw;
   }
+
+  #taskDetails {
+    height: 12.5%;
+    display: flex;
+    align-items: center;
+  }
+
+  #detailParagraph {
+    font-size: 25px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border-right: 1px solid grey;
+  }
+
+  #detailParagraph:last-child {
+    border-right: none;
+  }
+
+  #tasksContainer {
+    border: thin solid red;
+    height: 75%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    overflow: scroll;
+  }
+
+  .task {
+    height: 20%;
+    width: 100%;
+    border: thin solid red;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -85,17 +117,21 @@ body {
     text-align: center;
     margin: 0;
     padding: auto;
+    height: 25%;
   }
 
   #activityContainer > form > * {
     width: 100%;
   }
+
+  #taskDetails {
+    display: none;
+  }
 }
 
-p {
+p#titleParagraph {
   margin: 0;
   padding: 0;
   color: brown;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
