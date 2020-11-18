@@ -39,7 +39,8 @@ function addBtn() {
         name: task_name,
         description: task_description,
         priority: task_priority,
-        date: getCurrentDate()
+        date: getCurrentDate(),
+        completed: false
     }).then(function() {
         var container = document.getElementById("tasksContainer");
         container.innerHTML = ``;
@@ -59,29 +60,31 @@ function getAllBtn() {
         .then(tasks => {
             console.log('tasks: ', tasks)
             tasks.forEach(task => {
-                container.innerHTML += `
-                <div class="taskTabletDesktop">
-                    <p class="col-2">${task.name}</p>
-                    <p class="col-4">${task.description}</p>
-                    <p class="col-1">${task.priority}</p>
-                    <p class="col-2">${task.date}</p>
-                    <p class="col-1"><button class="btn btn-success">Done</button></p>
-                    <p class="col-1"><button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button></p>
-                    <p class="col-1"><button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button></p>
-                </div>
-
-                <div class="taskMobile">
-                    <p class="taskMobileLabel"><b>${task.name}</b></p>
-                    <p class="taskMobileLabel taskMobileDescription">${task.description}</p>
-                    <p class="taskMobileLabel">Priority: ${task.priority}</p>
-                    <p class="taskMobileLabel">Last Modified: <i>${task.date}</i></p>
-                    <div class="mobileBtnContainer">
-                        <button class="btn btn-success">Done</button>
-                        <button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button>
-                        <button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button>
+                if (!task.completed) {
+                    container.innerHTML += `
+                    <div class="taskTabletDesktop">
+                        <p class="col-2">${task.name}</p>
+                        <p class="col-4">${task.description}</p>
+                        <p class="col-1">${task.priority}</p>
+                        <p class="col-2">${task.date}</p>
+                        <p class="col-1"><button onclick="doneBtnPressed(this.id)" id="F${task.id}" class="btn btn-success">Done</button></p>
+                        <p class="col-1"><button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button></p>
+                        <p class="col-1"><button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button></p>
                     </div>
-                </div>
-                `;   
+
+                    <div class="taskMobile">
+                        <p class="taskMobileLabel"><b>${task.name}</b></p>
+                        <p class="taskMobileLabel taskMobileDescription">${task.description}</p>
+                        <p class="taskMobileLabel">Priority: ${task.priority}</p>
+                        <p class="taskMobileLabel">Last Modified: <i>${task.date}</i></p>
+                        <div class="mobileBtnContainer">
+                            <button onclick="doneBtnPressed(this.id)" id="F${task.id}" class="btn btn-success">Done</button>
+                            <button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button>
+                            <button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button>
+                        </div>
+                    </div>
+                    `;   
+                }
             });
         })
 }
@@ -164,5 +167,15 @@ function updateBtn() {
         getAllBtn();
         let buttonAdd = document.getElementById("addBtn")
         buttonAdd.addEventListener('click', addBtn)
+    })
+}
+
+function doneBtnPressed(clicked_id) {
+    task_id = parseInt(clicked_id.substring(1))
+
+    db.collection('tasks').doc({id: task_id}).update({
+        completed: true
+    }).then(function() {
+        getAllBtn()
     })
 }
