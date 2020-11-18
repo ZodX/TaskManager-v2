@@ -1,0 +1,173 @@
+:root {
+    --body-bg:  rgb(192, 210, 228);
+    --primary-bg: rgb(224, 240, 255);
+    --shadow-color:  rgb(152, 205, 255);
+    --mobileDesc-bg: rgb(192, 226, 228);
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}   
+
+body {
+        background-color: var(--body-bg);  
+}
+
+.ph {
+    height: 2.5%;
+}
+
+#title {
+    height: 15%;
+    background-color: var(--primary-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    height: 75%;
+    background-color: var(--primary-bg);
+}
+
+#title, #container {
+    padding: 0;
+    border: thin solid grey;
+    -webkit-box-shadow: inset 0px 0px 300px -4px var(--shadow-color);
+    -moz-box-shadow: inset 0px 0px 300px -4px var(--shadow-color);
+    box-shadow: inset 0px 0px 300px -4px var(--shadow-color);
+}
+
+@media only screen and (min-width: 768px) {
+    #title, #container {
+        border-radius: 10px;
+    }
+
+    p {
+        font-size: 50px;
+    }
+
+    .row {
+        border: thin solid red;
+        margin: 0;
+        padding: 0;
+        height: 50%;
+        width: 100%;
+    }
+    
+    .row:first-child {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .row:last-child {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    
+    .vercitalPh {
+        width: 6.25%;
+    }
+    
+    .groupCard {
+        width: 25%;
+        height: 90%;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    .vercitalPh {
+        width: 10%;
+    }
+    
+    .groupCard {
+        width: 20%;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.groupCard {
+    border-radius: 10px;
+}
+
+p#titleParagraph {
+    margin: 0;
+    padding: 0;
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.groupElementContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.groupElementContainer * {
+    margin: 0;
+}
+
+.groupCardTitleContainer {
+    height: 25%;   
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: brown;
+    color: blanchedalmond;
+}
+
+.groupCard p.groupCardTitle {
+    font-size: 2vw;
+}
+
+.groupCardCountContainer {
+    display: flex;
+    align-items: flex-end;
+    height: 35%;
+    background-color: blanchedalmond;
+}
+
+.groupCard p.groupElementsCount {
+    font-size: 2.5vw;
+}
+
+.groupElementCountTextContainer {
+    height: 20%;
+    display: flex;
+    align-items: baseline;
+    background-color: blanchedalmond;
+}
+
+.groupElementCountTextContainer p {
+    font-size: 1.3vw;
+    color: grey;
+}
+
+.groupCardBtnContainer {
+    height: 20%;
+    background-color: brown;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.groupCardBtnContainer button {
+    width: 50%;
+}
+
+/*
+  TODO: Make mobile view responsible
+*/
