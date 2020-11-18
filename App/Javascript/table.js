@@ -41,7 +41,7 @@ function addBtn() {
         priority: task_priority,
         date: getCurrentDate()
     }).then(function() {
-        var container = document.getElementById("container");
+        var container = document.getElementById("tasksContainer");
         container.innerHTML = ``;
         db.collection('tasks').orderBy('id').get()
         .then(tasks => {
@@ -52,7 +52,7 @@ function addBtn() {
 }
 
 function getAllBtn() {
-    var container = document.getElementById("container");
+    var container = document.getElementById("tasksContainer");
     container.innerHTML = ``;
 
     db.collection('tasks').orderBy('id').get()
@@ -60,15 +60,27 @@ function getAllBtn() {
             console.log('tasks: ', tasks)
             tasks.forEach(task => {
                 container.innerHTML += `
-                <tr>
-                <th scope="row">${task.id}</th>
-                <td>${task.name}</td>
-                <td>${task.description}</td>
-                <td>${task.priority}</td>
-                <td>${task.date}</td>
-                <td><button onclick="updateBtnPressed(this.id)" id="U${task.id}">Update</button></td>
-                <td><button onclick="deleteBtnPressed(this.id)" id="D${task.id}">Delete</button></td>
-              </tr>
+                <div class="taskTabletDesktop">
+                    <p class="col-2">${task.name}</p>
+                    <p class="col-4">${task.description}</p>
+                    <p class="col-1">${task.priority}</p>
+                    <p class="col-2">${task.date}</p>
+                    <p class="col-1"><button class="btn btn-success">Done</button></p>
+                    <p class="col-1"><button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button></p>
+                    <p class="col-1"><button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button></p>
+                </div>
+
+                <div class="taskMobile">
+                    <p class="taskMobileLabel"><b>${task.name}</b></p>
+                    <p class="taskMobileLabel taskMobileDescription">${task.description}</p>
+                    <p class="taskMobileLabel">Priority: ${task.priority}</p>
+                    <p class="taskMobileLabel">Last Modified: <i>${task.date}</i></p>
+                    <div class="mobileBtnContainer">
+                        <button class="btn btn-success">Done</button>
+                        <button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button>
+                        <button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button>
+                    </div>
+                </div>
                 `;   
             });
         })
@@ -88,17 +100,18 @@ function deleteBtnPressed(clicked_id) {
 }
 
 function updateBtnPressed(clicked_id) {
-    var table = document.getElementById("table");
-    table.innerHTML = ``;
-    var updateField = document.getElementById("activityContainer");
-    updateField.innerHTML = `
+    var taskD = document.getElementById("taskDetails");
+    var tasksC = document.getElementById("tasksContainer");
+    var activityC = document.getElementById("activityContainer");
+    
+    tasksC.style.display = "none";
+    taskD.style.display = "none";
+
+    activityC.innerHTML = `
     <form name = "modosit">
-        Name:
-        <input type="text" name = "updateInp1">
-        Text:
-        <input type="text" name = "updateInp2">
-        Prio:
-        <input type="text" name = "updateInp3">
+        <input type="text" name = "updateInp1" placeholder="New name">
+        <input type="text" name = "updateInp2" placeholder="New description">
+        <input type="text" name = "updateInp3" placeholder="New priority">
         <input type="button" value="Update" id="updateBtn">
     </form>
     `;
@@ -112,8 +125,13 @@ function updateBtn() {
     var task_name = document.modosit.updateInp1.value;
     var task_description = document.modosit.updateInp2.value;
     var task_priority = document.modosit.updateInp3.value;
-    var updateField = document.getElementById("activityContainer");
-    var table = document.getElementById("table");
+    var activityC = document.getElementById("activityContainer");
+    var table = document.getElementById("tasksContainer");
+    var taskD = document.getElementById("taskDetails");
+    var tasksC = document.getElementById("tasksContainer");
+    
+    tasksC.style.display = "block";
+    taskD.style.display = "flex";
 
     db.collection('tasks').doc({id: update_id}).set({
         id: update_id,
@@ -122,14 +140,11 @@ function updateBtn() {
         priority: task_priority,
         date: getCurrentDate()
     }).then(function() {
-        updateField.innerHTML = `
+        activityC.innerHTML = `
         <form name = "felvesz">
-            Name: 
-            <input type="text" name = "addInp1">
-            Text: 
-            <input type="text" name = "addInp2">
-            Prio: 
-            <input type="text" name = "addInp3">
+            <input type="text" name = "addInp1" placeholder="Name">
+            <input type="text" name = "addInp2" placeholder="Description">
+            <input type="text" name = "addInp3" placeholder="Priority">
             <input type="button" value="Add Task" id="addBtn">
           </form>`;
           table.innerHTML = `
