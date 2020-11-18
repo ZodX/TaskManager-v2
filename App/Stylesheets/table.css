@@ -43,4 +43,22 @@ body {
   #title, #container {
       border-radius: 10px;
   }
+
+  p {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  p {
+    font-size: 35px;
+  }
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  color: brown;
+  
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
