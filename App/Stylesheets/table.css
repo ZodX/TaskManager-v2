@@ -82,6 +82,10 @@ body {
     margin-right: 0.6vw;
   }
 
+  form > input[type = "text"] {
+    border-radius: 10px;
+  }
+
   #taskDetails {
     height: 12.5%;
     display: flex;
