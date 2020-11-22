@@ -58,7 +58,7 @@ function getAllGroupsOnCards() {
                                 <p class="groupElementCountText">(Number of tasks)</p>
                             </div>
                             <div class="groupElementContainer groupCardBtnContainer">
-                                <button class="btn btn-success">List Tasks</button>
+                                <button id="${group}" onclick="listTasksPressed(this.id)" class="btn btn-success">List Tasks</button>
                             </div>
                         </div>
                     `;
@@ -79,7 +79,7 @@ function getAllGroupsOnCards() {
                                 <p class="groupElementCountText">(Number of tasks)</p>
                             </div>
                             <div class="groupElementContainer groupCardBtnContainer">
-                                <button class="btn btn-success">List Tasks</button>
+                                <button id="${group}" onclick="listTasksPressed(this.id)" class="btn btn-success">List Tasks</button>
                             </div>
                         </div>
                     </div>
@@ -134,4 +134,10 @@ function getAllGroupsOnCards() {
             })       
         })
     })    
+}
+
+function listTasksPressed(clicked_group) {
+    console.log(clicked_group);
+    sessionStorage.setItem('clicked_group', clicked_group);
+    window.location.replace("../Pages/table.html");
 }
