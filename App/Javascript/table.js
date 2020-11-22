@@ -167,7 +167,6 @@ function updateBtn() {
     var task_description = document.modosit.updateInp2.value;
     var task_priority = document.modosit.updateInp3.value;
     var activityC = document.getElementById("activityContainer");
-    var table = document.getElementById("tasksContainer");
     var taskD = document.getElementById("taskDetails");
     var tasksC = document.getElementById("tasksContainer");
     
@@ -188,20 +187,6 @@ function updateBtn() {
             <input type="text" name = "addInp3" placeholder="Priority">
             <input type="button" value="Add Task" id="addBtn">
           </form>`;
-          table.innerHTML = `
-          <table id="table" class="table">
-            <thead class="thead-dark">
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Task</th>
-                <th scope="col">Group</th>
-                <th scope="col">Priority</th>
-                <th scopce="col">Date</th>
-                <th scopce="col"></th>
-                <th scopce="col"></th>
-              </tr>
-            </thead>
-            <tbody id="container"></tbody></table>`;
         getAllBtn();
         let buttonAdd = document.getElementById("addBtn")
         buttonAdd.addEventListener('click', addBtn)
