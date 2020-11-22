@@ -60,8 +60,6 @@ function getAllBtn() {
     } catch (error) {
 
     }
-    
-    console.log(group_to_list);
 
     db.collection('tasks').orderBy('id').get()
     .then(tasks => {

@@ -23,12 +23,8 @@ function getAllGroupsOnCards() {
             }
         })
     }).then(function () {
-        console.log(number_of_tasks);
         number_of_groups = groups.size;
         number_of_rows = number_of_groups / 3;
-        console.log(Math.ceil(number_of_rows))
-        console.log(groups);
-        console.log(groupCounts);
     }).then(function () {
         count = 0;
         
@@ -137,7 +133,6 @@ function getAllGroupsOnCards() {
 }
 
 function listTasksPressed(clicked_group) {
-    console.log(clicked_group);
     sessionStorage.setItem('clicked_group', clicked_group);
     window.location.replace("../Pages/table.html");
 }
