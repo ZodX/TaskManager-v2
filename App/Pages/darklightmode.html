@@ -80,6 +80,16 @@ body.dark {
     <button onclick="toggleThemeColorblind()">colorblind mode</button>
 </div>
     <script>
+        function toggleThemeColorblind() {
+
+var element = document.body;
+element.classList.toggle('colorblind-mode');
+}
+const chk = document.getElementById('chk');
+
+chk.addEventListener('change', () => {
+document.body.classList.toggle('dark');
+});
     
     
 
