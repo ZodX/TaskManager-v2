@@ -35,6 +35,8 @@ function getAllGroupsOnCards() {
         
             count = 0;
             
+            //Adding the first row and setting the currentRow.
+
             if (number_of_rows > 0) {
                 container.innerHTML += `
                         <div class="row rowTabletDesktop">
