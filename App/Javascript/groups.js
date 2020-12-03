@@ -138,7 +138,7 @@ function getAllGroupsOnCards() {
                                 <p class="groupMobileLabel">(Number of tasks)</p>
                             </div>
                             <div class="groupMobileContainer groupMobileBtn">
-                                <button class="btn btn-success">List Tasks</button>
+                                <button id="${group}" onclick="listTasksPressed(this.id)" class="btn btn-success">List Tasks</button>
                             </div>
                         </div>
                     </div>
