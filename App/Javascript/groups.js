@@ -28,6 +28,8 @@ function getAllGroupsOnCards() {
         number_of_groups = groups.size;
         number_of_rows = number_of_groups / 3;
     }).then(function () {
+        //Filling up the groups.html with groups if there are more than 1 group.
+        //Loading table.html otherwise.
         
         if(groups.size>1){
         
