@@ -14,6 +14,8 @@ function getAllGroupsOnCards() {
     db.collection('tasks').get()
     .then(tasks => { 
         tasks.forEach(task => {
+            //Counting groups and group tasks.
+
             groups.add(task.group);
 
             if (groupCounts.has(task.group)) {
