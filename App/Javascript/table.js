@@ -1,6 +1,9 @@
 let db = new Localbase('db')
 
 
+// Searching the current id, by choosing the max from the existent ones and increasing by 1
+// or setting it to 1 if there are no tasks
+
 var all_id = [];
 db.collection('tasks').get().then(tasks => {
     tasks.forEach(task => {
