@@ -148,6 +148,8 @@ function getAllBtn() {
         }
 }
 
+// Function that handles if the delete button is clicked
+
 function deleteBtnPressed(clicked_id) {
     del_id = clicked_id.substring(1); 
     db.collection('tasks').doc({id: parseInt(del_id)}).delete()
@@ -160,6 +162,8 @@ function deleteBtnPressed(clicked_id) {
     })
     console.log(clicked_id + " deleted");
 }
+
+// Function that handles if the update button is clicked (1st time)
 
 function updateBtnPressed(clicked_id) {
     var taskD = document.getElementById("taskDetails");
@@ -182,6 +186,8 @@ function updateBtnPressed(clicked_id) {
     let buttonUpdate = document.getElementById("updateBtn")
     buttonUpdate.addEventListener('click', updateBtn)
 }
+
+// Handeling the functionality on the update button (2nd time)
 
 function updateBtn() {
     var task_name = document.modosit.updateInp1.value;
@@ -213,6 +219,8 @@ function updateBtn() {
         buttonAdd.addEventListener('click', addBtn)
     })
 }
+
+// Function that handles if the done button is clicked
 
 function doneBtnPressed(clicked_id) {
     task_id = parseInt(clicked_id.substring(1))
