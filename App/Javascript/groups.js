@@ -96,6 +96,7 @@ function getAllGroupsOnCards() {
                         `;
                         currentRow = document.querySelector(".row:last-child");
                     }
+                    // If-statement ends here
                 });
             }).then(function () {
                 if (number_of_groups % 3 == 0) {
@@ -121,6 +122,7 @@ function getAllGroupsOnCards() {
                     `;
                 }
 
+                // Listing the groups for mobile view.
 
                 groups.forEach(group => {
                     container.innerHTML += `
@@ -145,6 +147,8 @@ function getAllGroupsOnCards() {
             })
         }
         else{
+            //Loading the table.html if there are 1 or less groups.
+
             window.location.replace("../Pages/table.html");
         }
     })//    
