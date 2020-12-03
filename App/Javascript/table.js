@@ -18,10 +18,14 @@ db.collection('tasks').get().then(tasks => {
     .then(function() {
         getAllBtn();
     });
-        
+
+// Handeling add button click
+
 let buttonAdd = document.getElementById("addBtn")
 buttonAdd.addEventListener('click', addBtn)
-        
+
+// Creating datetime for the date attribute
+
 function getCurrentDate() {
     var currentdate = new Date(); 
     var datetime =  currentdate.getDate() + "/"
@@ -30,7 +34,9 @@ function getCurrentDate() {
             
     return datetime;
 }
-        
+
+// Function for the add button, stores the data, then list all the tasks again
+
 function addBtn() {
     var task_name = document.felvesz.addInp1.value;
     var task_description = document.felvesz.addInp2.value;
