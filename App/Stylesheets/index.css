@@ -4,3 +4,14 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.ph {
+    height: 2.5%;
+}
+
+p#titleParagraph {
+    margin: 0;
+    padding: 0;
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
