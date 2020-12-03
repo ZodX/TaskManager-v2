@@ -51,6 +51,9 @@ function getAllGroupsOnCards() {
             .then(tasks => {
                 console.log('tasks: ', tasks);
                 groups.forEach(group => {
+                
+                    //After every third group there is a new row ==> 3 groups per row
+                
                     if (count < 3) {
                         currentRow.innerHTML += `
                         <div class="vercitalPh"></div>
