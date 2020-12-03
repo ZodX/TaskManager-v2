@@ -60,9 +60,13 @@ function addBtn() {
     })
 }
 
+// Lists all the tasks thet are in progress
+
 function getAllBtn() {
     var container = document.getElementById("tasksContainer");
     container.innerHTML = ``;
+
+    // Tries to get the clicked_group 
 
     try {
         group_to_list = sessionStorage.getItem('clicked_group');
@@ -75,6 +79,9 @@ function getAllBtn() {
         console.log('tasks: ', tasks)
         tasks.forEach(task => {
             if (group_to_list == null) {
+
+                // Listing all tasks
+
                 if (!task.completed) {
                     container.innerHTML += `
                     <div class="taskTabletDesktop">
@@ -101,7 +108,10 @@ function getAllBtn() {
                         `;   
                 }  
             } else {
-                if (task.group == group_to_list) {
+
+                // Listing specific group
+
+                if (task.group == group_to_list && !task.completed) {
                     container.innerHTML += `
                     <div class="taskTabletDesktop">
                     <p class="col-4">${task.name}</p>
@@ -129,6 +139,8 @@ function getAllBtn() {
             }
             });
         })
+
+        // Deleting clicked_group
 
         try {
             sessionStorage.removeItem('clicked_group');
