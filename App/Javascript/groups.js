@@ -45,6 +45,8 @@ function getAllGroupsOnCards() {
                 var currentRow = document.querySelector(".row:last-child");
             }
 
+            //Looping through the tasks.
+
             db.collection('tasks').orderBy('id').get()
             .then(tasks => {
                 console.log('tasks: ', tasks);
