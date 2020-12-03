@@ -10,31 +10,31 @@ db.collection('tasks').get().then(tasks => {
     if (all_id.length > 0) {
         current_id = Math.max(...all_id) + 1;
     } else {
-            current_id = 1;
-        }})
-        .then(function() {
-            getAllBtn();
-        });
+        current_id = 1;
+    }})
+    .then(function() {
+        getAllBtn();
+    });
         
-        let buttonAdd = document.getElementById("addBtn")
-        buttonAdd.addEventListener('click', addBtn)
+let buttonAdd = document.getElementById("addBtn")
+buttonAdd.addEventListener('click', addBtn)
         
-        function getCurrentDate() {
-            var currentdate = new Date(); 
-            var datetime =  currentdate.getDate() + "/"
-            + (currentdate.getMonth()+1)  + "/" 
-            + currentdate.getFullYear();
+function getCurrentDate() {
+    var currentdate = new Date(); 
+    var datetime =  currentdate.getDate() + "/"
+    + (currentdate.getMonth()+1)  + "/" 
+    + currentdate.getFullYear();
             
-            return datetime;
-        }
+    return datetime;
+}
         
-        function addBtn() {
-            var task_name = document.felvesz.addInp1.value;
-            var task_description = document.felvesz.addInp2.value;
-            var task_priority = document.felvesz.addInp3.value;
-            
-            db.collection('tasks').add({
-                id: current_id++,
+function addBtn() {
+    var task_name = document.felvesz.addInp1.value;
+    var task_description = document.felvesz.addInp2.value;
+    var task_priority = document.felvesz.addInp3.value;
+        
+    db.collection('tasks').add({
+        id: current_id++,
         name: task_name,
         group: task_description,
         priority: task_priority,
