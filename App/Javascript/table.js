@@ -41,12 +41,14 @@ function addBtn() {
     var task_name = document.felvesz.addInp1.value;
     var task_description = document.felvesz.addInp2.value;
     var task_priority = document.felvesz.addInp3.value;
+    var task_workspace = document.felvesz.addInp4.value;
         
     db.collection('tasks').add({
         id: current_id++,
         name: task_name,
         group: task_description,
         priority: task_priority,
+        workspace: task_workspace,
         date: getCurrentDate(),
         completed: false
     }).then(function() {
