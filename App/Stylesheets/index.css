@@ -1,16 +1,14 @@
-:root {
-    --body-bg:  rgb(192, 210, 228);
-    --primary-bg: rgb(224, 240, 255);
-    --shadow-color:  rgb(152, 205, 255);
-    --mobileDesc-bg: rgb(192, 226, 228);
-}
+body {
+    background-color: grey;
+  }
 
 html, body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-}
+    color: black;
+  }
 
 .ph {
     height: 2.5%;
@@ -21,4 +19,13 @@ p#titleParagraph {
     padding: 0;
     color: brown;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: Center;
+  }
+
+  #title {
+    height: 25%;
+    background-color: var(--primary-bg);
+    font-size: 75pt;
+    justify-content: center;
+    align-items: center;
   }
