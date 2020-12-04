@@ -62,7 +62,7 @@ function addBtn() {
     })
 }
 
-// Lists all the tasks thet are in progress
+// Lists all the tasks that are in progress
 
 function getAllBtn() {
     var container = document.getElementById("tasksContainer");
