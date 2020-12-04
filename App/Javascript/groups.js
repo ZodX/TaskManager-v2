@@ -16,12 +16,14 @@ function getAllGroupsOnCards() {
         tasks.forEach(task => {
             //Counting groups and group tasks.
 
-            groups.add(task.group);
+            if(!task.completed){
+                groups.add(task.group);
 
-            if (groupCounts.has(task.group)) {
-                groupCounts.set(task.group, groupCounts.get(task.group) + 1)
-            } else {
-                groupCounts.set(task.group, 1);
+                if (groupCounts.has(task.group)) {
+                    groupCounts.set(task.group, groupCounts.get(task.group) + 1)
+                } else {
+                    groupCounts.set(task.group, 1);
+                }
             }
         })
     }).then(function () {
