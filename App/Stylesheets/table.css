@@ -82,7 +82,7 @@ body {
     margin-right: 0.6vw;
   }
 
-  form > input[type = "text"] {
+  form > input[type = "text"], input[type = "number"] {
     border-radius: 10px;
   }
 

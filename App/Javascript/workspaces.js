@@ -1,39 +1,67 @@
 let db = new Localbase('db');
 
-getAllGroupsOnCards();
+loadIndex();
 
-function getAllGroupsOnCards() {
-    var container = document.getElementById("container");
+function loadTable() {
+    window.location.replace("../Pages/table.html");
+}
+
+function loadIndex() {
+    var container = document.getElementById("workspaceContainer");
+
+    //Loads the main page if the database is empty(currently, if there are no tasks in progress)
+
+    db.collection('tasks').get()
+    .then(tasks => {
+        incompleteSize = 0;
+        tasks.forEach(task => {
+            if(!task.completed){
+                incompleteSize++;
+            }
+        })
+        if(incompleteSize!=0){
+            container.innerHTML=``;
+            getAllWorkspaceOnCards();
+        }
+    })
+}
+
+
+function getAllWorkspaceOnCards() {
+    var container = document.getElementById("workspaceContainer");
     
     container.innerHTML = ``;
 
-    number_of_tasks = 0;
-    let groups = new Set();
-    let groupCounts = new Map();
+    //number_of_tasks = 0;
+    let workspaces = new Set();
+    let workspaceCounts = new Map();
+    let seenGroups = new Set();
 
     db.collection('tasks').get()
     .then(tasks => { 
         tasks.forEach(task => {
-            //Counting groups and group tasks.
+            //Counting workspaces and gorups for each workspace
 
             if(!task.completed){
-                groups.add(task.group);
-
-                if (groupCounts.has(task.group)) {
-                    groupCounts.set(task.group, groupCounts.get(task.group) + 1)
+                workspaces.add(task.workspace);
+            
+                if (workspaceCounts.has(task.workspace) && !seenGroups.has(task.group)) {
+                    workspaceCounts.set(task.workspace, workspaceCounts.get(task.workspace) + 1)
                 } else {
-                    groupCounts.set(task.group, 1);
+                    workspaceCounts.set(task.workspace, 1);
                 }
+
+                seenGroups.add(task.group);
             }
         })
     }).then(function () {
-        number_of_groups = groups.size;
-        number_of_rows = number_of_groups / 3;
+        number_of_workspaces = workspaces.size;
+        number_of_rows = number_of_workspaces / 3;
     }).then(function () {
         //Filling up the groups.html with groups if there are more than 1 group.
         //Loading table.html otherwise.
         
-        if(groups.size>1){
+        if(number_of_workspaces>1){
         
             count = 0;
             
@@ -52,7 +80,7 @@ function getAllGroupsOnCards() {
             db.collection('tasks').orderBy('id').get()
             .then(tasks => {
                 console.log('tasks: ', tasks);
-                groups.forEach(group => {
+                workspaces.forEach(workspace => {
                 
                     //After every third group there is a new row ==> 3 groups per row
                 
@@ -61,16 +89,16 @@ function getAllGroupsOnCards() {
                         <div class="vercitalPh"></div>
                             <div class="groupCard">
                                 <div class="groupElementContainer groupCardTitleContainer">
-                                    <p class="groupCardTitle">${group}</p>
+                                    <p class="groupCardTitle">${workspace}</p>
                                 </div>
                                 <div class="groupElementContainer groupCardCountContainer">
-                                    <p class="groupElementsCount">${groupCounts.get(group)}</p>
+                                    <p class="groupElementsCount">${workspaceCounts.get(workspace)}</p>
                                 </div>
                                 <div class="groupElementContainer groupElementCountTextContainer">
-                                    <p class="groupElementCountText">(Number of tasks)</p>
+                                    <p class="groupElementCountText">(Number of groups)</p>
                                 </div>
                                 <div class="groupElementContainer groupCardBtnContainer">
-                                    <button id="${group}" onclick="listTasksPressed(this.id)" class="btn btn-success">List Tasks</button>
+                                    <button id="${workspace}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Tasks</button>
                                 </div>
                             </div>
                         `;
@@ -82,16 +110,16 @@ function getAllGroupsOnCards() {
                             <div class="vercitalPh"></div>
                             <div class="groupCard">
                                 <div class="groupElementContainer groupCardTitleContainer">
-                                    <p class="groupCardTitle">${group}</p>
+                                    <p class="groupCardTitle">${workspace}</p>
                                 </div>
                                 <div class="groupElementContainer groupCardCountContainer">
-                                    <p class="groupElementsCount">${groupCounts.get(group)}</p>
+                                    <p class="groupElementsCount">${workspaceCounts.get(workspace)}</p>
                                 </div>
                                 <div class="groupElementContainer groupElementCountTextContainer">
-                                    <p class="groupElementCountText">(Number of tasks)</p>
+                                    <p class="groupElementCountText">(Number of groups)</p>
                                 </div>
                                 <div class="groupElementContainer groupCardBtnContainer">
-                                    <button id="${group}" onclick="listTasksPressed(this.id)" class="btn btn-success">List Tasks</button>
+                                    <button id="${workspace}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Tasks</button>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +129,7 @@ function getAllGroupsOnCards() {
                     // If-statement ends here
                 });
             }).then(function () {
-                if (number_of_groups % 3 == 0) {
+                if (number_of_workspaces % 3 == 0) {
                     container.innerHTML += `
                         <div class="row">
                         </div>
@@ -110,37 +138,35 @@ function getAllGroupsOnCards() {
                     currentRow.innerHTML += `
                     <div class="vercitalPh"></div>
                     <div class="plusCard">
-                        <img onclick="newGroupBtnPressed()"/>
+                        <img onclick=""/>
                     </div>
                     `;
-                    console.log("tasknumber: " + number_of_groups)
-                    console.log(number_of_groups % 3)
                 } else {
                     currentRow.innerHTML += `
                     <div class="vercitalPh"></div>
                     <div class="plusCard">
-                        <img onclick="newGroupBtnPressed()"/>
+                        <img onclick=""/>
                     </div>
                     `;
                 }
 
                 // Listing the groups for mobile view.
 
-                groups.forEach(group => {
+                workspaces.forEach(workspace => {
                     container.innerHTML += `
                     <div class="taskMobile">
                         <div class="groupCardMobile">
                             <div class="groupMobileContainer groupMobileTitle">
-                                <p class="groupMobileLabel"><b>${group}</b></p>
+                                <p class="groupMobileLabel"><b>${workspace}</b></p>
                             </div>
                             <div class="groupMobileContainer groupMobileCount">
-                                <p class="groupMobileLabel">${groupCounts.get(group)}</p>
+                                <p class="groupMobileLabel">${workspaceCounts.get(workspace)}</p>
                             </div>
                             <div class="groupMobileContainer groupMobileDescription">
-                                <p class="groupMobileLabel">(Number of tasks)</p>
+                                <p class="groupMobileLabel">(Number of groups)</p>
                             </div>
                             <div class="groupMobileContainer groupMobileBtn">
-                                <button id="${group}" onclick="listTasksPressed(this.id)" class="btn btn-success">List Tasks</button>
+                                <button id="${workspace}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Tasks</button>
                             </div>
                         </div>
                     </div>
@@ -149,14 +175,14 @@ function getAllGroupsOnCards() {
             })
         }
         else{
-            //Loading the table.html if there are 1 or less groups.
+            //Loading the groups.html if there are 1 or less workspaces.
 
-            window.location.replace("../Pages/table.html");
+            window.location.replace("../Pages/groups.html");
         }
     })//    
 }
 
-function listTasksPressed(clicked_group) {
-    sessionStorage.setItem('clicked_group', clicked_group);
-    window.location.replace("../Pages/table.html");
+function listGroupsPressed(clicked_workspace) {
+    sessionStorage.setItem('clicked_workspace', clicked_workspace);
+    window.location.replace("../Pages/groups.html");
 }
