@@ -1,4 +1,9 @@
-
+:root {
+  --body-bg:  rgb(192, 210, 228);
+  --primary-bg: rgb(224, 240, 255);
+  --shadow-color:  rgb(152, 205, 255);
+  --mobileDesc-bg: rgb(192, 226, 228);
+}
 
 html, body {
   width: 100%;
@@ -13,7 +18,7 @@ html, body {
 }   
 
 body {
-  background-color: lightblue;
+  background-color: var(--body-bg);
 }
 
 .ph {
@@ -22,7 +27,7 @@ body {
 
 #title {
   height: 15%;
- 
+  background-color: var(--primary-bg);
   display: flex;
   justify-content: center;
   align-items: center;
