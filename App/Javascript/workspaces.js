@@ -1,5 +1,7 @@
 let db = new Localbase('db');
 
+loadIndex();
+
 function loadTable() {
     window.location.replace("../Pages/table.html");
 }
@@ -19,6 +21,7 @@ function loadIndex() {
         })
         if(incompleteSize!=0){
             container.innerHTML=``;
+            getAllWorkspaceOnCards();
         }
     })
 }
