@@ -72,6 +72,7 @@ function getAllBtn() {
 
     try {
         group_to_list = sessionStorage.getItem('clicked_group');
+        workspace_to_list = sessionStorage.getItem('clicked_workspace');
     } catch (error) {
 
     }
@@ -80,74 +81,130 @@ function getAllBtn() {
     .then(tasks => {
         console.log('tasks: ', tasks)
         tasks.forEach(task => {
-            if (group_to_list == null) {
+            if (group_to_list == null && workspace_to_list == null && !task.completed) {
 
                 // Listing all tasks
 
-                if (!task.completed) {
-                    container.innerHTML += `
-                    <div class="taskTabletDesktop">
-                    <p class="col-4">${task.name}</p>
-                    <p class="col-2">${task.group}</p>
-                    <p class="col-1">${task.priority}</p>
-                    <p class="col-2">${task.date}</p>
-                            <p class="col-1"><button onclick="doneBtnPressed(this.id)" id="F${task.id}" class="btn btn-success">Done</button></p>
-                            <p class="col-1"><button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button></p>
-                            <p class="col-1"><button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button></p>
+                container.innerHTML += `
+                <div class="taskTabletDesktop">
+                <p class="col-4">${task.name}</p>
+                <p class="col-2">${task.group}</p>
+                <p class="col-1">${task.priority}</p>
+                <p class="col-2">${task.date}</p>
+                        <p class="col-1"><button onclick="doneBtnPressed(this.id)" id="F${task.id}" class="btn btn-success">Done</button></p>
+                        <p class="col-1"><button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button></p>
+                        <p class="col-1"><button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button></p>
+                    </div>
+    
+                    <div class="taskMobile">
+                        <p class="taskMobileLabel"><b>${task.name}</b></p>
+                        <p class="taskMobileLabel taskMobileDescription">${task.group}</p>
+                        <p class="taskMobileLabel">Priority: ${task.priority}</p>
+                        <p class="taskMobileLabel">Last Modified: <i>${task.date}</i></p>
+                        <div class="mobileBtnContainer">
+                            <button onclick="doneBtnPressed(this.id)" id="F${task.id}" class="btn btn-success">Done</button>
+                            <button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button>
+                            <button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button>
                         </div>
-        
-                        <div class="taskMobile">
-                            <p class="taskMobileLabel"><b>${task.name}</b></p>
-                            <p class="taskMobileLabel taskMobileDescription">${task.group}</p>
-                            <p class="taskMobileLabel">Priority: ${task.priority}</p>
-                            <p class="taskMobileLabel">Last Modified: <i>${task.date}</i></p>
-                            <div class="mobileBtnContainer">
-                                <button onclick="doneBtnPressed(this.id)" id="F${task.id}" class="btn btn-success">Done</button>
-                                <button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button>
-                                <button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button>
-                            </div>
+                    </div>
+                    `;   
+                
+            } else if (workspace_to_list==null && task.group == group_to_list && !task.completed){
+
+                // Listing specific group without workspace requried
+
+                 
+                container.innerHTML += `
+                <div class="taskTabletDesktop">
+                <p class="col-4">${task.name}</p>
+                <p class="col-2">${task.group}</p>
+                <p class="col-1">${task.priority}</p>
+                <p class="col-2">${task.date}</p>
+                        <p class="col-1"><button onclick="doneBtnPressed(this.id)" id="F${task.id}" class="btn btn-success">Done</button></p>
+                        <p class="col-1"><button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button></p>
+                        <p class="col-1"><button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button></p>
+                    </div>
+    
+                    <div class="taskMobile">
+                        <p class="taskMobileLabel"><b>${task.name}</b></p>
+                        <p class="taskMobileLabel taskMobileDescription">${task.group}</p>
+                        <p class="taskMobileLabel">Priority: ${task.priority}</p>
+                        <p class="taskMobileLabel">Last Modified: <i>${task.date}</i></p>
+                        <div class="mobileBtnContainer">
+                            <button onclick="doneBtnPressed(this.id)" id="F${task.id}" class="btn btn-success">Done</button>
+                            <button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button>
+                            <button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button>
                         </div>
-                        `;   
-                }  
-            } else {
+                    </div>
+                    `;
+            } else if (group_to_list == null && task.workspace==workspace_to_list && !task.completed){
 
                 // Listing specific group
 
-                if (task.group == group_to_list && !task.completed) {
-                    container.innerHTML += `
-                    <div class="taskTabletDesktop">
-                    <p class="col-4">${task.name}</p>
-                    <p class="col-2">${task.group}</p>
-                    <p class="col-1">${task.priority}</p>
-                    <p class="col-2">${task.date}</p>
-                            <p class="col-1"><button onclick="doneBtnPressed(this.id)" id="F${task.id}" class="btn btn-success">Done</button></p>
-                            <p class="col-1"><button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button></p>
-                            <p class="col-1"><button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button></p>
+                 
+                container.innerHTML += `
+                <div class="taskTabletDesktop">
+                <p class="col-4">${task.name}</p>
+                <p class="col-2">${task.group}</p>
+                <p class="col-1">${task.priority}</p>
+                <p class="col-2">${task.date}</p>
+                        <p class="col-1"><button onclick="doneBtnPressed(this.id)" id="F${task.id}" class="btn btn-success">Done</button></p>
+                        <p class="col-1"><button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button></p>
+                        <p class="col-1"><button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button></p>
+                    </div>
+    
+                    <div class="taskMobile">
+                        <p class="taskMobileLabel"><b>${task.name}</b></p>
+                        <p class="taskMobileLabel taskMobileDescription">${task.group}</p>
+                        <p class="taskMobileLabel">Priority: ${task.priority}</p>
+                        <p class="taskMobileLabel">Last Modified: <i>${task.date}</i></p>
+                        <div class="mobileBtnContainer">
+                            <button onclick="doneBtnPressed(this.id)" id="F${task.id}" class="btn btn-success">Done</button>
+                            <button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button>
+                            <button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button>
                         </div>
-        
-                        <div class="taskMobile">
-                            <p class="taskMobileLabel"><b>${task.name}</b></p>
-                            <p class="taskMobileLabel taskMobileDescription">${task.group}</p>
-                            <p class="taskMobileLabel">Priority: ${task.priority}</p>
-                            <p class="taskMobileLabel">Last Modified: <i>${task.date}</i></p>
-                            <div class="mobileBtnContainer">
-                                <button onclick="doneBtnPressed(this.id)" id="F${task.id}" class="btn btn-success">Done</button>
-                                <button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button>
-                                <button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button>
-                            </div>
+                    </div>
+                    `;
+            } else if (task.group==group_to_list && task.workspace==workspace_to_list && !task.completed){
+
+                // Listing specific group
+
+                 
+                container.innerHTML += `
+                <div class="taskTabletDesktop">
+                <p class="col-4">${task.name}</p>
+                <p class="col-2">${task.group}</p>
+                <p class="col-1">${task.priority}</p>
+                <p class="col-2">${task.date}</p>
+                        <p class="col-1"><button onclick="doneBtnPressed(this.id)" id="F${task.id}" class="btn btn-success">Done</button></p>
+                        <p class="col-1"><button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button></p>
+                        <p class="col-1"><button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button></p>
+                    </div>
+    
+                    <div class="taskMobile">
+                        <p class="taskMobileLabel"><b>${task.name}</b></p>
+                        <p class="taskMobileLabel taskMobileDescription">${task.group}</p>
+                        <p class="taskMobileLabel">Priority: ${task.priority}</p>
+                        <p class="taskMobileLabel">Last Modified: <i>${task.date}</i></p>
+                        <div class="mobileBtnContainer">
+                            <button onclick="doneBtnPressed(this.id)" id="F${task.id}" class="btn btn-success">Done</button>
+                            <button onclick="updateBtnPressed(this.id)" id="U${task.id}" class="btn btn-warning">Modify</button>
+                            <button onclick="deleteBtnPressed(this.id)" id="D${task.id}" class="btn btn-danger">Delete</button>
                         </div>
-                        `;   
-                }
+                    </div>
+                    `;
             }
             });
         })
 
         // Deleting clicked_group
 
+        /*
         try {
             sessionStorage.removeItem('clicked_group');
         } catch (error) {
         }
+        */
 }
 
 // Function that handles if the delete button is clicked
