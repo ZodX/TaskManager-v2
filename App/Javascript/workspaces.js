@@ -1,6 +1,7 @@
 let db = new Localbase('db');
 
-loadIndex();
+//loadIndex();
+getAllWorkspaceOnCards();
 
 function loadTable() {
     window.location.replace("../Pages/table.html");
