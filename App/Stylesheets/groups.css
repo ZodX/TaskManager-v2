@@ -102,6 +102,16 @@ p#titleParagraph {
   }
   
   
+  .checkbox:checked + .label .ball {
+      transform: translateX(12px);
+  }
+  #jelenleghol{
+    height: 12.5%;
+    display: flex;
+    align-items: center;
+    
+  }
+
 @media only screen and (max-width: 767px) {
 
     p#titleParagraph {
