@@ -112,6 +112,12 @@ p#titleParagraph {
     
   }
 
+  .workspacename{
+      text-align:center;
+  }
+  
+  
+
 @media only screen and (max-width: 767px) {
 
     p#titleParagraph {
@@ -145,6 +151,7 @@ p#titleParagraph {
         -moz-box-shadow: 6px 6px 29px -9px brown;
         box-shadow: 6px 6px 29px -9px brown;
         display: block;
+        
     }
 
     .groupMobileContainer {
@@ -165,7 +172,8 @@ p#titleParagraph {
         height: 35%;
         display: flex;
         align-items: flex-end;
-    }
+        color: black;
+        }
 
     .groupMobileCount p {
         font-size: 5vh;
@@ -277,6 +285,7 @@ p#titleParagraph {
     
     .groupCard p.groupElementsCount {
         font-size: 2.5vw;
+        color: black;
     }
     
     .groupElementCountTextContainer {
