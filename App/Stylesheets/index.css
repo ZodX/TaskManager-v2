@@ -9,7 +9,7 @@ html, body {
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 0;
+    padding-top: 18px;
     color: black;
     background-color: var(--primary-bg);
   }
@@ -24,7 +24,7 @@ html, body {
 
 p#titleParagraph {
     margin: 0;
-    padding: 0;
+    padding-top: 18px;
     color: brown;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: Center;
@@ -143,7 +143,7 @@ p#titleParagraph {
 
   .groupMobileContainer p {
       margin: 0;
-      padding: 0;
+      padding-top: 18px;
   }
 
   .groupMobileDescription {
@@ -181,7 +181,7 @@ p#titleParagraph {
 
   .row {
       margin: 0;
-      padding: 0;
+      padding-top: 18px;
       height: 50%;
       width: 100%;
   }
@@ -219,7 +219,7 @@ p#titleParagraph {
       justify-content: center;
       align-items: center;
       margin: 0;
-      padding: 0;
+      padding-top: 18px;
   }
   
   .groupElementContainer * {
