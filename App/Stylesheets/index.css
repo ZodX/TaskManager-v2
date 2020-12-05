@@ -13,6 +13,10 @@ html, body {
     color: black;
     background-color: var(--primary-bg);
   }
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+} 
 
 .ph {
     height: 2.5%;
@@ -28,8 +32,8 @@ p#titleParagraph {
 
   #title {
     height: 25%;
-    
     font-size: 75pt;
+    display: flex;
     justify-content: center;
     align-items: center;
   }
@@ -73,4 +77,233 @@ p#titleParagraph {
 
 .checkbox:checked + .label .ball {
 	transform: translateX(12px);
+}
+#container {
+  overflow: scroll;
+}
+
+@media only screen and (max-width: 767px) {
+
+  p#titleParagraph {
+      font-size: 4vh;
+  }
+
+  .rowTabletDesktop, .rowTabletDesktop * {
+      display: none;
+  }
+
+  .taskMobile, .taskMobile * {
+      display: flex;
+  }
+
+  .taskMobile {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 60%;
+      border-bottom: 1px solid grey;
+  }
+
+  .groupCardMobile {
+      width: 70%;
+      height: 90%;
+      border-radius: 10px;
+      background-color: blanchedalmond;
+      border: thin solid brown;
+      -webkit-box-shadow: 6px 6px 29px -9px brown;
+      -moz-box-shadow: 6px 6px 29px -9px brown;
+      box-shadow: 6px 6px 29px -9px brown;
+      display: block;
+  }
+
+  .groupMobileContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .groupMobileTitle {
+      height: 25%;
+      background-color: brown;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      color: blanchedalmond;
+  }
+
+  .groupMobileCount {
+      height: 35%;
+      display: flex;
+      align-items: flex-end;
+  }
+
+  .groupMobileCount p {
+      font-size: 5vh;
+  }
+
+  .groupMobileContainer p {
+      margin: 0;
+      padding: 0;
+  }
+
+  .groupMobileDescription {
+      height: 20%;
+      display: flex;
+      align-items: baseline;
+      color: grey;
+  }
+
+  .groupMobileBtn {
+      height: 20%;
+      background-color: brown;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .taskMobile, .taskMobile * {
+      display: none;
+  }
+
+  .rowTabletDesktop, .rowTabletDesktop * {
+      display: block;
+  }
+
+  #title, #container {
+      border-radius: 10px;
+  }
+
+  p {
+      font-size: 50px;
+  }
+
+  .row {
+      margin: 0;
+      padding: 0;
+      height: 50%;
+      width: 100%;
+  }
+  
+  .row:first-child {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+  }
+  
+  .row:last-child {
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+  
+  .vercitalPh {
+      width: 6.25%;
+  }
+  
+  .groupCard, .plusCard {
+      width: 25%;
+      height: 90%;
+  }
+
+  .row {
+      display: flex;
+      align-items: center;
+  }
+  
+  .groupCard, .plusCard {
+      border-radius: 10px;
+  }
+  
+  .groupElementContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .groupElementContainer * {
+      margin: 0;
+  }
+  
+  .groupCardTitleContainer {
+      height: 25%;   
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      background-color: brown;
+      color: blanchedalmond;
+  }
+  
+  .groupCard p.groupCardTitle {
+      font-size: 2vw;
+  }
+  
+  .groupCardCountContainer {
+      display: flex;
+      align-items: flex-end;
+      height: 35%;
+      background-color: blanchedalmond;
+  }
+  
+  .groupCard p.groupElementsCount {
+      font-size: 2.5vw;
+  }
+  
+  .groupElementCountTextContainer {
+      height: 20%;
+      display: flex;
+      align-items: baseline;
+      background-color: blanchedalmond;
+  }
+  
+  .groupElementCountTextContainer p {
+      font-size: 1.3vw;
+      color: grey;
+  }
+  
+  .groupCardBtnContainer {
+      height: 20%;
+      background-color: brown;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+  
+  .groupCardBtnContainer button {
+      width: 50%;
+  }
+
+  .plusCard {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .plusCard img {
+      height: 60%;
+      width: 60%;
+  }
+
+  .plusCard img {
+      background: url("../src/images/add-circular-outlined-button.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      transition: .6s;
+  }
+
+  .plusCard img:hover {
+      background: url("../src/images/add-circular-outlined-button_hover.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      cursor: pointer;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .vercitalPh {
+      width: 10%;
+  }
+  
+  .groupCard, .plusCard {
+      width: 20%;
+  }
 }
