@@ -90,6 +90,11 @@ body.dark {
 }
 
 
+.checkbox:checked + .label .ball {
+	transform: translateX(12px);
+}
+
+
 
 /*
   Tablet + Desktop size specific rules
@@ -113,6 +118,7 @@ body.dark {
     font-size: 1.8vw;
   }
 
+ 
   #activityContainer > form > * {
     height: 10%;
   }
