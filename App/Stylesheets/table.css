@@ -77,6 +77,19 @@ body.dark {
 	transform: scale(1.5);
 }
 
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	height: 11px;
+	width: 11px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+
 
 /*
   Tablet + Desktop size specific rules
