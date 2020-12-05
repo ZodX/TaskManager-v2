@@ -24,7 +24,7 @@ html, body {
 
 p#titleParagraph {
     margin: 0;
-    padding: 0;
+    padding-top: 18px;
     color: brown;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: Center;
@@ -143,7 +143,7 @@ p#titleParagraph {
 
   .groupMobileContainer p {
       margin: 0;
-      padding: 0;
+      padding-top: 18px;
   }
 
   .groupMobileDescription {
