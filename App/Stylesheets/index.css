@@ -181,7 +181,7 @@ p#titleParagraph {
 
   .row {
       margin: 0;
-      padding: 0;
+      padding-top: 18px;
       height: 50%;
       width: 100%;
   }
