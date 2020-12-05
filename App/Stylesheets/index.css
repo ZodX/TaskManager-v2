@@ -4,14 +4,16 @@
   --shadow-color:  rgb(152, 205, 255);
   --mobileDesc-bg: rgb(192, 226, 228);
 }
-
+body {
+    color: black;
+    background-color: var(--body-bg);
+}
 html, body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding-top: 18px;
-    color: black;
-    background-color: var(--primary-bg);
+    
   }
   ::-webkit-scrollbar {
     width: 0px;
@@ -41,6 +43,18 @@ p#titleParagraph {
   body.dark {
 	background: #292C35;
     color: white;
+}
+.textp1 {
+    font-size: 50px;
+}
+.textp2 { 
+  font-size: 20px;    
+  background: none;
+  outline: none;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 0;
+  background: none;
+  color: brown
 }
 
 .checkbox {
@@ -73,7 +87,9 @@ p#titleParagraph {
 	transform: translateX(0px);
 	transition: transform 0.2s linear;
 }
-
+#workspaceContainer{
+    
+}
 
 .checkbox:checked + .label .ball {
 	transform: translateX(12px);
@@ -135,10 +151,12 @@ p#titleParagraph {
       height: 35%;
       display: flex;
       align-items: flex-end;
+      color: #292C35;
   }
 
   .groupMobileCount p {
       font-size: 5vh;
+      
   }
 
   .groupMobileContainer p {
@@ -175,10 +193,7 @@ p#titleParagraph {
       border-radius: 10px;
   }
 
-  p {
-      font-size: 50px;
-  }
-
+  
   .row {
       margin: 0;
       padding-top: 18px;
@@ -247,6 +262,7 @@ p#titleParagraph {
   
   .groupCard p.groupElementsCount {
       font-size: 2.5vw;
+      color: #292C35;
   }
   
   .groupElementCountTextContainer {
