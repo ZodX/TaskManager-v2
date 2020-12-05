@@ -98,7 +98,7 @@ function getAllWorkspaceOnCards() {
                                     <p class="groupElementCountText">(Number of groups)</p>
                                 </div>
                                 <div class="groupElementContainer groupCardBtnContainer">
-                                    <button id="${workspace}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Tasks</button>
+                                    <button id="${workspace}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Groups</button>
                                 </div>
                             </div>
                         `;
@@ -119,7 +119,7 @@ function getAllWorkspaceOnCards() {
                                     <p class="groupElementCountText">(Number of groups)</p>
                                 </div>
                                 <div class="groupElementContainer groupCardBtnContainer">
-                                    <button id="${workspace}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Tasks</button>
+                                    <button id="${workspace}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Groups</button>
                                 </div>
                             </div>
                         </div>
@@ -166,7 +166,7 @@ function getAllWorkspaceOnCards() {
                                 <p class="groupMobileLabel">(Number of groups)</p>
                             </div>
                             <div class="groupMobileContainer groupMobileBtn">
-                                <button id="${workspace}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Tasks</button>
+                                <button id="${workspace}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Groups</button>
                             </div>
                         </div>
                     </div>
