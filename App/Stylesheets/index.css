@@ -1,6 +1,9 @@
-body {
-    background-color: grey;
-  }
+:root {
+  --body-bg:  rgb(192, 210, 228);
+  --primary-bg: rgb(224, 240, 255);
+  --shadow-color:  rgb(152, 205, 255);
+  --mobileDesc-bg: rgb(192, 226, 228);
+}
 
 html, body {
     width: 100%;
@@ -8,6 +11,7 @@ html, body {
     margin: 0;
     padding: 0;
     color: black;
+    background-color: var(--primary-bg);
   }
 
 .ph {
@@ -24,7 +28,7 @@ p#titleParagraph {
 
   #title {
     height: 25%;
-    background-color: var(--primary-bg);
+    
     font-size: 75pt;
     justify-content: center;
     align-items: center;
