@@ -27,7 +27,7 @@ body {
 
 #title {
     height: 15%;
-    background-color: var(--primary-bg);
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ body {
 
 #container {
     height: 75%;
-    background-color: var(--primary-bg);
+    
 }
 
 #title, #container {
@@ -57,6 +57,18 @@ p#titleParagraph {
     overflow: scroll;
 }
 
+.nowwhere{
+    font-size: 1.8vw;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  body.dark {
+      background: #292C35;
+      color: white;
+  }
 @media only screen and (max-width: 767px) {
 
     p#titleParagraph {
