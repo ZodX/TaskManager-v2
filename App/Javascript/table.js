@@ -290,3 +290,7 @@ function doneBtnPressed(clicked_id) {
         getAllBtn()
     })
 }
+
+chk.addEventListener('change', () => {
+	document.body.classList.toggle('dark');
+});

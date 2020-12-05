@@ -27,7 +27,7 @@ body {
 
 #title {
     height: 15%;
-    background-color: var(--primary-bg);
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ body {
 
 #container {
     height: 75%;
-    background-color: var(--primary-bg);
+    
 }
 
 #title, #container {
@@ -56,6 +56,67 @@ p#titleParagraph {
 #container {
     overflow: scroll;
 }
+
+.nowwhere{
+    font-size: 1.8vw;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+  }
+  
+  body.dark {
+      background: #292C35;
+      color: white;
+  }
+  
+  .checkbox {
+      opacity: 0;
+      position: static;
+  }
+  
+  .label {
+      background-color: #111;
+      border-radius: 50px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px;
+      position: relative;
+      height: 13px;
+      width: 25px;
+      transform: scale(1.5);
+  }
+  
+  .label .ball {
+      background-color: #fff;
+      border-radius: 50%;
+      position: absolute;
+      top: 1px;
+      left: 1px;
+      height: 11px;
+      width: 11px;
+      transform: translateX(0px);
+      transition: transform 0.2s linear;
+  }
+  
+  
+  .checkbox:checked + .label .ball {
+      transform: translateX(12px);
+  }
+  #jelenleghol{
+    height: 12.5%;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .workspacename{
+      text-align:center;
+  }
+  
+  
 
 @media only screen and (max-width: 767px) {
 
@@ -90,6 +151,7 @@ p#titleParagraph {
         -moz-box-shadow: 6px 6px 29px -9px brown;
         box-shadow: 6px 6px 29px -9px brown;
         display: block;
+        
     }
 
     .groupMobileContainer {
@@ -110,7 +172,8 @@ p#titleParagraph {
         height: 35%;
         display: flex;
         align-items: flex-end;
-    }
+        color: black;
+        }
 
     .groupMobileCount p {
         font-size: 5vh;
@@ -222,6 +285,7 @@ p#titleParagraph {
     
     .groupCard p.groupElementsCount {
         font-size: 2.5vw;
+        color: black;
     }
     
     .groupElementCountTextContainer {
