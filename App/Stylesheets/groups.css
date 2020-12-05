@@ -172,7 +172,7 @@ p#titleParagraph {
         height: 35%;
         display: flex;
         align-items: flex-end;
-        color: black;
+        color: #292C35;
         }
 
     .groupMobileCount p {
@@ -285,7 +285,7 @@ p#titleParagraph {
     
     .groupCard p.groupElementsCount {
         font-size: 2.5vw;
-        color: black;
+        color: #292C35;
     }
     
     .groupElementCountTextContainer {
