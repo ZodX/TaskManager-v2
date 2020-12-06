@@ -55,6 +55,10 @@ Egy weboldal vizuálisan megragadó, professzionális és letisztult kell legyen
  megfelelően mutatja weboldaladat, eleve nagy kihívás.
  Az Android színes világnak köszönhetően rengeteg féle felbontáson fogják nézni weboldaladat. 
  Milyen tehát a jó honlap? Elengedhetetlen a színhasználat: Egy igényes és elegáns színpaletta általában 2-3 főbb színből áll,
+amik jól illenek egymáshoz és a cég hangulatát és jellegét is megtestesítik. Nem érdemes túlzásba vinni a színek használatát,
+mert elvonhatja a figyelmet a főbb tartalomról, ami általában a szöveg.
+Fontos még a könnyedén olvasható szöveg: A legegyszerűbben olvasható kombináció általában a fehér alapon fekete szöveg,
+de más színvariációk is működhetnek, egy bizonyos kontraszt-tartományon belül. Ügyeljünk rá,
 A tipográfiára is oda kell figyelnünk, hogy a megfelelő betűtípust és betűméretet válasszuk ki. A színsémákra is oda kell figyelnünk,
 a használhatóság során, hogy a szövegek legyenek jól olvashatóak és kontrasztosak. Szeretnénk a felhasználóinkat gombokkal is vezetni, 
 ezzel még egyszerűbbé tenni az oldal használhatóságát.
