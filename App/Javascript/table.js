@@ -75,11 +75,16 @@ function addBtn() {
 
     var task_name = document.felvesz.addInp1.value;
     var task_description = document.felvesz.addInp2.value;
-    var task_priority = document.felvesz.addInp3.value;
+    var task_priority = parseInt(document.felvesz.addInp3.value);
     var task_workspace = document.felvesz.addInp4.value;
 
-    if(task_name==="" || task_description==="" || task_priority==="" || task_workspace===""){
-        alert("Fill all the fields before adding the task!");
+    if(task_name==="" || task_description==="" || task_priority>9 || task_priority<0 || isNaN(task_priority) || task_workspace===""){
+        if(task_priority>9 || task_priority<0){
+            alert("Priority should be between 1 and 9!");
+        }else{
+            alert("Fill all the fields before adding the task!");
+        }
+
         return;
     }
         
@@ -298,7 +303,7 @@ function updateBtnPressed(clicked_id) {
 function updateBtn() {
     var task_name = document.modosit.updateInp1.value;
     var task_description = document.modosit.updateInp2.value;
-    var task_priority = document.modosit.updateInp3.value;
+    var task_priority = parseInt(document.modosit.updateInp3.value);
     var task_workspace = document.modosit.updateInp4.value;
     var activityC = document.getElementById("activityContainer");
     var taskD = document.getElementById("taskDetails");
