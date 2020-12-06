@@ -2,6 +2,9 @@ let db = new Localbase('db');
 
 getAllGroupsOnCards();
 
+var workspaceName = document.getElementById("workspacename");
+workspaceName.innerHTML=sessionStorage.getItem('clicked_workspace');
+
 function backToWorkspaces(){
     window.location.replace("../Pages/index.html");
 }
