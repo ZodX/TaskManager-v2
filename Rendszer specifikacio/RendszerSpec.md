@@ -163,6 +163,9 @@ Az oldalnak könnyen olvashatónak és könnyen áttekinthetőnek kell lennie, a
 bármikor tudja kezelni. Fontos, hogy a tábla az legyen egyszerű, és átlátható, mert ez határozza meg azt, hogy a 
 weboldal mennyire lesz kézenfekvő a látogatóink számára. A honlap elsődleges feladata tartalom átadása, ehhez pedig elengedhetetlen a jó design megvalósítása, hisz a design segít a weboldalnak abban, hogy befogadhatóbb, és vonzóbb legyen. 
 A weboldal legyen a felhasználó számára letisztult, hisz fontos az, hogy az oldalt gördülékenyen tudja használni.
+Szeretnénk, hogy az oldalt egyszerűen lehessen kezelni, egyértelművé tenni mik a lehetőségeik a felhasználóinak. 
+és ezeket a folyamatokat egyszerűen megjeleníteni a weboldalon.
+A cél az, hogy legyen vonzó a célcsoportba tartozóknak. A design azonban nem az esztétikáról,
 A felhasználó célja az, hogy minél gyorsabban és minél egyszerűbben szeretné elvégezni
 azt a feladatot, vagy megtalálni az információt, amiért a weboldalunkra ellátogatnak. 
 Ha egy weboldal túl bonyolult, vagy ha túl nagy kreativitásnak adtunk teret a weblapnak a készítése során,
