@@ -34,6 +34,9 @@ elérésében. Ebben a szemléletben a design kiemelkedően fontos hiszen a vizu
 weboldalt kell kialakítani, ami segíti a tartalom kiemelkedését.
 Egy weboldal vizuálisan megragadó, professzionális és letisztult kell legyen. Gondoljunk úgy weboldalunkra, mint cégünk,
 márkánk és szolgáltatásaink online arcára. A weboldal talán a legelső (és legfontosabb) dolog lesz, amivel egy potenciális ügyfél találkozik,
+és mint azt tudjuk, az első benyomás rendkívül fontos.
+Az online tér világa a folyamatosan változó felbontástól (responzív design) mely minden eszközön (számítógép, tablet, telefon)
+megfelelően mutatja weboldaladat, eleve nagy kihívás.
 A platformfüggetlenség elvárt a weboldallal szemben, biztosítanunk kell azt, hogy több platformon, valamint
 böngészőn is elérhető legyen mint például a Google Chrome, Mozzila, Opera, Safari, Microsoft Edge és stb...
 Ma már 2020-at írunk, ahol már nem csak a PC-ről használjuk a weboldalakat, hanem elterjedtek a laptopok, 
