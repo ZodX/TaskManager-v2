@@ -76,6 +76,7 @@ amikor megtekintik először a weboldalt. A cél tehát az, hogy tudjuk megmutat
 - A web felület szabványos eszközökkel készüljön.
 - Javascript és HTML/CSS alkalmazása.
 - Reszponziv design megvalósítása.
+- Dark/Light mode.
 
 ## 6. Követelménylista
 
