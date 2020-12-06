@@ -45,7 +45,8 @@ tabletek, és az okostelefonok is egyaránt. Manapság már gyakorlatilag minden
 zsebében rohangál, ezért foglalkoznunk kell a reszponzív designal is.
 Fontos a reszponzív design, mert szebbek a képek, és kényelmesebb a weboldal használata,
 így csökken a visszafordulási arány, tehát kevesebben hagyják el azonnal a weboldalt.
-Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy megfogjuk a látogatóinkat a designnal, amikor megtekintik először a weboldalt. A cél tehát az, hogy tudjuk megmutatni azt, hogy mit kínálunk az embereknek, és a cetlik által okozott kellemetlenségekre tudjunk egy olyan megoldást nyújtani, ami megbízható, és kényelmesen használható is.
+Milyen tehát a jó honlap? Elengedhetetlen a színhasználat: Egy igényes és elegáns színpaletta általában 2-3 főbb színből áll,
+amik jól illenek egymáshoz és a cég hangulatát és jellegét is megtestesítik. Nem érdemes túlzásba vinni a színek használatát,
 
 ## 5. A rendszerre vonatkozó szabályok
 - A web felület szabványos eszközökkel készüljön.
