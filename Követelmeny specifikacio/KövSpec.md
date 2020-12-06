@@ -65,6 +65,9 @@ A design és elrendezés maradjon változatlan minden oldalon, és csak különl
 Fontosnak tartjuk a logikus navigációt: A menüelemeket mindig az oldal tetejére, általában az oldalhajtás fölé helyezzük el.
 Egy oldal ne tartalmazzon 10-nél több menüelemet – fontos, hogy a látogatók mindent könnyedén és gyorsan megtaláljanak.
 Javasolt az oldalt a legfrissebb Internet Explorer, Safari és Firefox böngészőkön is tesztelni.
+A tipográfiára is oda kell figyelnünk, hogy a megfelelő betűtípust és betűméretet válasszuk ki.
+Platform- és böngészőkompatibilitás: A különböző böngészőszoftverek más és más módon jeleníthetnek meg bizonyos tartalmakat.
+Fontos a használhatóság az oldalunkban, de legalább annyira fontos, hogy megfogjuk a látogatóinkat a designnal,
 
 ## 5. A rendszerre vonatkozó szabályok
 - A web felület szabványos eszközökkel készüljön.
