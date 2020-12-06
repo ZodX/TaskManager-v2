@@ -47,6 +47,10 @@ Fontos a reszponzív design, mert szebbek a képek, és kényelmesebb a weboldal
 így csökken a visszafordulási arány, tehát kevesebben hagyják el azonnal a weboldalt.
 Milyen tehát a jó honlap? Elengedhetetlen a színhasználat: Egy igényes és elegáns színpaletta általában 2-3 főbb színből áll,
 amik jól illenek egymáshoz és a cég hangulatát és jellegét is megtestesítik. Nem érdemes túlzásba vinni a színek használatát,
+mert elvonhatja a figyelmet a főbb tartalomról, ami általában a szöveg.
+Fontos még a könnyedén olvasható szöveg: A legegyszerűbben olvasható kombináció általában a fehér alapon fekete szöveg,
+de más színvariációk is működhetnek, egy bizonyos kontraszt-tartományon belül.
+Ügyeljünk rá, hogy az oldalon használt betűkészletek jól látható karaktereket tartalmazzanak és hogy a legtöbb modern
 
 ## 5. A rendszerre vonatkozó szabályok
 - A web felület szabványos eszközökkel készüljön.
