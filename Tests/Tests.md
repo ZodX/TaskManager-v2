@@ -18,6 +18,7 @@ Tests
 | Bacsik Mátyás | 2020.12.06 | Clicking "Add your tasks!" button. | Success | Loads the table.html with no group or workspace selected. | When the user clicks on the "Add your tasks!" button on the index.html it should load the table.html and let you add your tasks. |
 | Bacsik Mátyás | 2020.12.06 | Listing workspace cards | Success | Listing workspace cards if there are any | If there are a workspace with tasks in it, it should list them on the index.html |
 | Bacsik Mátyás | 2020.12.06 | Workspace card group count when listed | Success | Showing the number of groups in a workspace on the workspace's card | When the workspace cards are listed there is a number on them what shows the group count in the specific workspace. |
+| Bacsik Mátyás | 2020.12.06 | List Groups | Success | Loads the groups.html with the groups of the selected workspace | When the user clicks on the "List Groups" button on the card of a workspace it should load the groups.html with the groups of the selected workspace |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
