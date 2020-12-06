@@ -1,5 +1,7 @@
 let db = new Localbase('db')
 
+var affix = 'desc';
+
 var workspaceName = document.getElementById("workspacename");
 workspaceName.innerHTML=sessionStorage.getItem('clicked_workspace');
 var groupName = document.getElementById("groupsname");
@@ -13,6 +15,23 @@ function backToGroups(){
     } catch (error) {
     }
     */
+}
+
+function setOrderingBy(what){
+
+    if(sessionStorage.getItem('orderBy')==what){
+        if(affix=='desc'){
+            affix='asc';
+        }
+        else{
+            affix='desc';
+        }   
+    }else{
+        sessionStorage.setItem('orderBy',what);
+        affix='desc';
+    }
+
+    getAllBtn();
 }
 
 // Searching the current id, by choosing the max from the existent ones and increasing by 1
@@ -56,11 +75,16 @@ function addBtn() {
 
     var task_name = document.felvesz.addInp1.value;
     var task_description = document.felvesz.addInp2.value;
-    var task_priority = document.felvesz.addInp3.value;
+    var task_priority = parseInt(document.felvesz.addInp3.value);
     var task_workspace = document.felvesz.addInp4.value;
 
-    if(task_name==="" || task_description==="" || task_priority==="" || task_workspace===""){
-        alert("Fill all the fields before adding the task!");
+    if(task_name==="" || task_description==="" || task_priority>9 || task_priority<0 || isNaN(task_priority) || task_workspace===""){
+        if(task_priority>9 || task_priority<0){
+            alert("Priority should be between 1 and 9!");
+        }else{
+            alert("Fill all the fields before adding the task!");
+        }
+
         return;
     }
         
@@ -94,11 +118,12 @@ function getAllBtn() {
     try {
         group_to_list = sessionStorage.getItem('clicked_group');
         workspace_to_list = sessionStorage.getItem('clicked_workspace');
+        order_by_attr = sessionStorage.getItem('orderBy');
     } catch (error) {
 
     }
 
-    db.collection('tasks').orderBy('id').get()
+    db.collection('tasks').orderBy(order_by_attr,affix).get()
     .then(tasks => {
         console.log('tasks: ', tasks)
         tasks.forEach(task => {
@@ -278,7 +303,7 @@ function updateBtnPressed(clicked_id) {
 function updateBtn() {
     var task_name = document.modosit.updateInp1.value;
     var task_description = document.modosit.updateInp2.value;
-    var task_priority = document.modosit.updateInp3.value;
+    var task_priority = parseInt(document.modosit.updateInp3.value);
     var task_workspace = document.modosit.updateInp4.value;
     var activityC = document.getElementById("activityContainer");
     var taskD = document.getElementById("taskDetails");
