@@ -29,9 +29,8 @@ Tests
 | Heinrich László | 2020.12.06 | Darkmode button on table.html | Success | Change the look of the table.html. | When the user clicks the darkmode button, it changes the background color and text colour. |
 | Heinrich László | 2020.12.06 | Darkmode button on index.html | Success | Change the look of the index.html. | When the user clicks the darkmode button, it changes the background color and text colour. |
 | Heinrich László | 2020.12.06 | Darkmode button on group.html | Success | Change the look of the group.html. | When the user clicks the darkmode button, it changes the background color and text colour. |
-| Heinrich László |  |  |  |  |  |
-| Heinrich László |  |  |  |  |  |
 | Heinrich László | 2020.12.06 | The look of the groups | Success | The appearance of the listed groups takes place in groups.html | The listed groups take place within Container |
+| Heinrich László | 2020.12.06 | The look of the table | Fail | The appearance of the listed groups takes place in tables.html | The listed tasks take place without Container |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
