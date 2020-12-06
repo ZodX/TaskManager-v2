@@ -207,6 +207,10 @@ Terjedelem és rendezettség: A törzsszöveget (főleg hosszabb tartalmak eset�
 amelyeket a tartalmukra utaló beszédes, rövid alcímekkel lássunk el. Az ömlesztett szövegfalak untatni kezdik az olvasókat,
 akiknek a megnyerésére viszonylag kevés időnk van.
 Figyeljünk oda rá, hogy a funkciók, és minden más interaktív funkció is tökéletesen működjön.
+Figyeljünk a minimális görgetésre: Ez különösen a kezdőlapon fontos. A kezdőlap, vagy főoldal a tartalma legtetején tartalmazza
+a legfontosabb hivatkozásokat, hogy a felhasználó rögtön láthassa azokat.
+A weboldal legyen reszponzív, rugalmasan alkalmazkodjon a különböző böngészők méreteihez.
+Felejtsük el a vég nélkül lefele gördítehtő weboldalakat! 
 Elvárt, hogy az alkamazásunk az böngészőfüggetlen legyen. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
 Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb.. A látogatóinknak szeretnénk megadni a prioritás lehetőségét is, hiszen előfordulhat olyan szituáció, amikor a feladatok között felállítunk egy fontossági sorrendet, ezt szeretnénk a weboldalon is lehetővé tenni ezt a funkciót.
 
