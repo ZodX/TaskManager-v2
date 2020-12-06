@@ -59,6 +59,9 @@ Hagyjunk elegendő tiszta, üres részt a szöveg körül, hogy az olvasók figy
 A weboldal minden részének gyorsan és megfelelően kell működnie. A hibás vagy igénytelenül felépített szerkezetű oldal
  könnyedén kiábrándíthatja a látogatókat – ne feledjük, az oldalunk az első benyomás!
 Figyeljünk oda rá, hogy a funkciók, és minden más interaktív funkció is tökéletesen működjön.
+Figyeljünk a minimális görgetésre: Ez különösen a kezdőlapon fontos. A kezdőlap, vagy főoldal a tartalma legtetején tartalmazza
+a legfontosabb hivatkozásokat, hogy a felhasználó rögtön láthassa azokat.
+A design és elrendezés maradjon változatlan minden oldalon, és csak különleges esetekben hozzunk létre egyedi oldalakat.
 
 ## 5. A rendszerre vonatkozó szabályok
 - A web felület szabványos eszközökkel készüljön.
