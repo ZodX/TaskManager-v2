@@ -198,6 +198,11 @@ Egy webdesign akkor jó, ha nem okoz problémát a használata. Természetesen e
 A színeket például célszerű azok hatása alapján kiválasztani, és nem azt figyelembe venni, hogy neked melyik a kedvenc színed. 
 Elengedhetetlen a színhasználat: Egy igényes és elegáns színpaletta általában 2-3 főbb színből áll,
 amik jól illenek egymáshoz és a cég hangulatát és jellegét is megtestesítik. Nem érdemes túlzásba vinni a színek használatát,
+mert elvonhatja a figyelmet a főbb tartalomról, ami általában a szöveg.
+ontos még a könnyedén olvasható szöveg: A legegyszerűbben olvasható kombináció általában a fehér alapon fekete szöveg,
+de más színvariációk is működhetnek, egy bizonyos kontraszt-tartományon belül.
+Ügyeljünk rá, hogy az oldalon használt betűkészletek jól látható karaktereket tartalmazzanak és hogy a legtöbb modern
+rendszer képes legyen megfelelően megjeleníteni azokat.
 Elvárt, hogy az alkamazásunk az böngészőfüggetlen legyen. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
 Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb.. A látogatóinknak szeretnénk megadni a prioritás lehetőségét is, hiszen előfordulhat olyan szituáció, amikor a feladatok között felállítunk egy fontossági sorrendet, ezt szeretnénk a weboldalon is lehetővé tenni ezt a funkciót.
 
