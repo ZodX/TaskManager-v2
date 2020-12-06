@@ -178,6 +178,15 @@ vagy más mobil eszközről interneteznek, a hagyományos asztali gépek mellett
 A webes felhasználók elvárják, hogy a webhelyünk villámgyorsan, még mobil eszközökön is betöltődjön.
 A látogatók körülbelül fele azt mondja, elvárja, hogy egy webhely két másodpercen belül betöltődjön,
 és legtöbben elhagyják azt, ami nem töltődik be három másodperc után.
+Így a sebesség igencsak számít a látogatók megtartására.
+A weboldalunknak nagyon fontos része, hogy felhasználóbarát legyen a látogató számára. Ez azt jelenti, hogy a hozzád betérő,
+könnyen megtalálja rajta amit keres, ne keljen az átláthatatlanság sűrűjében bolyongania,
+ mert így az első kijáratnál lelép. Könnyű legyen a navigáció, logikus felépítésű,
+egyszerű, követhető menüelemekkel. Mindig tudja, hogy pont hol tartózkodik, merre tud vissza, vagy előre lépni.
+A felhasználóbarát weboldal része az is, hogy a logóra kattintva mindig a főoldalra kerül vissza.
+ Így ha el is téved, az egy biztos támpont lesz számára.
+A weboldal legyen áttekinthető, a releváns tartalom könnyen megtalálható rajta. 
+A megfelelően strukturált és könnyen elérhető tartalom kulcsfontosságú ahhoz, hogy a felhasználók élménye jó legyen.
 Elvárt, hogy az alkamazásunk az böngészőfüggetlen legyen. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
 Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb.. A látogatóinknak szeretnénk megadni a prioritás lehetőségét is, hiszen előfordulhat olyan szituáció, amikor a feladatok között felállítunk egy fontossági sorrendet, ezt szeretnénk a weboldalon is lehetővé tenni ezt a funkciót.
 
