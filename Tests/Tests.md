@@ -13,16 +13,6 @@ Tests
 | Molnár András Imre | 2020.12.06. | Modify task | Success | The record updates in the user interface | When the user clicks on the "Modify Task" button of a task, it should be updated in the list of tasks. |
 | Molnár András Imre | 2020.12.06. | List a groups | Success | The existing groups are listed | When the user clicks on the "Groups" button, the app should list all the groups existing in the database. |
 | Molnár András Imre | 2020.12.06. | List a specific group | Success | The group's elements appear | When the user clicks on the "List group" button of a group, the app should show only that group's tasks. |
-| Bacsik Mátyás |  |  |  |  |  |
-| Bacsik Mátyás |  |  |  |  |  |
-| Bacsik Mátyás |  |  |  |  |  |
-| Bacsik Mátyás |  |  |  |  |  |
-| Bacsik Mátyás |  |  |  |  |  |
-| Bacsik Mátyás |  |  |  |  |  |
-| Bacsik Mátyás |  |  |  |  |  |
-| Bacsik Mátyás |  |  |  |  |  |
-| Bacsik Mátyás |  |  |  |  |  |
-| Bacsik Mátyás |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
