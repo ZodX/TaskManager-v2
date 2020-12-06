@@ -42,6 +42,7 @@ Tests
 | Huri Patrik |  |  |  |  |  |
 | Huri Patrik |  |  |  |  |  |
 | Huri Patrik |  |  |  |  |  |
-| Huri Patrik |  |  |  |  |  |
 | Huri Patrik |  |  |  |  |  || Huri Patrik | 2020.12.06 | Responsive group.html on smartphone.| Success | The groups page works well, if you open it from your smartphone. The website is perfectly adapted to the my mobile | When the user opened the gropus page from their own smartphone it worked fine, and smoothly. I didn’t experience any groups slipping on gropus site.|
 | Huri Patrik | 2020.12.06 | Responsive group.html on smartphone.| Success | The groups page works well, if you open it from your smartphone. The website is perfectly adapted to the my mobile | When the user opened the gropus page from their own smartphone it worked fine, and smoothly. I didn’t experience any groups slipping on gropus site.|
+| Huri Patrik | 2020.12.06 | Responsive index.html on smartphone. | Success | The index page works well, if you open it from your smartphone. The website is perfectly adapted to the my mobile | When the user opened the index page from their own smartphone it worked fine, and smoothly. I didn’t experience any groups slipping on the index site. |
+| Huri Patrik | 2020.12.06 | Responsive table.htm on smartphone | Success | The table page works well, if you open it from your smartphone. The website is perfectly adapted to the my mobile | When the user opened the table page from their own smartphone it worked fine, and smoothly. I didn’t experience any groups slipping on the table site.  |
