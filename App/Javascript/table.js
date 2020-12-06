@@ -1,5 +1,10 @@
 let db = new Localbase('db')
 
+var workspaceName = document.getElementById("workspacename");
+workspaceName.innerHTML=sessionStorage.getItem('clicked_workspace');
+var groupName = document.getElementById("groupsname");
+groupName.innerHTML=sessionStorage.getItem('clicked_group');
+
 
 // Searching the current id, by choosing the max from the existent ones and increasing by 1
 // or setting it to 1 if there are no tasks
