@@ -195,6 +195,9 @@ A weboldalunk legyen testreszabott. Mindenkinek azt adja, amire szüksége van. 
 A marketing egyre inkább a kisebb csoportok, végső soron egyes vásárlók megcélzása irányába mozdul el.
 Egyre fontosabbá válik a vásárlók igényeinek és preferenciáinak minél mélyebb megismerése.
 Egy webdesign akkor jó, ha nem okoz problémát a használata. Természetesen egy designnak jól is kell kinéznie.
+A színeket például célszerű azok hatása alapján kiválasztani, és nem azt figyelembe venni, hogy neked melyik a kedvenc színed. 
+Elengedhetetlen a színhasználat: Egy igényes és elegáns színpaletta általában 2-3 főbb színből áll,
+amik jól illenek egymáshoz és a cég hangulatát és jellegét is megtestesítik. Nem érdemes túlzásba vinni a színek használatát,
 Elvárt, hogy az alkamazásunk az böngészőfüggetlen legyen. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
 Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb.. A látogatóinknak szeretnénk megadni a prioritás lehetőségét is, hiszen előfordulhat olyan szituáció, amikor a feladatok között felállítunk egy fontossági sorrendet, ezt szeretnénk a weboldalon is lehetővé tenni ezt a funkciót.
 
