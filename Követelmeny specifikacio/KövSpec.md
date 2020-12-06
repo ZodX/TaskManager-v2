@@ -51,6 +51,10 @@ mert elvonhatja a figyelmet a főbb tartalomról, ami általában a szöveg.
 Fontos még a könnyedén olvasható szöveg: A legegyszerűbben olvasható kombináció általában a fehér alapon fekete szöveg,
 de más színvariációk is működhetnek, egy bizonyos kontraszt-tartományon belül.
 Ügyeljünk rá, hogy az oldalon használt betűkészletek jól látható karaktereket tartalmazzanak és hogy a legtöbb modern
+rendszer képes legyen megfelelően megjeleníteni azokat. Javasolt 10-es vagy 12-es méretű betűket használni a törzsszöveghez.
+Fontos továbbá a beszédes grafikai elemek: A grafikák azért fontosak, mert kiegészíthetik az oldal egyébként száraz tartalmát.
+Segítségükkel érdekesebbé tehetjük a szöveget, azonban ezeket is érdemes csak mértékkel használni.
+Az egyik legfontosabb az egyszerűség: Törekedjünk az egyszerűségre az oldal designját illetően.
 
 ## 5. A rendszerre vonatkozó szabályok
 - A web felület szabványos eszközökkel készüljön.
