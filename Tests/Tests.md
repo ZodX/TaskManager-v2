@@ -26,10 +26,6 @@ Tests
 | Bacsik Mátyás | 2020.12.06 | Back button on table.html | Success | Redirect to the groups.html | When the user clicks on the "Back" button of the table.html it should load the groups.html |
 | Bacsik Mátyás | 2020.12.06 | List tasks button clicked | Success | It should write the selected workspace and group under the title. | When the "List Tasks" button clicked, the selected workspace and group should be written under the title. |
 | Bacsik Mátyás | 2020.12.06 | Title clicked on table.html | Success | Redirect to the index.html | When the user clicks on the title of the table.html it should load the index.html |
-| Heinrich László |  |  |  |  |  |
-| Heinrich László |  |  |  |  |  |
-| Heinrich László |  |  |  |  |  |
-| Heinrich László |  |  |  |  |  |
 | Heinrich László | 2020.12.06 | Darkmode button on table.html | Success | Change the look of the table.html. | When the user clicks the darkmode button, it changes the background color and text colour. |
 | Heinrich László | 2020.12.06 | Darkmode button on index.html | Success | Change the look of the index.html. | When the user clicks the darkmode button, it changes the background color and text colour. |
 | Heinrich László | 2020.12.06 | Darkmode button on group.html | Success | Change the look of the group.html. | When the user clicks the darkmode button, it changes the background color and text colour. |
