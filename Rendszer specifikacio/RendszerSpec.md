@@ -149,6 +149,9 @@ A felhasználó szemszögéből a telepítés a következőképp néz ki:
 A weboldalnál fontos a könnyen üzemelhető rendszer. Mielőtt belekezdünk a weboldal elkészítésébe át kell tekintenünk azt, hogy milyen módon valósítható meg az üzemeltetés. Fontos az, hogy a weboldal készítési módszer kiválasztása során hosszútávon kezdjünk el gondolkodni, tehát nem azt kell néznünk, hogy most mire van szükségünk, hanem gondolni kell arra is, hogy 2-3 év múlva mire lesz szükségünk, milyen honlapot szeretnénk üzemeltetni.
 Semmiképp sem nevezhetjük hátránynak az egyszerű weboldalt, sőt, sok esetben éppen ez az, ami előny,
 ami a különbséget jelenti a különböző felesleges funkciókkal telezsúfolt oldalakkal szemben.
+Érdemes elgondolkodni az egyszerű weblap kialakításán, az extrák helyett a valódi mondanivaló,
+a pontos, konkrét ismertetők megjelenítéséről.
+Természetesen az egyszerű honlap nem jelenti azt, hogy a weblapnak mellőznie kell a hasznos és fontos funkciókat.
 Az oldalnak könnyen olvashatónak és könnyen áttekinthetőnek kell lennie, azért, hogy ez egyszerű felhasználó is 
 bármikor tudja kezelni. Fontos, hogy a tábla az legyen egyszerű, és átlátható, mert ez határozza meg azt, hogy a 
 weboldal mennyire lesz kézenfekvő a látogatóink számára. A honlap elsődleges feladata tartalom átadása, ehhez pedig elengedhetetlen a jó design megvalósítása, hisz a design segít a weboldalnak abban, hogy befogadhatóbb, és vonzóbb legyen. 
