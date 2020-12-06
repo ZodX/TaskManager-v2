@@ -20,6 +20,7 @@ Tests
 | Bacsik Mátyás | 2020.12.06 | Workspace card group count when listed | Success | Showing the number of groups in a workspace on the workspace's card | When the workspace cards are listed there is a number on them what shows the group count in the specific workspace. |
 | Bacsik Mátyás | 2020.12.06 | List Groups | Success | Loads the groups.html with the groups of the selected workspace | When the user clicks on the "List Groups" button on the card of a workspace it should load the groups.html with the groups of the selected workspace |
 | Bacsik Mátyás | 2020.12.06 | List Groups | Success | Loads the groups.html and set the active workspace to the currently selected and write it under the title| When the user clicks on the "List Groups" button on the card of a workspace it should load the groups.html with the workspace's name written under the title. |
+| Bacsik Mátyás | 2020.12.06 | Title clicked on groups.html | Success | Redirect to the index.html | When the user clicks on the title of the groups.html it should load the index.html |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
