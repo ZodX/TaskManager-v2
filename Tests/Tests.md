@@ -30,6 +30,7 @@ Tests
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
+| Heinrich László | 2020.12.06 | Darkmode button on table.html | Success | Change the look of the table.html. | When the user clicks the darkmode button, it changes the background color and text colour. |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
