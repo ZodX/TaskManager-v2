@@ -23,6 +23,7 @@ Tests
 | Bacsik Mátyás | 2020.12.06 | Title clicked on groups.html | Success | Redirect to the index.html | When the user clicks on the title of the groups.html it should load the index.html |
 | Bacsik Mátyás | 2020.12.06 | Back button clicked on groups.html | Success | Redirect to the index.html | When the user clicks on the "Back" button of the groups.html it should load the index.html |
 | Bacsik Mátyás | 2020.12.06 | Groups card task count when listed | Success | Showing the number of tasks in a group on the group's card | When the group cards are listed there is a number on them what shows the task count in the specific group. |
+| Bacsik Mátyás | 2020.12.06 | Back button on table.html | Success | Redirect to the groups.html | When the user clicks on the "Back" button of the table.html it should load the groups.html |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
