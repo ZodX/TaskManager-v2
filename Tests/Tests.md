@@ -9,7 +9,7 @@ Tests
 | Molnár András Imre | 2020.12.06. | Remove task from database | Success | The record disappears from the database | When the user clicks on the "Delete" button of a task, it should be removed from the database. |
 | Molnár András Imre | 2020.12.06. | Remove task from list | Success | The record disappears from the user interface | When the user clicks on the "Delete" button of a task, it should be removed from the list of tasks. |
 | Molnár András Imre | 2020.12.06. | Modify task in database | Success | The record updates in the database | When the user clicks on the "Modify Task" button of a task, it should be updated in the database. |
-| Molnár András Imre |  |  |  |  |  |
+| Molnár András Imre | 2020.12.06. | Modify task | Success | The record updates in the user interface | When the user clicks on the "Modify Task" button of a task, it should be updated in the list of tasks. |
 | Molnár András Imre |  |  |  |  |  |
 | Molnár András Imre |  |  |  |  |  |
 | Bacsik Mátyás |  |  |  |  |  |
