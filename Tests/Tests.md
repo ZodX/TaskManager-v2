@@ -17,6 +17,7 @@ Tests
 | Bacsik Mátyás | 2020.12.05 | Groups card task count when listed | Fail | Showing the number of tasks in a group on the group's card | When the group cards are listed there is a number on them what shows the task count in the specific group. |
 | Bacsik Mátyás | 2020.12.06 | Clicking "Add your tasks!" button. | Success | Loads the table.html with no group or workspace selected. | When the user clicks on the "Add your tasks!" button on the index.html it should load the table.html and let you add your tasks. |
 | Bacsik Mátyás | 2020.12.06 | Listing workspace cards | Success | Listing workspace cards if there are any | If there are a workspace with tasks in it, it should list them on the index.html |
+| Bacsik Mátyás | 2020.12.06 | Workspace card group count when listed | Success | Showing the number of groups in a workspace on the workspace's card | When the workspace cards are listed there is a number on them what shows the group count in the specific workspace. |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
