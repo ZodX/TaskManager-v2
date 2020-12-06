@@ -6,6 +6,7 @@ Tests
 | Molnár András Imre | 2020.12.06. | Toggling color theme | Fail | Color theme should stay the same when switching between pages. | Toggle color theme, then switch between pages and see if it stays. |
 | Molnár András Imre | 2020.12.06. | Toggling color theme | Success | Color theme should stay the same when switching between pages. | Toggle color theme, then switch between pages and see if it stays. |
 | Molnár András Imre | 2020.12.06. | Add task to database | Success | The record appears in the database | When the user fills the form with values and press the "Add Task" button, it should appear in the database as a record. |
+| Molnár András Imre | 2020.12.06. | Add task to list | Success | The record appears in the user interface | When the user clicks on the "Add task" button, it should appear in the list of tasks. |
 | Molnár András Imre | 2020.12.06. | Remove task from database | Success | The record disappears from the database | When the user clicks on the "Delete" button of a task, it should be removed from the database. |
 | Molnár András Imre | 2020.12.06. | Remove task from list | Success | The record disappears from the user interface | When the user clicks on the "Delete" button of a task, it should be removed from the list of tasks. |
 | Molnár András Imre | 2020.12.06. | Modify task in database | Success | The record updates in the database | When the user clicks on the "Modify Task" button of a task, it should be updated in the database. |
