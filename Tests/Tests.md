@@ -15,6 +15,7 @@ Tests
 | Molnár András Imre | 2020.12.06. | List a specific group | Success | The group's elements appear | When the user clicks on the "List group" button of a group, the app should show only that group's tasks. |
 | Bacsik Mátyás | 2020.12.05 | Workspace card group count when listed | Fail | Showing the number of groups in a workspace on the workspace's card |  When the workspace cards are listed there is a number on them what shows the group count in the specific workspace. |
 | Bacsik Mátyás | 2020.12.05 | Groups card task count when listed | Fail | Showing the number of tasks in a group on the group's card | When the group cards are listed there is a number on them what shows the task count in the specific group. |
+| Bacsik Mátyás | 2020.12.06 | Clicking "Add your tasks!" button. | Success | Loads the table.html with no group or workspace selected. | When the user clicks on the "Add your tasks!" button on the index.html it should load the table.html and let you add your tasks. |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
