@@ -89,6 +89,51 @@ A felhasználó célja az, hogy minél gyorsabban és minél egyszerűbben szere
 információt, amiért a weboldalunkra ellátoganak. Ha egy weboldal túl bonyolult, vagy ha túl nagy kreativitásnak adtunk teret
 a weblanak a készítése során, akkor valószínüleg ezek a megoldások a látogatóink jelentős részét akár el is riaszthatják,
 amit mi semmiképpen sem szeretnénk. Ezért fontos az, hogy ne bonyolítsunk, az oldalnak közérthetőnek kell lennie.
+Egy weboldal vizuálisan megragadó, professzionális és letisztult kell legyen. Gondoljunk úgy weboldalunkra, mint cégünk,
+ márkánk és szolgáltatásaink online arcára. A weboldal talán a legelső (és legfontosabb) dolog lesz, amivel egy potenciális ügyfél találkozik,
+ és mint azt tudjuk, az első benyomás rendkívül fontos.
+ Egy vonzó weboldal sokkal valószínűbb, hogy akcióra (vásárlás, asztalfoglalás, stb.) és folyamatosa visszatérésre készteti a látogatókat.
+ Az online tér világa a folyamatosan változó felbontástól (responzív design) mely minden eszközön (számítógép, tablet, telefon)
+ megfelelően mutatja weboldaladat, eleve nagy kihívás.
+ Az Android színes világnak köszönhetően rengeteg féle felbontáson fogják nézni weboldaladat. 
+ Milyen tehát a jó honlap? Elengedhetetlen a színhasználat: Egy igényes és elegáns színpaletta általában 2-3 főbb színből áll,
+amik jól illenek egymáshoz és a cég hangulatát és jellegét is megtestesítik. Nem érdemes túlzásba vinni a színek használatát,
+mert elvonhatja a figyelmet a főbb tartalomról, ami általában a szöveg.
+Fontos még a könnyedén olvasható szöveg: A legegyszerűbben olvasható kombináció általában a fehér alapon fekete szöveg,
+de más színvariációk is működhetnek, egy bizonyos kontraszt-tartományon belül. Ügyeljünk rá,
+hogy az oldalon használt betűkészletek jól látható karaktereket tartalmazzanak és hogy a legtöbb modern
+rendszer képes legyen megfelelően megjeleníteni azokat. Javasolt 10-es vagy 12-es méretű betűket használni a törzsszöveghez.
+Fontos továbbá a beszédes grafikai elemek: A grafikák azért fontosak, mert kiegészíthetik az oldal egyébként száraz tartalmát.
+Segítségükkel érdekesebbé tehetjük a szöveget, azonban ezeket is érdemes csak mértékkel használni.
+Az egyik legfontosabb az egyszerűség: Törekedjünk az egyszerűségre az oldal designját illetően.
+Hagyjunk elegendő tiszta, üres részt a szöveg körül, hogy az olvasók figyelmét a lényegre fókuszálhassuk.
+Nem érdemes különböző látványos hatásokkal összezavarni a látogatókat.
+Egy látványos oldal nem sokáig tartja majd meg az olvasók figyelmét, ha tartalmilag semmi értékeset nem kínál.
+A látogatók gyakran egy fontos döntés előtt állnak az oldal böngészése közben,
+ezért érdemes releváns és informatív tartalmakat megjeleníteni azon.
+Az oldal tartalmának megfelelő használatával megerősíthetjük a leendő látogatók bizalmát is.
+Terjedelem és rendezettség: A törzsszöveget (főleg hosszabb tartalmak esetén) mindig válasszuk rövidebb bekezdésekre,
+ amelyeket a tartalmukra utaló beszédes, rövid alcímekkel lássunk el. Az ömlesztett szövegfalak untatni kezdik az olvasókat,
+ akiknek a megnyerésére viszonylag kevés időnk van.
+ Fontos az oldalon a helyesírás: Weboldalunk tartalma könnyedén felkapottá válhat, ezért fontos a
+ megfelelő nyelvhasználat és helyesírás. Sosem tudhatjuk, hogy ki fog majd idézni tőlünk és nem vetne ránk,
+mint cégre jó fényt, ha például hibás adatokat közölnénk oldalunkon, és így hibás forrássá válnánk.
+A Google jelmondata - A kész jobb, mint a tökéletes! – persze manapság sikeres irányvonalnak tűnik,
+ezért egy pár elütés még a legjobb oldalakon is előfordulhat, sajnos becsúszhat bármelyik oldalon. Ezt úgy tudjuk kiküszöbölni, hogy 
+a Word helyesírás ellenőrzőjén futassuk le az oldalon megjelenített szöveget. Kellemetlen az,
+ha helyesírási hibáktól hemzseg az oldalunk. 
+A weboldal minden részének gyorsan és megfelelően kell működnie. A hibás vagy igénytelenül felépített szerkezetű oldal
+ könnyedén kiábrándíthatja a látogatókat – ne feledjük, az oldalunk az első benyomás!
+Figyeljünk oda rá, hogy a funkciók, és minden más interaktív funkció is tökéletesen működjön.
+Figyeljünk a minimális görgetésre: Ez különösen a kezdőlapon fontos. A kezdőlap, vagy főoldal a tartalma legtetején tartalmazza
+a legfontosabb hivatkozásokat, hogy a felhasználó rögtön láthassa azokat. Ez szintén jó pont a keresőmotoroknál is!
+Felejtsük el a vég nélkül lefele gördítehtő weboldalakat! 
+Egységesített kialakítás: Figyeljünk rá, hogy weboldalunk különböző aloldalai hasonlóan viselkedjenek és hasonlóan is nézzenek ki.
+ A design és elrendezés maradjon változatlan minden oldalon, és csak különleges esetekben hozzunk létre egyedi oldalakat.
+ Fontosnak tartjuk a logikus navigációt: A menüelemeket mindig az oldal tetejére, általában az oldalhajtás fölé helyezzük el.
+Egy oldal ne tartalmazzon 10-nél több menüelemet – fontos, hogy a látogatók mindent könnyedén és gyorsan megtaláljanak.
+Platform- és böngészőkompatibilitás: A különböző böngészőszoftverek más és más módon jeleníthetnek meg bizonyos tartalmakat.
+Javasolt az oldalt a legfrissebb Internet Explorer, Safari és Firefox böngészőkön is tesztelni.
 A tipográfiára is oda kell figyelnünk, hogy a megfelelő betűtípust és betűméretet válasszuk ki. A színsémákra is oda kell figyelnünk,
 a használhatóság során, hogy a szövegek legyenek jól olvashatóak és kontrasztosak. Szeretnénk a felhasználóinkat gombokkal is vezetni, 
 ezzel még egyszerűbbé tenni az oldal használhatóságát.
