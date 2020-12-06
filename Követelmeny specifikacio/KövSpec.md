@@ -55,6 +55,10 @@ rendszer képes legyen megfelelően megjeleníteni azokat. Javasolt 10-es vagy 1
 Fontos továbbá a beszédes grafikai elemek: A grafikák azért fontosak, mert kiegészíthetik az oldal egyébként száraz tartalmát.
 Segítségükkel érdekesebbé tehetjük a szöveget, azonban ezeket is érdemes csak mértékkel használni.
 Az egyik legfontosabb az egyszerűség: Törekedjünk az egyszerűségre az oldal designját illetően.
+Hagyjunk elegendő tiszta, üres részt a szöveg körül, hogy az olvasók figyelmét a lényegre fókuszálhassuk.
+A weboldal minden részének gyorsan és megfelelően kell működnie. A hibás vagy igénytelenül felépített szerkezetű oldal
+ könnyedén kiábrándíthatja a látogatókat – ne feledjük, az oldalunk az első benyomás!
+Figyeljünk oda rá, hogy a funkciók, és minden más interaktív funkció is tökéletesen működjön.
 
 ## 5. A rendszerre vonatkozó szabályok
 - A web felület szabványos eszközökkel készüljön.
