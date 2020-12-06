@@ -67,6 +67,14 @@ Az egyik legfontosabb az egyszerűség: Törekedjünk az egyszerűségre az olda
 Hagyjunk elegendő tiszta, üres részt a szöveg körül, hogy az olvasók figyelmét a lényegre fókuszálhassuk.
 Nem érdemes különböző látványos hatásokkal összezavarni a látogatókat.
 Egy látványos oldal nem sokáig tartja majd meg az olvasók figyelmét, ha tartalmilag semmi értékeset nem kínál.
+A látogatók gyakran egy fontos döntés előtt állnak az oldal böngészése közben,
+ezért érdemes releváns és informatív tartalmakat megjeleníteni azon.
+Az oldal tartalmának megfelelő használatával megerősíthetjük a leendő látogatók bizalmát is.
+Terjedelem és rendezettség: A törzsszöveget (főleg hosszabb tartalmak esetén) mindig válasszuk rövidebb bekezdésekre,
+ amelyeket a tartalmukra utaló beszédes, rövid alcímekkel lássunk el. Az ömlesztett szövegfalak untatni kezdik az olvasókat,
+ akiknek a megnyerésére viszonylag kevés időnk van.
+ Fontos az oldalon a helyesírás: Weboldalunk tartalma könnyedén felkapottá válhat, ezért fontos a
+ megfelelő nyelvhasználat és helyesírás. Sosem tudhatjuk, hogy ki fog majd idézni tőlünk és nem vetne ránk,
 A tipográfiára is oda kell figyelnünk, hogy a megfelelő betűtípust és betűméretet válasszuk ki. A színsémákra is oda kell figyelnünk,
 a használhatóság során, hogy a szövegek legyenek jól olvashatóak és kontrasztosak. Szeretnénk a felhasználóinkat gombokkal is vezetni, 
 ezzel még egyszerűbbé tenni az oldal használhatóságát.
