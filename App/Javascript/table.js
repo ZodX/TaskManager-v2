@@ -5,6 +5,15 @@ workspaceName.innerHTML=sessionStorage.getItem('clicked_workspace');
 var groupName = document.getElementById("groupsname");
 groupName.innerHTML=sessionStorage.getItem('clicked_group');
 
+function backToGroups(){
+    window.location.replace("../Pages/groups.html");
+    /*
+    try {
+        sessionStorage.removeItem('clicked_group');
+    } catch (error) {
+    }
+    */
+}
 
 // Searching the current id, by choosing the max from the existent ones and increasing by 1
 // or setting it to 1 if there are no tasks
