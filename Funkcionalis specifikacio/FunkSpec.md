@@ -59,6 +59,14 @@ amik jól illenek egymáshoz és a cég hangulatát és jellegét is megtestesí
 mert elvonhatja a figyelmet a főbb tartalomról, ami általában a szöveg.
 Fontos még a könnyedén olvasható szöveg: A legegyszerűbben olvasható kombináció általában a fehér alapon fekete szöveg,
 de más színvariációk is működhetnek, egy bizonyos kontraszt-tartományon belül. Ügyeljünk rá,
+hogy az oldalon használt betűkészletek jól látható karaktereket tartalmazzanak és hogy a legtöbb modern
+rendszer képes legyen megfelelően megjeleníteni azokat. Javasolt 10-es vagy 12-es méretű betűket használni a törzsszöveghez.
+Fontos továbbá a beszédes grafikai elemek: A grafikák azért fontosak, mert kiegészíthetik az oldal egyébként száraz tartalmát.
+Segítségükkel érdekesebbé tehetjük a szöveget, azonban ezeket is érdemes csak mértékkel használni.
+Az egyik legfontosabb az egyszerűség: Törekedjünk az egyszerűségre az oldal designját illetően.
+Hagyjunk elegendő tiszta, üres részt a szöveg körül, hogy az olvasók figyelmét a lényegre fókuszálhassuk.
+Nem érdemes különböző látványos hatásokkal összezavarni a látogatókat.
+Egy látványos oldal nem sokáig tartja majd meg az olvasók figyelmét, ha tartalmilag semmi értékeset nem kínál.
 A tipográfiára is oda kell figyelnünk, hogy a megfelelő betűtípust és betűméretet válasszuk ki. A színsémákra is oda kell figyelnünk,
 a használhatóság során, hogy a szövegek legyenek jól olvashatóak és kontrasztosak. Szeretnénk a felhasználóinkat gombokkal is vezetni, 
 ezzel még egyszerűbbé tenni az oldal használhatóságát.
