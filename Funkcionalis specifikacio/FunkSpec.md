@@ -88,6 +88,10 @@ a legfontosabb hivatkozásokat, hogy a felhasználó rögtön láthassa azokat. 
 Felejtsük el a vég nélkül lefele gördítehtő weboldalakat! 
 Egységesített kialakítás: Figyeljünk rá, hogy weboldalunk különböző aloldalai hasonlóan viselkedjenek és hasonlóan is nézzenek ki.
  A design és elrendezés maradjon változatlan minden oldalon, és csak különleges esetekben hozzunk létre egyedi oldalakat.
+ Fontosnak tartjuk a logikus navigációt: A menüelemeket mindig az oldal tetejére, általában az oldalhajtás fölé helyezzük el.
+Egy oldal ne tartalmazzon 10-nél több menüelemet – fontos, hogy a látogatók mindent könnyedén és gyorsan megtaláljanak.
+Platform- és böngészőkompatibilitás: A különböző böngészőszoftverek más és más módon jeleníthetnek meg bizonyos tartalmakat.
+Javasolt az oldalt a legfrissebb Internet Explorer, Safari és Firefox böngészőkön is tesztelni.
 A tipográfiára is oda kell figyelnünk, hogy a megfelelő betűtípust és betűméretet válasszuk ki. A színsémákra is oda kell figyelnünk,
 a használhatóság során, hogy a szövegek legyenek jól olvashatóak és kontrasztosak. Szeretnénk a felhasználóinkat gombokkal is vezetni, 
 ezzel még egyszerűbbé tenni az oldal használhatóságát.
