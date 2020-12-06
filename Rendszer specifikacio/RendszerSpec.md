@@ -187,6 +187,14 @@ A felhasználóbarát weboldal része az is, hogy a logóra kattintva mindig a f
  Így ha el is téved, az egy biztos támpont lesz számára.
 A weboldal legyen áttekinthető, a releváns tartalom könnyen megtalálható rajta. 
 A megfelelően strukturált és könnyen elérhető tartalom kulcsfontosságú ahhoz, hogy a felhasználók élménye jó legyen.
+Minden zavaró tényezőt ki kell zárni, és a felhasználó figyelmét arra kell irányítani, ami valóban hasznos a számára: a releváns tartalomra.
+A fő cél az, hogy biztosítsuk, hogy nincs semmi, ami akadályozná a felhasználót a weboldal tartalmának könnyű elérésében.
+ Az ilyen szemléletben a dizájnerek jellemzően minden vizuális elemet leegyszerűsítenek,
+és olyan weboldalt alakítanak ki, ami segíti a tartalom kiemelkedését. 
+A weboldalunk legyen testreszabott. Mindenkinek azt adja, amire szüksége van. A személyreszabottság párhuzamos a fent említett időtakarékossággal. Az elmozdulás az általános megoldásoktól a személyre szabott felhasználói élmény felé egy fontos aspektus.
+A marketing egyre inkább a kisebb csoportok, végső soron egyes vásárlók megcélzása irányába mozdul el.
+Egyre fontosabbá válik a vásárlók igényeinek és preferenciáinak minél mélyebb megismerése.
+Egy webdesign akkor jó, ha nem okoz problémát a használata. Természetesen egy designnak jól is kell kinéznie.
 Elvárt, hogy az alkamazásunk az böngészőfüggetlen legyen. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
 Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb.. A látogatóinknak szeretnénk megadni a prioritás lehetőségét is, hiszen előfordulhat olyan szituáció, amikor a feladatok között felállítunk egy fontossági sorrendet, ezt szeretnénk a weboldalon is lehetővé tenni ezt a funkciót.
 
