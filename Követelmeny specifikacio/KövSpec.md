@@ -37,6 +37,7 @@ márkánk és szolgáltatásaink online arcára. A weboldal talán a legelső (�
 és mint azt tudjuk, az első benyomás rendkívül fontos.
 Az online tér világa a folyamatosan változó felbontástól (responzív design) mely minden eszközön (számítógép, tablet, telefon)
 megfelelően mutatja weboldaladat, eleve nagy kihívás.
+ Az Android színes világnak köszönhetően rengeteg féle felbontáson fogják nézni weboldaladat. 
 A platformfüggetlenség elvárt a weboldallal szemben, biztosítanunk kell azt, hogy több platformon, valamint
 böngészőn is elérhető legyen mint például a Google Chrome, Mozzila, Opera, Safari, Microsoft Edge és stb...
 Ma már 2020-at írunk, ahol már nem csak a PC-ről használjuk a weboldalakat, hanem elterjedtek a laptopok, 
