@@ -172,7 +172,3 @@ function listTasksPressed(clicked_group) {
     sessionStorage.setItem('clicked_group', clicked_group);
     window.location.replace("../Pages/table.html");
 }
-
-chk.addEventListener('change', () => {
-	document.body.classList.toggle('dark');
-});

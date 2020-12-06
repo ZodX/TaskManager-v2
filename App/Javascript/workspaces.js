@@ -199,9 +199,3 @@ function listGroupsPressed(clicked_workspace) {
     sessionStorage.setItem('clicked_workspace', clicked_workspace);
     window.location.replace("../Pages/groups.html");
 }
-
-const chk = document.getElementById('chk');
-
-chk.addEventListener('change', () => {
-	document.body.classList.toggle('dark');
-});
