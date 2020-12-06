@@ -62,6 +62,9 @@ Figyeljünk oda rá, hogy a funkciók, és minden más interaktív funkció is t
 Figyeljünk a minimális görgetésre: Ez különösen a kezdőlapon fontos. A kezdőlap, vagy főoldal a tartalma legtetején tartalmazza
 a legfontosabb hivatkozásokat, hogy a felhasználó rögtön láthassa azokat.
 A design és elrendezés maradjon változatlan minden oldalon, és csak különleges esetekben hozzunk létre egyedi oldalakat.
+Fontosnak tartjuk a logikus navigációt: A menüelemeket mindig az oldal tetejére, általában az oldalhajtás fölé helyezzük el.
+Egy oldal ne tartalmazzon 10-nél több menüelemet – fontos, hogy a látogatók mindent könnyedén és gyorsan megtaláljanak.
+Javasolt az oldalt a legfrissebb Internet Explorer, Safari és Firefox böngészőkön is tesztelni.
 
 ## 5. A rendszerre vonatkozó szabályok
 - A web felület szabványos eszközökkel készüljön.
