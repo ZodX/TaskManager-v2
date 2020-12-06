@@ -1,6 +1,7 @@
 let db = new Localbase('db');
 
 getAllGroupsOnCards();
+sessionStorage.setItem('orderBy','id');
 
 var workspaceName = document.getElementById("workspacename");
 workspaceName.innerHTML=sessionStorage.getItem('clicked_workspace');
