@@ -211,6 +211,9 @@ Figyeljünk a minimális görgetésre: Ez különösen a kezdőlapon fontos. A k
 a legfontosabb hivatkozásokat, hogy a felhasználó rögtön láthassa azokat.
 A weboldal legyen reszponzív, rugalmasan alkalmazkodjon a különböző böngészők méreteihez.
 Felejtsük el a vég nélkül lefele gördítehtő weboldalakat! 
+Egy oldal ne tartalmazzon 10-nél több menüelemet – fontos, hogy a látogatók mindent könnyedén és gyorsan megtaláljanak.
+Platform- és böngészőkompatibilitás: A különböző böngészőszoftverek más és más módon jeleníthetnek meg bizonyos tartalmakat.
+ Ez a lehetőség egy optimális megjelenést biztosít a felhasználó számára. Az ilyen eszközök pl: mobil, tablet, laptop, pc stb.. 
 Elvárt, hogy az alkamazásunk az böngészőfüggetlen legyen. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
 Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb.. A látogatóinknak szeretnénk megadni a prioritás lehetőségét is, hiszen előfordulhat olyan szituáció, amikor a feladatok között felállítunk egy fontossági sorrendet, ezt szeretnénk a weboldalon is lehetővé tenni ezt a funkciót.
 
