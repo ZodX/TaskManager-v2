@@ -1,5 +1,19 @@
 let db = new Localbase('db')
 
+var workspaceName = document.getElementById("workspacename");
+workspaceName.innerHTML=sessionStorage.getItem('clicked_workspace');
+var groupName = document.getElementById("groupsname");
+groupName.innerHTML=sessionStorage.getItem('clicked_group');
+
+function backToGroups(){
+    window.location.replace("../Pages/groups.html");
+    /*
+    try {
+        sessionStorage.removeItem('clicked_group');
+    } catch (error) {
+    }
+    */
+}
 
 // Searching the current id, by choosing the max from the existent ones and increasing by 1
 // or setting it to 1 if there are no tasks
@@ -21,6 +35,7 @@ db.collection('tasks').get().then(tasks => {
 
 // Handeling add button click
 
+
 let buttonAdd = document.getElementById("addBtn")
 buttonAdd.addEventListener('click', addBtn)
 
@@ -38,10 +53,16 @@ function getCurrentDate() {
 // Function for the add button, stores the data, then list all the tasks again
 
 function addBtn() {
+
     var task_name = document.felvesz.addInp1.value;
     var task_description = document.felvesz.addInp2.value;
     var task_priority = document.felvesz.addInp3.value;
     var task_workspace = document.felvesz.addInp4.value;
+
+    if(task_name==="" || task_description==="" || task_priority==="" || task_workspace===""){
+        alert("Fill all the fields before adding the task!");
+        return;
+    }
         
     db.collection('tasks').add({
         id: current_id++,
@@ -232,18 +253,24 @@ function updateBtnPressed(clicked_id) {
     tasksC.style.display = "none";
     taskD.style.display = "none";
 
+    update_id = parseInt(clicked_id.substring(1));
+
+    task = db.collection('tasks').doc({id: update_id}).get().then(task => {
+
     activityC.innerHTML = `
     <form name = "modosit">
-        <input type="text" name = "updateInp1" placeholder="New task">
-        <input type="text" name = "updateInp2" placeholder="New group">
-        <input type="text" name = "updateInp3" placeholder="New priority">
-        <input type="button" value="Update" id="updateBtn">
+        <input type="text" name = "updateInp1" value=${task.name} class="col-4">
+        <input type="text" name = "updateInp2" value=${task.group} class="col-2">
+        <input type="number" name = "updateInp3" value=${task.priority} class="col-2">
+        <input type="text" name = "updateInp4" value=${task.workspace} class="col-2">
+        <input type="button" value="Update" id="updateBtn" class="btn btn-warning">
     </form>
     `;
-    update_id = parseInt(clicked_id.substring(1));
+    let buttonUpdate = document.getElementById("updateBtn");
+    buttonUpdate.addEventListener('click', updateBtn);
+});
     
-    let buttonUpdate = document.getElementById("updateBtn")
-    buttonUpdate.addEventListener('click', updateBtn)
+
 }
 
 // Handeling the functionality on the update button (2nd time)
@@ -252,6 +279,7 @@ function updateBtn() {
     var task_name = document.modosit.updateInp1.value;
     var task_description = document.modosit.updateInp2.value;
     var task_priority = document.modosit.updateInp3.value;
+    var task_workspace = document.modosit.updateInp4.value;
     var activityC = document.getElementById("activityContainer");
     var taskD = document.getElementById("taskDetails");
     var tasksC = document.getElementById("tasksContainer");
@@ -264,15 +292,17 @@ function updateBtn() {
         name: task_name,
         group: task_description,
         priority: task_priority,
+        workspace: task_workspace,
         date: getCurrentDate()
     }).then(function() {
         activityC.innerHTML = `
         <form name = "felvesz">
-            <input type="text" name = "addInp1" placeholder="Task">
-            <input type="text" name = "addInp2" placeholder="Group">
-            <input type="text" name = "addInp3" placeholder="Priority">
-            <input type="button" value="Add Task" id="addBtn">
-          </form>`;
+          <input type="text" name = "addInp1" placeholder="Task" class="col-4">
+          <input type="text" name = "addInp2" placeholder="Group" class="col-2">
+          <input type="number" name = "addInp3" placeholder="Priority"class="col-2">
+          <input type="text" name = "addInp4" placeholder="Workspace"class="col-2">
+          <input type="button" value="Add Task" id="addBtn" class="btn btn-primary" class="col-2">
+        </form>`;
         getAllBtn();
         let buttonAdd = document.getElementById("addBtn")
         buttonAdd.addEventListener('click', addBtn)

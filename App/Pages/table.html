@@ -16,27 +16,27 @@
     <div class="ph"></div>
 
     <div id="title" class="col-md-10 offset-md-1">
-      <p id="titleParagraph" onclick="location.href='./index.html'">T a s k - M a n a g e r</p>
+      <p id="titleParagraph" class="noselect" onclick="location.href='./index.html'">T a s k - M a n a g e r</p>
     </div>
 
     <div class="ph"></div>
    <div id="container" class="col-md-10 offset-md-1">
      
       <div id="jelenleghol" class="col-md-10 offset-md-1">
-        <input  type="button" value="Back" id="backbtn" class="btn btn-primary" class="col-1">
+        <input  type="button" value="Back" id="backbtn" class="btn btn-primary" class="col-1" onclick="backToGroups()">
         <input type="checkbox" class="col-1 checkbox" id="chk" />
         <label class="label" for="chk">
         <div class="ball"></div>
         </label>
-        <p id="workspacename" class="col-4 nowwhere"><b>All workspaces</b></p>
-        <p id="groupsname" class="col-4 nowwhere"><b>All groups</b></p>
+        <p id="workspacename" class="col-4 nowwhere"></p>
+        <p id="groupsname" class="col-4 nowwhere"></p>
         </label>
         
       </div>
      
       <div id="activityContainer" class="col-md-12">
         <form name = "felvesz">
-          <input type="text" name = "addInp1" placeholder="Name" class="col-4">
+          <input type="text" name = "addInp1" placeholder="Task" class="col-4">
           <input type="text" name = "addInp2" placeholder="Group" class="col-2">
           <input type="number" name = "addInp3" placeholder="Priority"class="col-2">
           <input type="text" name = "addInp4" placeholder="Workspace"class="col-2">

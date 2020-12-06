@@ -2,6 +2,13 @@ let db = new Localbase('db');
 
 getAllGroupsOnCards();
 
+var workspaceName = document.getElementById("workspacename");
+workspaceName.innerHTML=sessionStorage.getItem('clicked_workspace');
+
+function backToWorkspaces(){
+    window.location.replace("../Pages/index.html");
+}
+
 function getAllGroupsOnCards() {
     var container = document.getElementById("container");
     
@@ -12,11 +19,14 @@ function getAllGroupsOnCards() {
     let groupCounts = new Map();
 
     db.collection('tasks').get()
-    .then(tasks => { 
+    .then(tasks => {
+
+        current_workspace = sessionStorage.getItem('clicked_workspace');
+
         tasks.forEach(task => {
             //Counting groups and group tasks.
 
-            if(!task.completed){
+            if(!task.completed && (task.workspace==current_workspace || current_workspace==null)){
                 groups.add(task.group);
 
                 if (groupCounts.has(task.group)) {
@@ -33,7 +43,7 @@ function getAllGroupsOnCards() {
         //Filling up the groups.html with groups if there are more than 1 group.
         //Loading table.html otherwise.
         
-        if(groups.size>1){
+        if(groups.size>-1){
         
             count = 0;
             
@@ -101,6 +111,7 @@ function getAllGroupsOnCards() {
                     // If-statement ends here
                 });
             }).then(function () {
+                /*
                 if (number_of_groups % 3 == 0) {
                     container.innerHTML += `
                         <div class="row">
@@ -123,6 +134,7 @@ function getAllGroupsOnCards() {
                     </div>
                     `;
                 }
+                */
 
                 // Listing the groups for mobile view.
 

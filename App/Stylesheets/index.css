@@ -18,7 +18,18 @@ html, body {
   ::-webkit-scrollbar {
     width: 0px;
     background: transparent;
-} 
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
 
 .ph {
     height: 2.5%;
@@ -54,7 +65,7 @@ p#titleParagraph {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   border: 0;
   background: none;
-  color: brown
+  color: rgb(180, 93, 93)
 }
 
 .checkbox {
@@ -87,9 +98,7 @@ p#titleParagraph {
 	transform: translateX(0px);
 	transition: transform 0.2s linear;
 }
-#workspaceContainer{
-    
-}
+
 
 .checkbox:checked + .label .ball {
 	transform: translateX(12px);
