@@ -152,6 +152,10 @@ ami a különbséget jelenti a különböző felesleges funkciókkal telezsúfol
 Érdemes elgondolkodni az egyszerű weblap kialakításán, az extrák helyett a valódi mondanivaló,
 a pontos, konkrét ismertetők megjelenítéséről.
 Természetesen az egyszerű honlap nem jelenti azt, hogy a weblapnak mellőznie kell a hasznos és fontos funkciókat.
+Inkább azt kell átgondolni, valóban szükségesek-e a honlapon azok a bizonyos alkalmazások.
+Sokszor a legegyszerűbb megoldások a legcélravezetőbbek. Például ha azt szeretnénk,
+hogy árajánlatot kérjenek tőlünk, akkor nyugodtan berakhatunk az oldalba egy ajánlatkérő űrlapot,
+hiszen a látogatónak ez a legkényelmesebb.
 Az oldalnak könnyen olvashatónak és könnyen áttekinthetőnek kell lennie, azért, hogy ez egyszerű felhasználó is 
 bármikor tudja kezelni. Fontos, hogy a tábla az legyen egyszerű, és átlátható, mert ez határozza meg azt, hogy a 
 weboldal mennyire lesz kézenfekvő a látogatóink számára. A honlap elsődleges feladata tartalom átadása, ehhez pedig elengedhetetlen a jó design megvalósítása, hisz a design segít a weboldalnak abban, hogy befogadhatóbb, és vonzóbb legyen. 
