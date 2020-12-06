@@ -47,6 +47,10 @@ A felhasználó célja az, hogy minél gyorsabban és minél egyszerűbben szere
 információt, amiért a weboldalunkra ellátoganak. Ha egy weboldal túl bonyolult, vagy ha túl nagy kreativitásnak adtunk teret
 a weblanak a készítése során, akkor valószínüleg ezek a megoldások a látogatóink jelentős részét akár el is riaszthatják,
 amit mi semmiképpen sem szeretnénk. Ezért fontos az, hogy ne bonyolítsunk, az oldalnak közérthetőnek kell lennie.
+Egy weboldal vizuálisan megragadó, professzionális és letisztult kell legyen. Gondoljunk úgy weboldalunkra, mint cégünk,
+ márkánk és szolgáltatásaink online arcára. A weboldal talán a legelső (és legfontosabb) dolog lesz, amivel egy potenciális ügyfél találkozik,
+ és mint azt tudjuk, az első benyomás rendkívül fontos.
+ Egy vonzó weboldal sokkal valószínűbb, hogy akcióra (vásárlás, asztalfoglalás, stb.) és folyamatosa visszatérésre készteti a látogatókat.
 A tipográfiára is oda kell figyelnünk, hogy a megfelelő betűtípust és betűméretet válasszuk ki. A színsémákra is oda kell figyelnünk,
 a használhatóság során, hogy a szövegek legyenek jól olvashatóak és kontrasztosak. Szeretnénk a felhasználóinkat gombokkal is vezetni, 
 ezzel még egyszerűbbé tenni az oldal használhatóságát.
