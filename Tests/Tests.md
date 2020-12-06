@@ -36,13 +36,14 @@ Tests
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
-| Huri Patrik |  |  |  |  |  |
-| Huri Patrik |  |  |  |  |  |
-| Huri Patrik |  |  |  |  |  |
-| Huri Patrik |  |  |  |  |  |
-| Huri Patrik |  |  |  |  |  |
-| Huri Patrik |  |  |  |  |  |
-| Huri Patrik |  |  |  |  |  |
-| Huri Patrik |  |  |  |  |  |
-| Huri Patrik |  |  |  |  |  |
-| Huri Patrik |  |  |  |  |  |
+| Huri Patrik | 2020.12.06 | Responsive group.html on smartphone.| Success | The groups page works well, if you open it from your smartphone. The website is perfectly adapted to the my mobile | When the user opened the gropus page from their own smartphone it worked fine, and smoothly. I didn’t experience any groups slipping on gropus site.|
+| Huri Patrik | 2020.12.06 | Responsive index.html on smartphone. | Success | The index page works well, if you open it from your smartphone. The website is perfectly adapted to the my mobile | When the user opened the index page from their own smartphone it worked fine, and smoothly. I didn’t experience any groups slipping on the index site. |
+| Huri Patrik | 2020.12.06 | Responsive table.htm on smartphone | Success | The table page works well, if you open it from your smartphone. The website is perfectly adapted to the my mobile | When the user opened the table page from their own smartphone it worked fine, and smoothly. I didn’t experience any groups slipping on the table site.  |
+| Huri Patrik | 2020.12.06  | Responsive group.html on tablet | Success | The groups page  works well, all functions work when you open it from a tablet.| When the user opened the groups page from their own tablet it worked fine, and smoothly. All features of the groups page  work perfectly. I didn’t experience any groups slipping on the groups site. |
+| Huri Patrik | 2020.12.06 | Responsive index.html on tablet  | Success | The index page  works well, all functions work when you open it from a tablet. | When the user opened the index page from their own tablet it worked fine, and smoothly. All features of the index page  work perfectly. I didn’t experience any groups slipping on the index site.|
+| Huri Patrik | 2020.12.06 | Responsive table.html on tablet | Success | The table page  works well, all functions work when you open it from a tablet. | When the user opened the table page from their own tablet it worked fine, and smoothly. All features of the table page  work perfectly. I didn’t experience any groups slipping on the table site.|
+| Huri Patrik | 2020.12.06 | The basic look of the groups page | Success | The groups page looks like, we dreamed of at the beginning of the project. The colors are good, and the buttons are in place. | When the user opens the groups page, they see an easily transparent page. The groups site is easy to use for the user and also very smooth. |
+| Huri Patrik | 2020.12.06 | The basic look of the index page | Success | The index page looks like, we dreamed of at the beginning of the project. The colors are good, and the buttons are in place. | When the user opens the index page, they see an easily transparent page. The groups site is easy to use for the user and also very smooth. |
+| Huri Patrik | 2020.12.06 | The basic look of the table page | Success | The table page looks like, we dreamed of at the beginning of the project. The colors are good, and the buttons are in place. | When the user opens the table page, they see an easily transparent page. The groups site is easy to use for the user and also very smooth. |
+| Huri Patrik | 2020.12.06 | The text on the index page | Success | We wanted a quote to the index page that matched the page. The text fits the page and is in the right place. The instructions for use can also be found on the index page. | When the user opens the index page, they will find a quote that matches the page we created. The user can find the text that describes the proper use of the index page. |
+| Huri Patrik | 2020.12.06 | Groups on the index page | Success | Tasks that we have added to groups will appear on the index page. These groups are separated on the page and so easy to manage them.  | Tasks that the user has added to that group appear on the index page. Groups can be easily managed by the user based on the description. |
