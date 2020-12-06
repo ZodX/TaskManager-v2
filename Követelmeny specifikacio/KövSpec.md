@@ -28,6 +28,9 @@ Kiemelt fontosságú a csapat számára az, hogy az oldal felhasználóbarát le
 A felhasználó célja az, hogy minél gyorsabban és minél egyszerűbben szeretné elvégezni azt a feladatot, vagy megtalálni az 
 információt, amiért a weboldalunkra ellátoganak. Ha egy weboldal túl bonyolult, vagy ha túl nagy kreativitásnak adtunk teret
 a weblanak a készítése során, akkor valószínüleg ezek a megoldások a látogatóink jelentős részét akár el is riaszthatják,
+amit mi semmiképpen sem szeretnénk. Ezért fontos az, hogy ne bonyolítsunk, az oldalnak közérthetőnek kell lennie.
+Biztosítanunk kell azt, hogy ne legyen semmi olyan, ami akadályozná a felhasználót a weboldalt tartalmának könnyű 
+elérésében. Ebben a szemléletben a design kiemelkedően fontos hiszen a vizuális elemeket le kell egyszerűsíteni, és egy olyan
 A platformfüggetlenség elvárt a weboldallal szemben, biztosítanunk kell azt, hogy több platformon, valamint
 böngészőn is elérhető legyen mint például a Google Chrome, Mozzila, Opera, Safari, Microsoft Edge és stb...
 Ma már 2020-at írunk, ahol már nem csak a PC-ről használjuk a weboldalakat, hanem elterjedtek a laptopok, 
