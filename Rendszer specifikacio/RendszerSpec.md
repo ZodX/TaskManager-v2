@@ -166,6 +166,7 @@ A weboldal legyen a felhasználó számára letisztult, hisz fontos az, hogy az 
 Szeretnénk, hogy az oldalt egyszerűen lehessen kezelni, egyértelművé tenni mik a lehetőségeik a felhasználóinak. 
 és ezeket a folyamatokat egyszerűen megjeleníteni a weboldalon.
 A cél az, hogy legyen vonzó a célcsoportba tartozóknak. A design azonban nem az esztétikáról,
+hanem a funkcionalitásról szól. Nem az a lényege, hogy tetsszen, hanem az, hogy elérje a célját.
 A felhasználó célja az, hogy minél gyorsabban és minél egyszerűbben szeretné elvégezni
 azt a feladatot, vagy megtalálni az információt, amiért a weboldalunkra ellátogatnak. 
 Ha egy weboldal túl bonyolult, vagy ha túl nagy kreativitásnak adtunk teret a weblapnak a készítése során,
@@ -174,7 +175,9 @@ amit mi semmiképpen sem szeretnénk. Bármely internet hozzáféréssel rendelk
 Tény az, hogy azon felhasználók száma folyamatosan növekszik, akik okostelefonról, tabletről, 
 vagy más mobil eszközről interneteznek, a hagyományos asztali gépek mellett (PC).
 Így egyre inkább elengedhetetlenné válik, hogy a weboldal alkalmazkodjon ezekhez a felületekhez, hogy a felhasználók ugyanazt a honlapot, ugyanolyan minőségben élvezhessék más-más eszköz esetén is.
-A weboldal legyen reszponzív, rugalmasan alkalmazkodjon a különböző böngészők méreteihez. Ez a lehetőség egy optimális megjelenést biztosít a felhasználó számára. Az ilyen eszközök pl: mobil, tablet, laptop, pc stb.. 
+A webes felhasználók elvárják, hogy a webhelyünk villámgyorsan, még mobil eszközökön is betöltődjön.
+A látogatók körülbelül fele azt mondja, elvárja, hogy egy webhely két másodpercen belül betöltődjön,
+és legtöbben elhagyják azt, ami nem töltődik be három másodperc után.
 Elvárt, hogy az alkamazásunk az böngészőfüggetlen legyen. A weboldalunknál elvárt a böngésző-függetlenség, hiszen manapság már számos lehetőségeik vannak a felhasználóknak.
 Van olyan felhasználó aki egyik böngészőt jobban preferálja a másiknál, ezért számunkra fontos az, hogy valamennyi böngészőn megjeleníthető legyen a weboldal ilyenek például: Google Chrome, Mozzila, Safari, Opera, Microsoft Edge és stb.. A látogatóinknak szeretnénk megadni a prioritás lehetőségét is, hiszen előfordulhat olyan szituáció, amikor a feladatok között felállítunk egy fontossági sorrendet, ezt szeretnénk a weboldalon is lehetővé tenni ezt a funkciót.
 
