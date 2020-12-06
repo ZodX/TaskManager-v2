@@ -83,6 +83,11 @@ ha helyesírási hibáktól hemzseg az oldalunk.
 A weboldal minden részének gyorsan és megfelelően kell működnie. A hibás vagy igénytelenül felépített szerkezetű oldal
  könnyedén kiábrándíthatja a látogatókat – ne feledjük, az oldalunk az első benyomás!
 Figyeljünk oda rá, hogy a funkciók, és minden más interaktív funkció is tökéletesen működjön.
+Figyeljünk a minimális görgetésre: Ez különösen a kezdőlapon fontos. A kezdőlap, vagy főoldal a tartalma legtetején tartalmazza
+a legfontosabb hivatkozásokat, hogy a felhasználó rögtön láthassa azokat. Ez szintén jó pont a keresőmotoroknál is!
+Felejtsük el a vég nélkül lefele gördítehtő weboldalakat! 
+Egységesített kialakítás: Figyeljünk rá, hogy weboldalunk különböző aloldalai hasonlóan viselkedjenek és hasonlóan is nézzenek ki.
+ A design és elrendezés maradjon változatlan minden oldalon, és csak különleges esetekben hozzunk létre egyedi oldalakat.
 A tipográfiára is oda kell figyelnünk, hogy a megfelelő betűtípust és betűméretet válasszuk ki. A színsémákra is oda kell figyelnünk,
 a használhatóság során, hogy a szövegek legyenek jól olvashatóak és kontrasztosak. Szeretnénk a felhasználóinkat gombokkal is vezetni, 
 ezzel még egyszerűbbé tenni az oldal használhatóságát.
