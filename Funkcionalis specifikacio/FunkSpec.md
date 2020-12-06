@@ -51,6 +51,10 @@ Egy weboldal vizuálisan megragadó, professzionális és letisztult kell legyen
  márkánk és szolgáltatásaink online arcára. A weboldal talán a legelső (és legfontosabb) dolog lesz, amivel egy potenciális ügyfél találkozik,
  és mint azt tudjuk, az első benyomás rendkívül fontos.
  Egy vonzó weboldal sokkal valószínűbb, hogy akcióra (vásárlás, asztalfoglalás, stb.) és folyamatosa visszatérésre készteti a látogatókat.
+ Az online tér világa a folyamatosan változó felbontástól (responzív design) mely minden eszközön (számítógép, tablet, telefon)
+ megfelelően mutatja weboldaladat, eleve nagy kihívás.
+ Az Android színes világnak köszönhetően rengeteg féle felbontáson fogják nézni weboldaladat. 
+ Milyen tehát a jó honlap? Elengedhetetlen a színhasználat: Egy igényes és elegáns színpaletta általában 2-3 főbb színből áll,
 A tipográfiára is oda kell figyelnünk, hogy a megfelelő betűtípust és betűméretet válasszuk ki. A színsémákra is oda kell figyelnünk,
 a használhatóság során, hogy a szövegek legyenek jól olvashatóak és kontrasztosak. Szeretnénk a felhasználóinkat gombokkal is vezetni, 
 ezzel még egyszerűbbé tenni az oldal használhatóságát.
