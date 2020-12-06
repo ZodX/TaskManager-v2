@@ -113,11 +113,12 @@ function getAllBtn() {
     try {
         group_to_list = sessionStorage.getItem('clicked_group');
         workspace_to_list = sessionStorage.getItem('clicked_workspace');
+        order_by_attr = sessionStorage.getItem('orderBy');
     } catch (error) {
 
     }
 
-    db.collection('tasks').orderBy('id').get()
+    db.collection('tasks').orderBy(order_by_attr,affix).get()
     .then(tasks => {
         console.log('tasks: ', tasks)
         tasks.forEach(task => {
