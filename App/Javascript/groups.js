@@ -2,6 +2,10 @@ let db = new Localbase('db');
 
 getAllGroupsOnCards();
 
+function backToWorkspaces(){
+    window.location.replace("../Pages/index.html");
+}
+
 function getAllGroupsOnCards() {
     var container = document.getElementById("container");
     
