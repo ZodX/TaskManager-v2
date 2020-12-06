@@ -21,6 +21,7 @@ db.collection('tasks').get().then(tasks => {
 
 // Handeling add button click
 
+
 let buttonAdd = document.getElementById("addBtn")
 buttonAdd.addEventListener('click', addBtn)
 
@@ -38,10 +39,16 @@ function getCurrentDate() {
 // Function for the add button, stores the data, then list all the tasks again
 
 function addBtn() {
+
     var task_name = document.felvesz.addInp1.value;
     var task_description = document.felvesz.addInp2.value;
     var task_priority = document.felvesz.addInp3.value;
     var task_workspace = document.felvesz.addInp4.value;
+
+    if(task_name==="" || task_description==="" || task_priority==="" || task_workspace===""){
+        alert("Fill all the fields before adding the task!");
+        return;
+    }
         
     db.collection('tasks').add({
         id: current_id++,
