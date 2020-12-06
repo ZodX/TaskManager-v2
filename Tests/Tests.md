@@ -5,7 +5,7 @@ Tests
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Molnár András Imre | 2020.12.06. | Toggling color theme | Fail | Color theme should stay the same when switching between pages. | Toggle color theme, then switch between pages and see if it stays. |
 | Molnár András Imre | 2020.12.06. | Toggling color theme | Success | Color theme should stay the same when switching between pages. | Toggle color theme, then switch between pages and see if it stays. |
-| Molnár András Imre |  |  |  |  |  |
+| Molnár András Imre | 2020.12.06. | Add task to database | Success | The record appears in the database | When the user fills the form with values and press the "Add Task" button, it should appear in the database as a record. |
 | Molnár András Imre |  |  |  |  |  |
 | Molnár András Imre |  |  |  |  |  |
 | Molnár András Imre |  |  |  |  |  |
