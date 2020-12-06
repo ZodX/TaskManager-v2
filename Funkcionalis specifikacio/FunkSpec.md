@@ -75,6 +75,14 @@ Terjedelem és rendezettség: A törzsszöveget (főleg hosszabb tartalmak eset�
  akiknek a megnyerésére viszonylag kevés időnk van.
  Fontos az oldalon a helyesírás: Weboldalunk tartalma könnyedén felkapottá válhat, ezért fontos a
  megfelelő nyelvhasználat és helyesírás. Sosem tudhatjuk, hogy ki fog majd idézni tőlünk és nem vetne ránk,
+mint cégre jó fényt, ha például hibás adatokat közölnénk oldalunkon, és így hibás forrássá válnánk.
+A Google jelmondata - A kész jobb, mint a tökéletes! – persze manapság sikeres irányvonalnak tűnik,
+ezért egy pár elütés még a legjobb oldalakon is előfordulhat, sajnos becsúszhat bármelyik oldalon. Ezt úgy tudjuk kiküszöbölni, hogy 
+a Word helyesírás ellenőrzőjén futassuk le az oldalon megjelenített szöveget. Kellemetlen az,
+ha helyesírási hibáktól hemzseg az oldalunk. 
+A weboldal minden részének gyorsan és megfelelően kell működnie. A hibás vagy igénytelenül felépített szerkezetű oldal
+ könnyedén kiábrándíthatja a látogatókat – ne feledjük, az oldalunk az első benyomás!
+Figyeljünk oda rá, hogy a funkciók, és minden más interaktív funkció is tökéletesen működjön.
 A tipográfiára is oda kell figyelnünk, hogy a megfelelő betűtípust és betűméretet válasszuk ki. A színsémákra is oda kell figyelnünk,
 a használhatóság során, hogy a szövegek legyenek jól olvashatóak és kontrasztosak. Szeretnénk a felhasználóinkat gombokkal is vezetni, 
 ezzel még egyszerűbbé tenni az oldal használhatóságát.
