@@ -1,5 +1,7 @@
 let db = new Localbase('db')
 
+var affix = 'desc';
+
 var workspaceName = document.getElementById("workspacename");
 workspaceName.innerHTML=sessionStorage.getItem('clicked_workspace');
 var groupName = document.getElementById("groupsname");
@@ -13,6 +15,23 @@ function backToGroups(){
     } catch (error) {
     }
     */
+}
+
+function setOrderingBy(what){
+
+    if(sessionStorage.getItem('orderBy')==what){
+        if(affix=='desc'){
+            affix='asc';
+        }
+        else{
+            affix='desc';
+        }   
+    }else{
+        sessionStorage.setItem('orderBy',what);
+        affix='desc';
+    }
+
+    getAllBtn();
 }
 
 // Searching the current id, by choosing the max from the existent ones and increasing by 1
