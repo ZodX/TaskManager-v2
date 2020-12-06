@@ -37,6 +37,7 @@ function getAllWorkspaceOnCards() {
     let workspaces = new Set();
     let workspaceCounts = new Map();
     let seenGroups = new Set();
+    let wsAndGrps = new Set();
 
     db.collection('tasks').get()
     .then(tasks => { 
@@ -44,14 +45,20 @@ function getAllWorkspaceOnCards() {
             //Counting workspaces and gorups for each workspace
 
             if(!task.completed){
-                workspaces.add(task.workspace);
+
+                if(!wsAndGrps.has(task.workspace+task.group) && seenGroups.has(task.group)){
+                    seenGroups.delete(task.group);
+                }
+
+                wsAndGrps.add(task.workspace+task.group);
             
                 if (workspaceCounts.has(task.workspace) && !seenGroups.has(task.group)) {
                     workspaceCounts.set(task.workspace, workspaceCounts.get(task.workspace) + 1)
-                } else {
+                } else if (!seenGroups.has(task.group)){
                     workspaceCounts.set(task.workspace, 1);
                 }
 
+                workspaces.add(task.workspace);
                 seenGroups.add(task.group);
             }
         })
@@ -62,7 +69,7 @@ function getAllWorkspaceOnCards() {
         //Filling up the groups.html with groups if there are more than 1 group.
         //Loading table.html otherwise.
         
-        if(number_of_workspaces>1){
+        if(number_of_workspaces>-1){
         
             count = 0;
             
@@ -81,7 +88,7 @@ function getAllWorkspaceOnCards() {
             db.collection('tasks').orderBy('id').get()
             .then(tasks => {
                 console.log('tasks: ', tasks);
-                workspaces.forEach(workspace => {
+                workspaceCounts.forEach((values, keys) => {
                 
                     //After every third group there is a new row ==> 3 groups per row
                 
@@ -90,16 +97,16 @@ function getAllWorkspaceOnCards() {
                         <div class="vercitalPh"></div>
                             <div class="groupCard">
                                 <div class="groupElementContainer groupCardTitleContainer">
-                                    <p class="groupCardTitle">${workspace}</p>
+                                    <p class="groupCardTitle">${keys}</p>
                                 </div>
                                 <div class="groupElementContainer groupCardCountContainer">
-                                    <p class="groupElementsCount">${workspaceCounts.get(workspace)}</p>
+                                    <p class="groupElementsCount">${values}</p>
                                 </div>
                                 <div class="groupElementContainer groupElementCountTextContainer">
                                     <p class="groupElementCountText">(Number of groups)</p>
                                 </div>
                                 <div class="groupElementContainer groupCardBtnContainer">
-                                    <button id="${workspace}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Groups</button>
+                                    <button id="${keys}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Groups</button>
                                 </div>
                             </div>
                         `;
@@ -111,16 +118,16 @@ function getAllWorkspaceOnCards() {
                             <div class="vercitalPh"></div>
                             <div class="groupCard">
                                 <div class="groupElementContainer groupCardTitleContainer">
-                                    <p class="groupCardTitle">${workspace}</p>
+                                    <p class="groupCardTitle">${keys}</p>
                                 </div>
                                 <div class="groupElementContainer groupCardCountContainer">
-                                    <p class="groupElementsCount">${workspaceCounts.get(workspace)}</p>
+                                    <p class="groupElementsCount">${workspaceCounts.get(values)}</p>
                                 </div>
                                 <div class="groupElementContainer groupElementCountTextContainer">
                                     <p class="groupElementCountText">(Number of groups)</p>
                                 </div>
                                 <div class="groupElementContainer groupCardBtnContainer">
-                                    <button id="${workspace}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Groups</button>
+                                    <button id="${keys}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Groups</button>
                                 </div>
                             </div>
                         </div>
@@ -153,21 +160,21 @@ function getAllWorkspaceOnCards() {
 
                 // Listing the groups for mobile view.
 
-                workspaces.forEach(workspace => {
+                workspaceCounts.forEach((values, keys) => {
                     container.innerHTML += `
                     <div class="taskMobile">
                         <div class="groupCardMobile">
                             <div class="groupMobileContainer groupMobileTitle">
-                                <p class="groupMobileLabel"><b>${workspace}</b></p>
+                                <p class="groupMobileLabel"><b>${keys}</b></p>
                             </div>
                             <div class="groupMobileContainer groupMobileCount">
-                                <p class="groupMobileLabel">${workspaceCounts.get(workspace)}</p>
+                                <p class="groupMobileLabel">${values}</p>
                             </div>
                             <div class="groupMobileContainer groupMobileDescription">
                                 <p class="groupMobileLabel">(Number of groups)</p>
                             </div>
                             <div class="groupMobileContainer groupMobileBtn">
-                                <button id="${workspace}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Groups</button>
+                                <button id="${keys}" onclick="listGroupsPressed(this.id)" class="btn btn-success">List Groups</button>
                             </div>
                         </div>
                     </div>
