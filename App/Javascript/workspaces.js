@@ -5,6 +5,11 @@ getAllWorkspaceOnCards();
 
 function loadTable() {
     window.location.replace("../Pages/table.html");
+    try {
+        sessionStorage.removeItem('clicked_group');
+        sessionStorage.removeItem('clicked_workspace');
+    } catch (error) {
+    }
 }
 
 function loadIndex() {
