@@ -24,6 +24,7 @@ Tests
 | Bacsik Mátyás | 2020.12.06 | Back button clicked on groups.html | Success | Redirect to the index.html | When the user clicks on the "Back" button of the groups.html it should load the index.html |
 | Bacsik Mátyás | 2020.12.06 | Groups card task count when listed | Success | Showing the number of tasks in a group on the group's card | When the group cards are listed there is a number on them what shows the task count in the specific group. |
 | Bacsik Mátyás | 2020.12.06 | Back button on table.html | Success | Redirect to the groups.html | When the user clicks on the "Back" button of the table.html it should load the groups.html |
+| Bacsik Mátyás | 2020.12.06 | List tasks button clicked | Success | It should write the selected workspace and group under the title. | When the "List Tasks" button clicked, the selected workspace and group should be written under the title. |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
 | Heinrich László |  |  |  |  |  |
