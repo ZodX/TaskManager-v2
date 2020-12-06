@@ -25,6 +25,9 @@ a telefonról vagy a tabletről, a munkahelyi laptopról vagy esetleg
 PC-ről könnyedén elérhető legyen a nap bármelyik pillanatában.
 A cél egy jó weblap létrehozása amivel felhasználókat be szeretnénk vonzani, valamint a meglévőket megtartani.
 Kiemelt fontosságú a csapat számára az, hogy az oldal felhasználóbarát legyen, ezért az első benyomás fontos, hisz akár a mindennapokban, ott sem elengedhetetlen az, hogy ha bemutatnak minket valakinek, számít a megjelenés és a gesztus, ez meghatározó lehet a weboldalnál is. Az oldalnak a megjelenése is nagyon fontos tényező ezért szeretnénk odafigyelni arra, hogy a megfelelő színeket, betűméretet, betűtípust alkalmazzuk. Szeretnénk a felületet különböző módokkal is feldobni az oldalt, mint például: a színvak mód, vagy a manapság egyre jobban elterjedt Dark/Light mód. 
+A felhasználó célja az, hogy minél gyorsabban és minél egyszerűbben szeretné elvégezni azt a feladatot, vagy megtalálni az 
+információt, amiért a weboldalunkra ellátoganak. Ha egy weboldal túl bonyolult, vagy ha túl nagy kreativitásnak adtunk teret
+a weblanak a készítése során, akkor valószínüleg ezek a megoldások a látogatóink jelentős részét akár el is riaszthatják,
 A platformfüggetlenség elvárt a weboldallal szemben, biztosítanunk kell azt, hogy több platformon, valamint
 böngészőn is elérhető legyen mint például a Google Chrome, Mozzila, Opera, Safari, Microsoft Edge és stb...
 Ma már 2020-at írunk, ahol már nem csak a PC-ről használjuk a weboldalakat, hanem elterjedtek a laptopok, 
